@@ -1,0 +1,26 @@
+name: 测试部署
+
+on:
+  pull_request:
+    branches:
+      - main
+    # 如果你想要进一步定义触发、路径以及其他内容，请检阅 Github Actions 文档
+    # https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions#on
+
+jobs:
+  test-deploy:
+    name: 测试部署
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm # 替换为 npm 缓存
+
+      - name: 安装依赖
+        run: npm ci
+      - name: 测试构建网站
+        run: npm run build
