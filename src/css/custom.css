@@ -1,0 +1,50 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+
+:root {
+  --ifm-color-primary: #922144;
+  --ifm-color-primary-dark: #831e3d;
+  --ifm-color-primary-darker: #7c1c3a;
+  --ifm-color-primary-darkest: #661730;
+  --ifm-color-primary-light: #a1244b;
+  --ifm-color-primary-lighter: #a5254d;
+  --ifm-color-primary-lightest: #6c1832;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-background-color: #f6f9fe;
+  --ifm-heading-color: #333333;
+  --ifm-body-color: #555555;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #f96c53;
+  --ifm-color-primary-dark: #f85133;
+  --ifm-color-primary-darker: #f74323;
+  --ifm-color-primary-darkest: #e12808;
+  --ifm-color-primary-light: #fa8773;
+  --ifm-color-primary-lighter: #fb9583;
+  --ifm-color-primary-lightest: #fcbeb3;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color-dark: #20232a;
+  --ifm-heading-color: #ffffff;
+  --ifm-body-color: #cccccc;
+}
+
+.navbar {
+  background-color: #f6f9fe; /* 替换为你需要的背景色 */
+  color: #ffffff; /* 替换为导航文字颜色 */
+}
+
+[data-theme='dark'] .navbar {
+  background-color: #20232a; /* 深色模式下的背景色 */
+  color: #cccccc; /* 深色模式下的文字颜色 */
+}
+

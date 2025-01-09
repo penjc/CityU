@@ -1,0 +1,51 @@
+name: 部署到 GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    # 如果你想要进一步定义触发、路径以及其他内容，请检阅 Github Actions 文档
+    # https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions#on
+
+jobs:
+  build:
+    name: 构建 Docusaurus
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm # 替换为 npm 缓存
+
+      - name: 安装依赖
+        run: npm ci # 使用 npm ci 代替 yarn install --frozen-lockfile
+      - name: 构建网站
+        run: npm run build # 使用 npm run build 代替 yarn build
+
+      - name: 上传构建制品
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: build
+
+  deploy:
+    name: 部署到 GitHub Pages
+    needs: build
+
+    # 给予 GITHUB_TOKEN 进行 Pages 部署所必须的权限
+    permissions:
+      pages: write # 以部署到 Pages
+      id-token: write # 以验证部署来自恰当的源
+
+    # 部署到 Github Pages 环境
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

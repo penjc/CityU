@@ -1,0 +1,73 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4rem 0;
+  transition: background-color 0.3s ease; /* 平滑切换背景色 */
+}
+
+.heroLight {
+  background-color: var(--ifm-background-color); /* 使用主题背景色变量 */
+}
+
+.heroDark {
+  background-color: var(--ifm-background-color-dark); /* 使用深色主题背景色变量 */
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0rem;
+}
+
+.textContent {
+  max-width: 50%;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 900;
+  color: var(--ifm-heading-color); /* 使用主题标题颜色变量 */
+  margin: 0.5rem 0;
+  line-height: 1;
+}
+
+.titleMain {
+  font-size: 5.5rem;
+}
+
+.subtitle {
+  max-width: 400px;
+  font-size: 1.2rem;
+  color: var(--ifm-body-color); /* 使用主题正文颜色变量 */
+  margin-bottom: 2rem;
+}
+
+.ctaButton {
+  font-size: 1.2rem;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+}
+
+.imageContainer {
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.heroImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* 可选：增加圆角 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* 添加阴影效果 */
+  transition: box-shadow 0.3s ease; /* 可选：添加平滑的过渡效果 */
+}
+
+.heroImage:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* 可选：鼠标悬停时增加阴影 */
+}
