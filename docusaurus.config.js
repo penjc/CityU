@@ -126,7 +126,7 @@ const config = {
       },
       colorMode: {
         defaultMode: 'light', // 默认亮色模式
-        disableSwitch: true, // 是否允许切换深色模式
+        disableSwitch: false, // 是否允许切换深色模式
         respectPrefersColorScheme: true, // 是否尊重用户的操作系统设置
       },
       navbar: {
