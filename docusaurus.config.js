@@ -256,14 +256,5 @@ const config = {
       }),
     },
   ],
-  plugins: [
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'G-J2CVMJM0PN', // 替换为您的 Google Analytics Tracking ID
-        anonymizeIP: true, // 可选：是否匿名化 IP 地址
-      },
-    ],
-  ],
 };
 export default config;
