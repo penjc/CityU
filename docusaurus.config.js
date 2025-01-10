@@ -155,6 +155,12 @@ const config = {
             sidebarId: 'third',
             label: '职业启航',
           },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'forth',
+            label: '常见问题',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/penjc/cityU-navigator',
