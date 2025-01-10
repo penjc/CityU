@@ -48,3 +48,123 @@
   color: #cccccc; /* 深色模式下的文字颜色 */
 }
 
+/* 定义旋转动画 */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse {
+  from {
+    transform: rotate(360deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+/* 默认状态 */
+.navbar-icon {
+  transition: transform 0.5s ease; /* 添加平滑的过渡效果 */
+}
+
+ /*鼠标悬停时的旋转效果*/
+.navbar-icon:hover {
+  animation: spin 0.5s linear; /* 旋转一圈 */
+}
+
+/* 鼠标按住时的旋转效果 */
+/*.navbar-icon:active {*/
+/*  animation: spin-reverse 0.5s linear; !* 反向旋转一圈 *!*/
+/*}*/
+
+
+/* Footer */
+
+.footer {
+  &.footer--dark {
+    --ifm-footer-background-color: #20232a;
+  }
+
+  .container {
+    max-width: 900px;
+  }
+
+  .text--center {
+    color: #858a96;
+    font-size: 13px;
+  }
+
+  .footer__item {
+    font-size: 14px;
+    padding: 8px 0 0;
+    min-height: 30px;
+
+    a:hover svg {
+      color: var(--brand);
+    }
+  }
+
+  .footer__title {
+    color: #858a96;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 8px;
+    text-transform: uppercase;
+  }
+
+  .footer__col {
+    margin: 4px 0 12px 2%;
+    padding-left: 0 !important;
+  }
+
+  .footer__link-item {
+    line-height: 1.44;
+    display: inline-block;
+  }
+
+  .footer__links {
+    margin-bottom: 8px;
+  }
+
+  .footer__logo {
+    height: 54px;
+    max-width: 100%;
+  }
+
+  svg[class^="iconExternalLink"] {
+    color: var(--subtle);
+    right: -1px;
+    width: 9px;
+  }
+}
+
+@media only screen and (max-width: 996px) {
+  .footer {
+    .footer__col {
+      text-align: center;
+      flex-basis: 48% !important;
+      max-width: 48% !important;
+      margin-bottom: 28px;
+    }
+
+    .footer__links {
+      padding: 0 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    .footer__col {
+      flex-basis: 99% !important;
+      max-width: 99% !important;
+      margin-bottom: 24px;
+      text-align: center;
+    }
+  }
+}

@@ -20,20 +20,22 @@ function HeroBanner() {
         >
             <div className={styles.container}>
                 <div className={styles.textContent}>
-                    <h1 className={clsx(styles.title, styles.titleMain)}>CityU CS</h1>
-                    <h1 className={clsx(styles.title, styles.titleMain)}>Navigator</h1>
+                    <h1 className={styles.title}>
+                        <span className={styles.cityu}>CityU</span>
+                        <span className={styles.navigator}> Navigator</span>
+                    </h1>
                     <p className={styles.subtitle}>
-                        Simplifying your CityU CS journey.
+                        Simplifying your CityU journey.
                     </p>
-                    <Link className={clsx('button button--primary', styles.ctaButton)} to="/docs/courses/intro">
+                    <Link className={clsx('button button--primary', styles.ctaButton)} to="/start">
                         Get started →
                     </Link>
                 </div>
                 <div className={styles.imageContainer}>
                     <img
                         className={styles.heroImage}
-                        src="/cityu-cs-navigator/img/cityu.png"
-                        alt="CityU CS Illustration"
+                        src="/cityU-navigator/img/cityu.png"
+                        alt="CityU Illustration"
                     />
                 </div>
             </div>
@@ -46,17 +48,17 @@ function FeaturesSection() {
     const features = [
         {
             title: 'Course Recommendations',
-            imgSrc: '/cityu-cs-navigator/img/logo.svg',
+            imgSrc: '/cityU-navigator/img/logo.svg',
             description: 'Discover the best courses based on your interests and career goals.',
         },
         {
             title: 'Resource Hub',
-            imgSrc: '/cityu-cs-navigator/img/resource-hub.svg',
+            imgSrc: '/cityU-navigator/img/resource-hub.svg',
             description: 'Access guides, tools, and materials curated for CityU CS students.',
         },
         {
             title: 'Career Insights',
-            imgSrc: '/cityu-cs-navigator/img/career-insights.svg',
+            imgSrc: '/cityU-navigator/img/career-insights.svg',
             description: 'Plan your career with expert advice and alumni testimonials.',
         },
     ];

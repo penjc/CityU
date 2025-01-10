@@ -1,8 +1,9 @@
+/* Hero Section */
 .hero {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 4rem 0;
+  padding: 4rem 1rem; /* 增加左右 padding */
   transition: background-color 0.3s ease; /* 平滑切换背景色 */
 }
 
@@ -16,58 +17,88 @@
 
 .container {
   display: flex;
-  max-width: 1200px;
+  max-width: 1100px; /* 限制最大宽度 */
   width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 0 0rem;
+  gap: 2rem; /* 增加文字与图片的间距 */
+  padding: 0 1rem; /* 两侧增加一定的空白 */
 }
 
 .textContent {
-  max-width: 50%;
+  flex: 1; /* 确保文字区域自适应 */
+  max-width: 500px; /* 限制文字内容宽度 */
 }
 
 .title {
-  font-size: 3.5rem;
+  font-size: 3.2rem; /* 调整字体大小 */
   font-weight: 900;
-  color: var(--ifm-heading-color); /* 使用主题标题颜色变量 */
-  margin: 0.5rem 0;
-  line-height: 1;
+  color: var(--ifm-heading-color);
+  margin-bottom: 1rem; /* 增加标题与副标题之间的间距 */
+  line-height: 1.2;
 }
 
-.titleMain {
-  font-size: 5.5rem;
+/* 渐变颜色的 CityU */
+.cityu {
+  font-size: 4.5rem; /* 字体大小与 Navigator 保持一致 */
+  font-weight: 900;
+  line-height: 1.2;
+  background: linear-gradient(90deg, #de6f31, #da542b, #d23437, #bf1846, #9f0c43); /* 渐变颜色 */
+  -webkit-background-clip: text; /* 仅应用背景到文字 */
+  -webkit-text-fill-color: transparent; /* 文字为透明，显示背景 */
+  text-fill-color: transparent; /* 支持更多浏览器 */
+}
+
+/* 黑色的 Navigator */
+.navigator {
+  font-size: 4.5rem; /* 字体大小与 CityU 保持一致 */
+  font-weight: 900;
+  line-height: 1.2;
+  color: var(--ifm-heading-color); /* 使用主题标题颜色（默认黑色） */
 }
 
 .subtitle {
   max-width: 400px;
-  font-size: 1.2rem;
-  color: var(--ifm-body-color); /* 使用主题正文颜色变量 */
-  margin-bottom: 2rem;
+  font-size: 1.1rem; /* 保持副标题字体大小 */
+  color: var(--ifm-body-color);
+  line-height: 1.6;
+  margin-bottom: 1rem; /* 减小底部间距 */
 }
 
 .ctaButton {
-  font-size: 1.2rem;
-  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  padding: 0.8rem 2rem;
+  border-radius: 6px; /* 增加圆角效果 */
+  background: var(--ifm-color-primary); /* 使用主题主色调 */
+  color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
   text-decoration: none;
+  transition: background 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡 */
+  /* 移除按钮的顶部额外间距 */
+  margin-top: 0;
+}
+
+.ctaButton:hover {
+  background: var(--ifm-color-primary-dark); /* 鼠标悬停时更深的颜色 */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增加阴影 */
 }
 
 .imageContainer {
-  max-width: 45%;
+  flex: 1; /* 确保图片区域自适应 */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .heroImage {
-  max-width: 100%;
+  max-width: 100%; /* 确保图片自适应 */
   height: auto;
-  border-radius: 8px; /* 可选：增加圆角 */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* 添加阴影效果 */
-  transition: box-shadow 0.3s ease; /* 可选：添加平滑的过渡效果 */
+  border-radius: 12px; /* 增加图片的圆角 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* 添加阴影效果 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑变换效果 */
 }
 
 .heroImage:hover {
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* 可选：鼠标悬停时增加阴影 */
+  transform: scale(1.03); /* 鼠标悬停时略微放大 */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 1); /* 鼠标悬停时增加阴影 */
 }

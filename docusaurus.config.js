@@ -10,20 +10,20 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'CityU CS Navigator',
-  tagline: 'Your Compass to CityU CS Success',
+  title: 'CityU Navigator',
+  tagline: 'Your Compass to CityU Success',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://penjc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/cityu-cs-navigator',
+  baseUrl: '/cityU-navigator',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'penjc', // Usually your GitHub org/user name.
-  projectName: 'cityu-cs-navigator', // Usually your repo name.
+  projectName: 'cityU-navigator', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://https://github.com/penjc/cityu-cs-navigator/main/',
+            'https://github.com/penjc/cityU-navigator/edit/main/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://https://github.com/penjc/cityu-cs-navigator/main/',
+            'https://github.com/penjc/cityU-navigator/edit/main/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -97,11 +97,11 @@ const config = {
       // TODO: social-card
       // image: 'img/social-card.jpg',
       metadata: [
-        { name: 'keywords', content: 'CityU, Computer Science, Course Navigator, University, Education' },
-        { name: 'description', content: 'CityU CS Navigator: Your ultimate guide to navigate computer science courses at CityU.' },
+        { name: 'keywords', content: 'CityU, Course Navigator, University, Education' },
+        { name: 'description', content: 'CityU Navigator: Your ultimate guide to navigate courses at CityU.' },
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'CityU CS Navigator' },
-        { name: 'twitter:description', content: 'Your ultimate guide to navigate computer science courses at CityU.' },
+        { name: 'twitter:title', content: 'CityU Navigator' },
+        { name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.' },
         // { name: 'twitter:image', content: '/img/cityu-social-card.png' }, // 确保图片路径正确
       ],
       docs: {
@@ -116,10 +116,11 @@ const config = {
         respectPrefersColorScheme: true, // 是否尊重用户的操作系统设置
       },
       navbar: {
-        title: 'CityU CS Navigator',
+        title: 'CityU Navigator',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Site Logo',
           src: 'img/logo.svg',
+          className: 'navbar-icon',
         },
         items: [
           {
@@ -136,7 +137,7 @@ const config = {
           // },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/penjc/cityu-cs-navigator',
+            href: 'https://github.com/penjc/cityU-navigator',
             label: 'GitHub',
             position: 'right',
           },
@@ -149,16 +150,16 @@ const config = {
             title: 'Explore',
             items: [
               { label: 'Home', to: '/' },
-              { label: 'Get Started', to: '/docs/courses/intro' },
+              { label: 'Get Started', to: '/start' },
               { label: 'About Us', to: '/about' },
             ],
           },
           {
             title: 'Resources',
             items: [
-              { label: 'CityU CS Department', href: 'https://www.cityu.edu.hk/cs/' },
-              { label: 'CityU CS Programmes', href: 'https://www.cs.cityu.edu.hk/academic-programmes/programmes-overview' },
-              { label: 'Course Catalog', href: 'https://www.cityu.edu.hk/catalogue/pg/202425/catalogue/catalogue_TP.htm?page=TP/TP_course_CS.htm' },
+              { label: 'CityU', href: 'https://www.cityu.edu.hk/' },
+              { label: 'CityU Programmes', href: 'https://www.cityu.edu.hk/academic/catalogue' },
+              { label: 'AIMS', href: 'https://banweb.cityu.edu.hk/' },
             ],
           },
           {
@@ -171,20 +172,29 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Find Us',
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/penjc/cityu-cs-navigator',
+                href: 'https://github.com/penjc/cityU-navigator',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} CityU CS Navigator.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CityU Navigator.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+      },
+      // 其他配置
+      announcementBar: {
+        id: 'star_support', // 一个唯一的 ID，用于控制显示状态
+        content:
+            '⭐️ If you like CityU Navigator, give it a star on <a href="https://github.com/penjc/cityU-navigator" target="_blank">GitHub</a>!',
+        backgroundColor: '#f5f5f5', // 背景色
+        textColor: '#000', // 文字颜色
+        isCloseable: true, // 是否允许关闭通知栏
       },
       // TODO search
       //
@@ -240,12 +250,20 @@ const config = {
         '@context': 'https://schema.org/',
         '@type': 'EducationalOrganization',
         name: 'CityU CS Navigator',
-        url: 'https://penjc.github.io/cityu-cs-navigator',
-        logo: 'https://penjc.github.io/cityu-cs-navigator/img/logo.png', // 替换为实际 LOGO 路径
+        url: 'https://penjc.github.io/cityU-navigator',
+        logo: 'https://penjc.github.io/cityU-navigator/img/logo.png', // 替换为实际 LOGO 路径
         description: 'Your ultimate guide to navigate computer science courses at CityU.',
       }),
     },
   ],
-
+  plugins: [
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-J2CVMJM0PN', // 替换为您的 Google Analytics Tracking ID
+        anonymizeIP: true, // 可选：是否匿名化 IP 地址
+      },
+    ],
+  ],
 };
 export default config;
