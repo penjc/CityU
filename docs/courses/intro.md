@@ -66,7 +66,7 @@ hide_title: true
 
 2️⃣ **GitHub 贡献**  
 🌐 想更系统地分享您的课程体验？
-- 请参考 [Contributing](https://github.com/penjc/cityU-navigator/contributing)，通过 GitHub 提交您的课程评价。
+- 请参考 [Contributing](https://penjc.github.io/cityU-navigator/contributing)，通过 GitHub 提交您的课程评价。
 
 ---
 
@@ -109,8 +109,7 @@ hide_title: true
 
 ###  **📢 如何贡献？**
 
-📌 **贡献内容方向**  
-欢迎参考 [Contributing 指南](https://github.com/penjc/cityU-navigator/contributing)，为其他学院与系的课程内容和学生评价做出贡献：
+欢迎参考 [Contributing 指南](https://penjc.github.io/cityU-navigator/contributing)，为其他学院与系的课程内容和学生评价做出贡献：
 - 📝 **课程信息**：包括课程简介、学习目标、评估方式等关键内容。
 - ✍️ **课程评价**：分享您的课程体验，帮助其他同学更好地规划学习。
 
