@@ -143,12 +143,18 @@ const config = {
             sidebarId: 'courseSidebar',
             label: '课程指南',
           },
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'second',
-          //   label: 'second',
-          // },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'second',
+            label: '初见城大',
+          },
+          {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'third',
+            label: '职业启航',
+          },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/penjc/cityU-navigator',
