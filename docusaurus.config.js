@@ -141,7 +141,7 @@ const config = {
             type: 'docSidebar',
             position: 'left',
             sidebarId: 'courseSidebar',
-            label: '选课指南',
+            label: '课程指南',
           },
           // {
           //   type: 'docSidebar',
