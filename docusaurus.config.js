@@ -86,6 +86,18 @@ const config = {
           beforeDefaultRemarkPlugins: [],
           beforeDefaultRehypePlugins: [],
         },
+        sitemap: {
+          lastmod: 'date',
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+          createSitemapItems: async (params) => {
+            const {defaultCreateSitemapItems, ...rest} = params;
+            const items = await defaultCreateSitemapItems(rest);
+            return items.filter((item) => !item.url.includes('/page/'));
+          },
+        },
       }),
     ],
   ],
@@ -97,11 +109,13 @@ const config = {
       // TODO: social-card
       // image: 'img/social-card.jpg',
       metadata: [
-        { name: 'keywords', content: 'CityU, Course Navigator, University, Education' },
-        { name: 'description', content: 'CityU Navigator: Your ultimate guide to navigate courses at CityU.' },
-        { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'CityU Navigator' },
-        { name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.' },
+        {name: 'google-site-verification', content: 'AUpZDRdVtmdoR8Q35bcYZ3dn_qAduJvQUQD4pSS5aMQ'},
+        {name: 'msvalidate.01', content: '645627EF454E2562A60001314F5C1819'},
+        {name: 'keywords', content: 'CityU Navigator, Course, Information, University, Education'},
+        {name: 'description', content: 'CityU Navigator: Your ultimate guide to navigate courses at CityU.'},
+        {name: 'twitter:card', content: 'summary_large_image'},
+        {name: 'twitter:title', content: 'CityU Navigator'},
+        {name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.'},
         // { name: 'twitter:image', content: '/img/cityu-social-card.png' }, // 确保图片路径正确
       ],
       docs: {
