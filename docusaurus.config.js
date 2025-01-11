@@ -129,6 +129,7 @@ const config = {
         disableSwitch: false, // 是否允许切换深色模式
         respectPrefersColorScheme: true, // 是否尊重用户的操作系统设置
       },
+      // 导航栏
       navbar: {
         title: 'CityU Navigator',
         logo: {
@@ -169,6 +170,7 @@ const config = {
           },
         ],
       },
+      // 页脚
       footer: {
         style: 'dark',
         links: [
@@ -213,15 +215,20 @@ const config = {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
       },
-      // 其他配置
+      // 通知栏
       announcementBar: {
         id: 'star_support', // 一个唯一的 ID，用于控制显示状态
-        content:
-            '⭐️ If you like CityU Navigator, give it a star on <a href="https://github.com/penjc/cityU-navigator" target="_blank">GitHub</a>!',
-        backgroundColor: '#f5f5f5', // 背景色
-        textColor: '#000', // 文字颜色
+        content: `
+    <span class="gradient-text">
+      ⭐️ If you like CityU Navigator, give it a star on 
+    </span>
+    <a href="https://github.com/penjc/cityU-navigator" target="_blank" class="specific-github-link">GitHub</a>!
+  `,
+        backgroundColor: '#fdf8f4', // 背景色
+        textColor: '#000', // 文字颜色可以忽略，因为会被渐变覆盖
         isCloseable: true, // 是否允许关闭通知栏
       },
+      // 搜索
       algolia: {
         // The application ID provided by Algolia
         appId: 'UPYPM5BQ76',

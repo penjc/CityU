@@ -168,3 +168,23 @@
     }
   }
 }
+
+/*通知栏*/
+.gradient-text {
+  background: linear-gradient(90deg, #de6b30, #da542b, #d13037, #cd173b, #ba1948, #9f0c43);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.specific-github-link {
+  text-decoration: underline; /* 显示下划线 */
+  text-decoration-color: #5B0E2D; /* 下划线颜色，高对比度深紫色 */
+  text-underline-offset: 2px; /* 下划线距离文字稍远 */
+  font-weight: bold; /* 文字加粗 */
+  color: #da542b; /* 文字颜色 */
+}
+
+.specific-github-link:hover {
+  text-decoration-color: #9f0c43; /* 鼠标悬停时下划线颜色变化 */
+  color: #9f0c43; /* 鼠标悬停时文字颜色 */
+}
