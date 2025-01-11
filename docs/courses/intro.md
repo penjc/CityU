@@ -8,7 +8,14 @@ hide_title: true
   <h1>📘 <strong>CityU 课程指南</strong></h1>
   <p>欢迎来到 <strong>CityU Navigator</strong>！</p>
   <p>在这里，您可以快速浏览课程构成与详情，了解考试形式、重点内容以及往届学生的真实评价，全面规划您的学习与考试。</p>
+   <small>
+    📘 <strong>当前进展</strong><br />
+    目前，课程指南已完整收录 <a href="https://penjc.github.io/cityU-navigator/docs/category/department-of-computer-science" style={{ color: '#bf1846', textDecoration: 'none' }}>Computer Science 系</a> 的课程内容和评价，供您参考和使用。<br />
+    由于课程数量庞大且整理工作量巨大，其余学院与系的课程页面内容仍在建设中。<br />
+    <strong>但您仍可以在这些课程页面底部提交评论，我们将尽快审核并完善相关内容。</strong>
+   </small>
 </div>
+
 
 ---
 
