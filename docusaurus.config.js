@@ -184,7 +184,7 @@ const config = {
             items: [
               { label: 'Home', to: '/' },
               { label: 'Get Started', to: '/start' },
-              { label: 'About Us', to: '/about' },
+              // { label: 'About Us', to: '/about' },
             ],
           },
           {
