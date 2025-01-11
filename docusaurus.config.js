@@ -139,27 +139,32 @@ const config = {
         },
         items: [
           {
+            to: '/start',
+            label: '开始探索',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'courseSidebar',
+            sidebarId: 'course',
             label: '课程指南',
           },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'second',
+            sidebarId: 'welcome',
             label: '初见城大',
           },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'third',
+            sidebarId: 'career',
             label: '职业启航',
           },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'forth',
+            sidebarId: 'faq',
             label: '常见问题',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
