@@ -1,3 +1,4 @@
+<a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,7 +9,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <a href="https://penjc.github.io/cityU-navigator/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -110,6 +111,16 @@
 4. 推送分支：`git push origin feature/YourFeature`
 5. 发起 Pull Request
 
+[//]: # (TODO 贡献)
+[//]: # (### 主要贡献者:)
+
+[//]: # ()
+[//]: # (<a href="https://github.com/penjc/cityU-navigator/graphs/contributors">)
+
+[//]: # (  <img src="https://contrib.rocks/image?repo=penjc/cityU-navigator" alt="contrib.rocks image" />)
+
+[//]: # (</a>)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
@@ -124,7 +135,7 @@
 
 ## 📬 联系我们
 
-PENG: [@penjc](https://github.com/penjc) - [email](mailto:jcpeng3-c@my.cityu.edu.hk)
+PENG: [@penjc](https://penjc.github.io/plog/2024/01/01/me/) - [Email](mailto:jcpeng3-c@my.cityu.edu.hk)
 
 Project Link: [https://github.com/penjc/cityU-navigator](https://github.com/penjc/cityU-navigator)
 
