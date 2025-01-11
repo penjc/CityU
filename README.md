@@ -17,7 +17,7 @@
   <p align="center">
     一站式 CityU 学术与生活指南，为学生提供详细的课程信息、校园生活建议和职业规划资源。
     <br />
-    <a href="https://penjc.github.io/cityU-navigator"><strong>Explore the Docs »</strong></a>
+    <a href="https://penjc.github.io/cityU-navigator"><strong>开始探索 »</strong></a>
     <br />
     <br />
     <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
@@ -31,21 +31,21 @@
   <summary>📋 Table of Contents</summary>
   <ol>
     <li>
-      <a href="#关于项目">🧐 关于项目</a>
+      <a href="#-关于项目">🧐 关于项目</a>
       <ul>
         <li><a href="#项目亮点">项目亮点</a></li>
       </ul>
     </li>
     <li>
-      <a href="#快速开始">🚀 快速开始</a>
+      <a href="#-快速开始">🚀 快速开始</a>
       <ul>
         <li><a href="#requirements">Requirements</a></li>
         <li><a href="#安装">安装</a></li>
       </ul>
     </li>
-    <li><a href="#贡献指南">🤝 贡献指南</a></li>
-    <li><a href="#许可证">📜 许可证</a></li>
-    <li><a href="#联系我们">📬 联系我们</a></li>
+    <li><a href="#-贡献指南">🤝 贡献指南</a></li>
+    <li><a href="#-许可证">📜 许可证</a></li>
+    <li><a href="#-联系我们">📬 联系我们</a></li>
   </ol>
 </details>
 
@@ -57,7 +57,7 @@
 [![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/cityU-navigator/)
 
 **CityU Navigator** 是一个专为 City University of Hong Kong 学生打造的开源项目。  
-该平台旨在消除信息差，帮助学生全面了解课程详情、适应校园生活，并为未来职业发展做好准备。
+平台旨在消除信息差，帮助学生全面了解课程详情、适应校园生活，并为未来职业发展做好准备。
 
 ### 项目亮点
 - 📘 **[课程指南](https://penjc.github.io/cityU-navigator/docs/courses/intro)**：提供详细的课程结构、学生评价及考试信息。
@@ -124,9 +124,9 @@
 
 ## 📬 联系我们
 
-**项目负责人**  
-[GitHub Profile](https://github.com/penjc)  
-[CityU Navigator](https://github.com/penjc/cityU-navigator)
+PENG: [@penjc](https://github.com/penjc) - [email](mailto:jcpeng3-c@my.cityu.edu.hk)
+
+Project Link: [https://github.com/penjc/cityU-navigator](https://github.com/penjc/cityU-navigator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
