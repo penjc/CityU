@@ -239,7 +239,7 @@ const config = {
         appId: 'UPYPM5BQ76',
 
         // Public API key: it is safe to commit it
-        apiKey: '1de4becd67fe120feb96b88d227a25e6',
+        apiKey: '6cf5858fef7de9367d8ef73f722b371e',
 
         indexName: 'penjcio',
 
