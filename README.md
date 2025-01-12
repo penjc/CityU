@@ -21,9 +21,9 @@
     <a href="https://penjc.github.io/cityU-navigator"><strong>开始探索 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
     &middot;
-    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=enhancement&template=feature-request---.md">功能建议</a>
   </p>
 </div>
 
@@ -136,8 +136,6 @@
 ## 📬 联系我们
 
 PENG: [@penjc](https://penjc.github.io/plog/2024/01/01/me/) - [Email](mailto:jcpeng3-c@my.cityu.edu.hk)
-
-Project Link: [https://github.com/penjc/cityU-navigator](https://github.com/penjc/cityU-navigator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
