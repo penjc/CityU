@@ -1,3 +1,6 @@
+import React, { useState } from 'react';
+import ExpandableSection from '@site/src/components/ExpandableSection';
+
 # 贡献指南 - CityU Navigator
 
 欢迎来到 **CityU Navigator** 的贡献指南！  
@@ -25,15 +28,15 @@
   - 总结课程大纲、学习目标及评估方式。
   - 分享往届学生的课程反馈和经验。
 - 扩展其他部分：
-  - **校园指南**：为新生提供详细的入学信息。
-  - **职业资源**：为求职者提供建议和工具。
-  - 常见问题解答和实用技巧。
+  - **初见城大**：为新生提供详细的入学信息。
+  - **职业起航**：为求职者提供建议和工具。
+  - **常见问题**：解答用户的常见疑问。
 
-### 🌟 改善功能
+### 🌟 [改善功能](https://github.com/penjc/cityU-navigator/issues/new?labels=enhancement&template=feature-request---.md)
 - 优化网站设计和导航，提升用户体验。
 - 提议或实现新功能。
 
-### 🔍 修复问题
+### 🔍 [修复问题](https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md)
 - 报告或修复网站功能或内容中的错误。
 
 ---
@@ -141,9 +144,10 @@ npm run start
 #### 4.1.1 课程信息页面模版
 **用途**：提供单个课程的详细信息，包括简介、学习目标、评估方式和课程评价。
 
-- **模版链接**：[课程信息页面模版](https://github.com/penjc/cityU-navigator/blob/main/COURSE_TEMPLATE.mdx)
+**模版链接**：[课程信息页面模版](https://github.com/penjc/cityU-navigator/blob/main/COURSE_TEMPLATE.mdx)
 
-**模版结构**：
+**模版详情**：
+<ExpandableSection title="查看模版代码">
 ```mdx
 ---
 sidebar_position: 1
@@ -224,6 +228,7 @@ import commentStyles from '@site/src/css/comment.module.css';
 👇 在下方评论分享您的评价、问题或经验：
 <Utterances />
 ```
+</ExpandableSection>
 
 ---
 
