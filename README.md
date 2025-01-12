@@ -29,7 +29,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>📋 Table of Contents</summary>
+  <summary>📋 目录</summary>
   <ol>
     <li>
       <a href="#-关于项目">🧐 关于项目</a>
