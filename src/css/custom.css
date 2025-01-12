@@ -188,3 +188,13 @@
   text-decoration-color: #9f0c43; /* 鼠标悬停时下划线颜色变化 */
   color: #9f0c43; /* 鼠标悬停时文字颜色 */
 }
+
+/* 浅色模式下三条杠颜色 */
+[data-theme='light'] .navbar__toggle {
+  color: #333; /* 适合浅色背景的颜色 */
+}
+
+/* 暗色模式下三条杠颜色 */
+[data-theme='dark'] .navbar__toggle {
+  color: #fff; /* 适合深色背景的颜色 */
+}
