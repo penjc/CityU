@@ -1,13 +1,13 @@
-# 贡献指南 - CityU Navigator
+# 贡献指南 - CityU 手册
 
-欢迎来到 **CityU Navigator** 的贡献指南！  
+欢迎来到 **CityU 手册** 的贡献指南！  
 我们很高兴您对本项目感兴趣，并期待您的参与。本指南将帮助您快速上手并有效地做出贡献。
 
 ---
 
 ## 🚀 1 为什么要贡献？
 
-通过为 **CityU Navigator** 做出贡献，您可以：
+通过为 **CityU 手册** 做出贡献，您可以：
 
 - **帮助 CityU 学生**：您的贡献将改善当前和未来学生获取关键资源的途径。
 - **支持开源项目**：加入不断壮大的贡献者社区，共同打造有价值的资源。
@@ -92,7 +92,7 @@ npm run start
 ## 🛠️3 如何提交贡献？
 
 1. **Fork 仓库**  
-   前往 [CityU Navigator GitHub 仓库](https://github.com/penjc/cityU-navigator)，点击 **Fork**。
+   前往 [CityU 手册 GitHub 仓库](https://github.com/penjc/cityU-navigator)，点击 **Fork**。
 
 2. **创建新分支**  
    为您的分支使用一个描述性的名称：
@@ -159,5 +159,5 @@ npm run start
 
 ---
 
-非常感谢您考虑为 **CityU Navigator** 做出贡献！  
+非常感谢您考虑为 **CityU 手册** 做出贡献！  
 让我们携手将它打造为 CityU 社区的一份宝贵资源！

@@ -22,44 +22,43 @@ function HeroBanner() {
                 <div className={styles.textContent}>
                     <h1 className={styles.title}>
                         <span className={styles.cityu}>CityU</span>
-                        <span className={styles.navigator}> Navigator</span>
+                        <span className={styles.navigator}> 手册</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        Simplifying your CityU journey.
+                        轻松畅游 CityU 之旅
                     </p>
                     <Link className={clsx('button button--primary', styles.ctaButton)} to="/start">
-                        Get started →
+                        开始探索 →
                     </Link>
                 </div>
                 <div className={styles.imageContainer}>
                     <img
                         className={styles.heroImage}
                         src="/cityU-navigator/img/cityu.png"
-                        alt="CityU Illustration"
+                        alt="CityU 插图"
                     />
                 </div>
             </div>
         </div>
-
     );
 }
 
 function FeaturesSection() {
     const features = [
         {
-            title: 'Course Recommendations',
-            imgSrc: '/cityU-navigator/img/logo.svg',
-            description: 'Discover the best courses based on your interests and career goals.',
+            title: '课程推荐',
+            imgSrc: '/cityU-navigator/img/course.svg',
+            description: '根据您的兴趣和职业目标发现最适合的课程。',
         },
         {
-            title: 'Resource Hub',
+            title: '资源中心',
             imgSrc: '/cityU-navigator/img/resource-hub.svg',
-            description: 'Access guides, tools, and materials curated for CityU CS students.',
+            description: '访问为 CityU 学生精选的指南、工具和学习资料。',
         },
         {
-            title: 'Career Insights',
+            title: '职业洞察',
             imgSrc: '/cityU-navigator/img/career-insights.svg',
-            description: 'Plan your career with expert advice and alumni testimonials.',
+            description: '借助校友经验，规划您的职业未来。',
         },
     ];
 
@@ -88,15 +87,13 @@ function FeaturesSection() {
     );
 }
 
-
-
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     return (
         <Layout
             id="homePage"
             title={`${siteConfig.title}`}
-            description="Your ultimate guide to CityU CS success">
+            description="您的 CityU 学术与生活指南">
             <main>
                 <HeroBanner />
                 <FeaturesSection />

@@ -1,6 +1,6 @@
 ---
 name: "Bug 报告 🐛"
-about: 报告 CityU Navigator 的问题
+about: 报告 CityU 手册 的问题
 labels: bug
 
 ---
