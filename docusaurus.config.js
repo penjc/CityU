@@ -101,10 +101,9 @@ const config = {
       }),
     ],
   ],
-  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
+    {
       // Replace with your project's social card
       // TODO: social-card
       // image: 'img/social-card.jpg',
@@ -216,6 +215,13 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} CityU Navigator.`,
       },
+      // 搜索
+      algolia: {
+        appId: 'UPYPM5BQ76',
+        apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+        indexName: 'penjcio',
+        contextualSearch: false,
+      },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
@@ -233,20 +239,7 @@ const config = {
         textColor: '#000', // 文字颜色可以忽略，因为会被渐变覆盖
         isCloseable: true, // 是否允许关闭通知栏
       },
-      // 搜索
-      algolia: {
-        // The application ID provided by Algolia
-        appId: 'UPYPM5BQ76',
-
-        // Public API key: it is safe to commit it
-        apiKey: '6cf5858fef7de9367d8ef73f722b371e',
-
-        indexName: 'penjcio',
-
-        // Optional: see doc section below
-        contextualSearch: true,
-      },
-    }),
+    },
   headTags: [
     // 添加 <link> 标签用于预连接优化
     {
