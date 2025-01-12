@@ -1,0 +1,56 @@
+.expandableSection {
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.toggleButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #bf1846;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.toggleButton:hover {
+    background-color: #f0f0f0;
+    color: #9f0c43;
+}
+
+.icon {
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    color: #bf1846;
+}
+
+.content {
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+    border-top: 1px solid #ddd;
+    animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
