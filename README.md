@@ -13,7 +13,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">CityU Navigator</h3>
+<h3 align="center">CityU 手册</h3>
 
   <p align="center">
     一站式 CityU 学术与生活指南，为学生提供详细的课程信息、校园生活建议和职业规划资源。
@@ -57,7 +57,7 @@
 
 [![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/cityU-navigator/)
 
-**CityU Navigator** 是一个专为 City University of Hong Kong 学生打造的开源项目。  
+**CityU 手册** 是一个专为 City University of Hong Kong 学生打造的开源项目。  
 平台旨在消除信息差，帮助学生全面了解课程详情、适应校园生活，并为未来职业发展做好准备。
 
 ### 项目亮点

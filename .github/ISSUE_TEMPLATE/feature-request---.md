@@ -1,6 +1,6 @@
 ---
 name: "功能建议 🚀"
-about: 提出对 CityU Navigator 的功能改进建议
+about: 提出对 CityU 手册 的功能改进建议
 labels: enhancement
 
 ---
