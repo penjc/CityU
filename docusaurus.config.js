@@ -104,7 +104,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     {
-      // Replace with your project's social card
       // TODO: social-card
       // image: 'img/social-card.jpg',
       metadata: [
@@ -168,6 +167,24 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
+            label: '常用链接',
+            position: 'right',
+            items: [
+              { label: '城大官网', href: 'https://www.cityu.edu.hk/' },
+              { label: '校历', href: 'https://www.cityu.edu.hk/zh-cn/calendar/academic/2024-2025' },
+              { label: '图书馆', href: 'https://www.cityu.edu.hk/lib/' },
+              { label: '城大学术库', href: 'https://scholars.cityu.edu.hk/' },
+              { label: 'AIMS', href: 'https://banweb.cityu.edu.hk/' },
+              { label: 'Canvas', href: 'https://canvas.cityu.edu.hk/' },
+              { label: '城大电子门户', href: 'https://eportal.cityu.edu.hk/' },
+              { label: '城大应用', href: 'https://auth.cityu.edu.hk/app/UserHome' },
+              { label: '资源预定系统', href: 'https://booking.cityu.edu.hk/app/booking-types' },
+              { label: '体育设施预定', href: 'https://sportsbooking.cityu.edu.hk/Facility' },
+              { label: '往年考卷', href: 'https://www.cityu.edu.hk/lib/digital/exampaper/index.htm' },
+              { label: '打印网站', href: 'https://ccstung1.ad.cityu.edu.hk:9192/app' },
+            ],
+          },
+          {
             href: 'https://github.com/penjc/cityU-navigator',
             label: 'GitHub',
             position: 'right',
@@ -184,15 +201,6 @@ const config = {
               { label: '首页', to: '/' },
               { label: '快速开始', to: '/start' },
               // { label: '关于我们', to: '/about' },
-            ],
-          },
-          {
-            title: '资源',
-            items: [
-              { label: '城大官网', href: 'https://www.cityu.edu.hk/' },
-              { label: '图书馆', href: 'https://www.cityu.edu.hk/lib/' },
-              { label: 'AIMS', href: 'https://banweb.cityu.edu.hk/' },
-              { label: 'Canvas', href: 'https://canvas.cityu.edu.hk/' },
             ],
           },
           {
@@ -214,6 +222,11 @@ const config = {
             ],
           },
         ],
+        logo: {
+          alt: 'CityU Navigator Logo',
+          src: 'img/logo.svg',
+          href: 'https://github.com/penjc/cityU-navigator'
+        },
         copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册.`,
       },
       // 搜索
