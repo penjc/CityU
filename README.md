@@ -1,10 +1,15 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+
+[//]: # ([![Contributors][contributors-shield]][contributors-url])
+
+[//]: # ([![Forks][forks-shield]][forks-url])
+
+[//]: # ([![Stargazers][stars-shield]][stars-url])
+
+[//]: # ([![Issues][issues-shield]][issues-url])
+
+[//]: # ([![MIT License][license-shield]][license-url])
 
 <!-- PROJECT LOGO -->
 <br />
@@ -13,7 +18,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">CityU 手册</h3>
+<h2 align="center">CityU 手册</h3>
 
   <p align="center">
     一站式 CityU 学术与生活指南，为学生提供详细的课程信息、校园生活建议和职业规划资源。
