@@ -100,7 +100,7 @@
 
 ## 👨‍💻 贡献者
 
-本站能够存在，离不开所有贡献者的付出。[【参与贡献】](https://penjc.github.io/cityU-navigator/contributing)
+感谢所有为 **CityU 手册**作出贡献的人！[【参与贡献】](https://penjc.github.io/cityU-navigator/contributing)
 
 <a href="https://github.com/penjc/cityU-navigator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=penjc/cityU-navigator" alt="贡献者列表" />
