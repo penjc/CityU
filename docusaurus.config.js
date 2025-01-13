@@ -232,13 +232,13 @@ const config = {
         id: 'star_support', // 一个唯一的 ID，用于控制显示状态
         content: `
       <span class="gradient-text">
-        ⭐️ 如果这个网站能帮助到你，欢迎给一个 Star 支持作者
+        ⭐️ 如果本站能帮助到你，欢迎点一个 Star 支持作者
       </span>
       <a href="https://github.com/penjc/cityU-navigator" target="_blank" class="specific-github-link">GitHub</a>
   `,
         backgroundColor: '#fdf8f4', // 背景色
         textColor: '#000', // 文字颜色可以忽略，因为会被渐变覆盖
-        isCloseable: true, // 是否允许关闭通知栏
+        isCloseable: false, // 是否允许关闭通知栏
       },
     },
   headTags: [

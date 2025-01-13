@@ -21,7 +21,7 @@
   <p align="center">
     一站式 CityU 学术与生活指南，为学生提供详细的课程信息、校园生活建议和职业规划资源。
     <br />
-    <a href="https://penjc.github.io/cityU-navigator"><strong>开始探索 »</strong></a>
+    <a href="https://penjc.github.io/cityU-navigator/start"><strong>开始探索 »</strong></a>
     <br />
     <br />
     <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
@@ -40,10 +40,10 @@
         <li><a href="#内容概览">内容概览</a></li>
       </ul>
     </li>
-    <li><a href="#-贡献指南">🤝 贡献指南</a></li>
+    <li><a href="#-贡献指南">🤝 参与贡献</a></li>
     <li><a href="#-许可证">📜 许可证</a></li>
     <li><a href="#-联系我们">📬 联系我们</a></li>
-    <li><a href="#-贡献者">👨‍💻贡献者</a></li>
+    <li><a href="#-贡献者">👨‍💻 贡献者</a></li>
   </ol>
 </details>
 
@@ -54,8 +54,7 @@
 
 [![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/cityU-navigator/)
 
-**CityU 手册** 是一个专为 City University of Hong Kong 学生打造的开源项目。  
-平台旨在消除信息差，帮助学生全面了解课程详情、适应校园生活，并为未来职业发展做好准备。
+**CityU 手册** 是一个专为 City University of Hong Kong 学生打造的开源项目。
 
 ### 内容概览
 - 📘 **[课程指南](https://penjc.github.io/cityU-navigator/docs/courses/intro)**：提供详细的课程结构、学生评价及考试信息。
@@ -101,7 +100,7 @@
 
 ## 👨‍💻 贡献者
 
-本站能够存在，离不开所有贡献者的努力与付出。[参与贡献](https://penjc.github.io/cityU-navigator/contributing)
+本站能够存在，离不开所有贡献者的付出。[【参与贡献】](https://penjc.github.io/cityU-navigator/contributing)
 
 <a href="https://github.com/penjc/cityU-navigator/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=penjc/cityU-navigator" alt="贡献者列表" />
