@@ -1,0 +1,19 @@
+.imageContainer {
+    flex: 1; /* 确保图片区域自适应 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heroImage {
+    max-width: 100%; /* 确保图片自适应 */
+    /*height: auto;*/
+    border-radius: 12px; /* 增加图片的圆角 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* 添加阴影效果 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑变换效果 */
+}
+
+.heroImage:hover {
+    transform: scale(1.01); /* 鼠标悬停时略微放大 */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* 鼠标悬停时增加阴影 */
+}
