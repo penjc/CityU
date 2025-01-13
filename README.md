@@ -1,6 +1,5 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-
 [//]: # ([![Contributors][contributors-shield]][contributors-url])
 
 [//]: # ([![Forks][forks-shield]][forks-url])
@@ -12,7 +11,6 @@
 [//]: # ([![MIT License][license-shield]][license-url])
 
 <!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://penjc.github.io/cityU-navigator/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
