@@ -17,13 +17,13 @@ jobs:
 
       # 设置 Node.js 环境
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
-          node-version: '18.12.1'  # 选择你项目的 Node.js 版本
+          node-version: 18
+          cache: npm # 替换为 npm 缓存
 
-      # 安装依赖
-      - name: Install dependencies
-        run: npm install
+      - name: 安装依赖
+        run: npm ci # 使用 npm ci 代替 yarn install --frozen-lockfile
 
       # 运行新闻抓取脚本
       - name: Fetch News
