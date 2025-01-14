@@ -206,7 +206,7 @@ const config = {
             items: [
               { label: '首页', to: '/' },
               { label: '快速开始', to: '/start' },
-              // { label: '关于我们', to: '/about' },
+              { label: '关于我们', to: '/about' },
             ],
           },
           {
