@@ -190,6 +190,11 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            to: '/contributing',
+            label: '加入我们',
+            position: 'right',
+          },
         ],
       },
       // 页脚
