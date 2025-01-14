@@ -1,6 +1,5 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
@@ -89,7 +88,8 @@ function FeaturesSection() {
 }
 
 function LatestNews() {
-    const [news, setNews] = useState([]);
+    const [news, setNews] = useState([]); // 保存新闻数据
+    const [loading, setLoading] = useState(true); // 加载状态
 
     useEffect(() => {
         // 从静态文件中加载新闻数据
@@ -101,16 +101,24 @@ function LatestNews() {
                 return response.json();
             })
             .then((data) => {
-                if (Array.isArray(data)) {
-                    setNews(data); // 确保 data 是数组
+                if (Array.isArray(data) && data.length > 0) {
+                    setNews(data); // 确保 data 是非空数组
                 } else {
-                    console.error('Expected an array but got:', data);
+                    console.error('No news data available:', data);
                 }
             })
             .catch((error) => {
                 console.error('Error loading news:', error);
+            })
+            .finally(() => {
+                setLoading(false); // 不管成功与否都设置为加载完成
             });
     }, []);
+
+    // 仅在数据加载成功且非空时显示新闻板块
+    if (loading || news.length === 0) {
+        return null;
+    }
 
     return (
         <div className={clsx(styles.newsSection)}>
@@ -136,7 +144,6 @@ function LatestNews() {
         </div>
     );
 }
-
 
 function QuickLinks() {
     const links = [

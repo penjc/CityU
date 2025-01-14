@@ -177,12 +177,12 @@
 .newsLink {
   font-size: 1rem;
   font-weight: 500;
-  color: #0073e6; /* CityU品牌蓝色 */
+  color: var(--ifm-color-primary);
   text-decoration: none;
   padding-top: 0.5rem;
 }
 
 .newsLink:hover {
-  color: #005bb5; /* 鼠标悬停时深蓝色 */
+  color: var(--ifm-color-primary);
   text-decoration: underline;
 }
