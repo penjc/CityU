@@ -123,7 +123,8 @@ function LatestNews() {
     return (
         <div className={clsx(styles.newsSection)}>
             <div className="container">
-                <Heading as="h2">城大动态</Heading>
+                <div align="center" style={{ lineHeight: '1.5', fontSize: '0.9rem' }}>
+                    <Heading as="h2" ali>城大动态</Heading></div>
                 <div className="row">
                     {news.map((item, idx) => (
                         <div key={idx} className="col col--6">
@@ -134,7 +135,7 @@ function LatestNews() {
                                         <p className={styles.newsDate}>{item.date}</p>
                                     </div>
                                     <p className={styles.newsDescription}>{item.description}</p>
-                                    <Link to={item.link} className={styles.newsLink}>查看更多</Link>
+                                    <Link to={item.link} className={styles.newsLink}>查看详情</Link>
                                 </div>
                             </div>
                         </div>
@@ -147,9 +148,9 @@ function LatestNews() {
 
 function QuickLinks() {
     const links = [
-        { title: '图书馆', url: 'https://www.cityu.edu.hk/lib/', icon: '/path/to/library-icon.svg' },
-        { title: 'AIMS', url: 'https://banweb.cityu.edu.hk/', icon: '/path/to/aims-icon.svg' },
-        { title: 'Canvas', url: 'https://canvas.cityu.edu.hk/', icon: '/path/to/canvas-icon.svg' },
+        {title: '图书馆', url: 'https://www.cityu.edu.hk/lib/', icon: '/path/to/library-icon.svg'},
+        {title: 'AIMS', url: 'https://banweb.cityu.edu.hk/', icon: '/path/to/aims-icon.svg'},
+        {title: 'Canvas', url: 'https://canvas.cityu.edu.hk/', icon: '/path/to/canvas-icon.svg'},
     ];
 
     return (
@@ -160,7 +161,7 @@ function QuickLinks() {
                     {links.map((link, idx) => (
                         <div key={idx} className="col col--4 text--center">
                             <Link to={link.url} className={styles.quickLinkCard}>
-                                <img src={link.icon} alt={link.title} />
+                                <img src={link.icon} alt={link.title}/>
                                 <p>{link.title}</p>
                             </Link>
                         </div>

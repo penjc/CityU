@@ -125,22 +125,27 @@
 }
 
 .newsSection {
-  padding: 4rem 0;
-  background-color: #f9fafb; /* 浅灰色背景，保持干净整洁 */
+  padding: 3rem 0; /* 设置整个容器上下间距 */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem; /* 设置卡片之间的间距 */
 }
 
 .newsCard {
+  margin: 2rem 0; /* 设置卡片的上下间距 */
   background-color: white;
-  border-radius: 12px; /* 圆角效果 */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 柔和阴影效果 */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 卡片的平滑过渡效果 */
-  margin-bottom: 2rem;
-  overflow: hidden; /* 确保内容不溢出卡片 */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .newsCard:hover {
   transform: translateY(-5px); /* 鼠标悬停时轻微抬起 */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 鼠标悬停时更强的阴影 */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 增加悬停效果 */
 }
 
 .newsCardContent {
@@ -148,30 +153,45 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 100%;
 }
 
 .newsHeader {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: space-between; /* 标题和日期两端对齐 */
+  align-items: center; /* 垂直居中 */
+  margin-bottom: 1rem; /* 和下方内容的间距 */
 }
 
 .newsTitle {
+  color: var(--ifm-color-primary);
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333; /* 深色标题 */
-  margin-bottom: 0.5rem;
+  margin: 0; /* 移除额外间距 */
+  flex: 1; /* 标题占用剩余空间 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* 超出部分显示省略号 */
 }
 
 .newsDate {
   font-size: 0.875rem;
   color: #888; /* 浅灰色日期 */
+  white-space: nowrap; /* 强制一行显示 */
+  margin-left: 1rem;
 }
 
 .newsDescription {
   font-size: 1rem;
-  color: #555; /* 更柔和的描述文本颜色 */
-  margin-bottom: 1rem;
+  color: #555; /* 柔和的文本颜色 */
+  margin-bottom: 1.5rem;
+  line-height: 1.6; /* 行高提升可读性 */
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* 限制描述最多显示三行 */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .newsLink {
@@ -179,10 +199,5 @@
   font-weight: 500;
   color: var(--ifm-color-primary);
   text-decoration: none;
-  padding-top: 0.5rem;
-}
-
-.newsLink:hover {
-  color: var(--ifm-color-primary);
-  text-decoration: underline;
+  transition: color 0.3s ease;
 }
