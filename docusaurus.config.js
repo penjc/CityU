@@ -225,10 +225,11 @@ const config = {
         ],
         logo: {
           alt: 'CityU Navigator Logo',
-          src: 'img/logo.svg',
-          href: 'https://github.com/penjc/cityU-navigator'
+          src: 'img/cityu-logo.svg',
+          href: 'https://www.cityu.edu.hk/',
+          style: { width: '130px', height: 'auto' },
         },
-        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册.`,
+        copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.`,
       },
       // 搜索
       algolia: {
