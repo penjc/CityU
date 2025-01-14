@@ -217,3 +217,9 @@
 [data-theme='dark'] .navbar__toggle {
   color: #fff; /* 适合深色背景的颜色 */
 }
+
+/* 定义搜索框容器样式 */
+.DocSearch {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* 添加阴影 */
+}
+

@@ -166,6 +166,7 @@ const config = {
             label: '常见问题',
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
+          { type: 'search', position: 'right' },
           {
             label: '常用链接',
             position: 'right',
