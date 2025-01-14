@@ -222,6 +222,10 @@ const config = {
             title: '更多',
             items: [
               {
+                label: '版权',
+                href: '/copyright',
+              },
+              {
                 label: '免责声明',
                 href: '/disclaimer',
               },
