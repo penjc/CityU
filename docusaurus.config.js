@@ -219,6 +219,19 @@ const config = {
             ],
           },
           {
+            title: '更多',
+            items: [
+              {
+                label: '免责声明',
+                href: '/disclaimer',
+              },
+              {
+                label: '隐私政策',
+                href: '/privacy-policy',
+              },
+            ],
+          },
+          {
             title: '联系我们',
             items: [
               {
