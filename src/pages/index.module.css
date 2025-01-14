@@ -102,3 +102,87 @@
   transform: scale(1.03); /* 鼠标悬停时略微放大 */
   box-shadow: 0 12px 24px rgba(0, 0, 0, 1); /* 鼠标悬停时增加阴影 */
 }
+
+.section {
+  padding: 4rem 1rem;
+  background-color: var(--ifm-background-color);
+}
+
+.featureImage {
+  margin-bottom: 1rem;
+}
+
+.featureTitle {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+}
+
+.featureDescription {
+  font-size: 1rem;
+  color: var(--ifm-body-color);
+  margin-top: 0.5rem;
+}
+
+.newsSection {
+  padding: 4rem 0;
+  background-color: #f9fafb; /* 浅灰色背景，保持干净整洁 */
+}
+
+.newsCard {
+  background-color: white;
+  border-radius: 12px; /* 圆角效果 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 柔和阴影效果 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 卡片的平滑过渡效果 */
+  margin-bottom: 2rem;
+  overflow: hidden; /* 确保内容不溢出卡片 */
+}
+
+.newsCard:hover {
+  transform: translateY(-5px); /* 鼠标悬停时轻微抬起 */
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 鼠标悬停时更强的阴影 */
+}
+
+.newsCardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.newsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.newsTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333; /* 深色标题 */
+  margin-bottom: 0.5rem;
+}
+
+.newsDate {
+  font-size: 0.875rem;
+  color: #888; /* 浅灰色日期 */
+}
+
+.newsDescription {
+  font-size: 1rem;
+  color: #555; /* 更柔和的描述文本颜色 */
+  margin-bottom: 1rem;
+}
+
+.newsLink {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #0073e6; /* CityU品牌蓝色 */
+  text-decoration: none;
+  padding-top: 0.5rem;
+}
+
+.newsLink:hover {
+  color: #005bb5; /* 鼠标悬停时深蓝色 */
+  text-decoration: underline;
+}

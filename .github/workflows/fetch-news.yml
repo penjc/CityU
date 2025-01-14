@@ -1,0 +1,42 @@
+name: Fetch News Daily
+
+on:
+  schedule:
+    # 这个任务会在每天的 6:00 AM UTC 执行
+    - cron: '0 6 * * *'
+  workflow_dispatch: # 允许手动触发任务
+
+jobs:
+  fetch-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出代码
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # 设置 Node.js 环境
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '18.12.1'  # 选择你项目的 Node.js 版本
+
+      # 安装依赖
+      - name: Install dependencies
+        run: npm install
+
+      # 运行新闻抓取脚本
+      - name: Fetch News
+        run: node static/scripts/fetchLatestNews.js  # 调用抓取新闻的脚本
+
+      # 可选: 将抓取的数据推送回 GitHub 仓库
+      - name: Commit and push news data
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git add .
+          git commit -m "Update news data"
+          git push -f
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub 提供的 token

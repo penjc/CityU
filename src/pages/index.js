@@ -1,10 +1,11 @@
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
-import Translate, {translate} from '@docusaurus/Translate';
+import Translate, { translate } from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import { useColorMode } from '@docusaurus/theme-common'; // 使用新的路径
+import { useEffect, useState } from 'react';
 
 import styles from './index.module.css';
 
@@ -87,6 +88,82 @@ function FeaturesSection() {
     );
 }
 
+function LatestNews() {
+    const [news, setNews] = useState([]);
+
+    useEffect(() => {
+        // 从静态文件中加载新闻数据
+        fetch('/cityu-navigator/scripts/news.json')
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then((data) => {
+                if (Array.isArray(data)) {
+                    setNews(data); // 确保 data 是数组
+                } else {
+                    console.error('Expected an array but got:', data);
+                }
+            })
+            .catch((error) => {
+                console.error('Error loading news:', error);
+            });
+    }, []);
+
+    return (
+        <div className={clsx(styles.newsSection)}>
+            <div className="container">
+                <Heading as="h2">城大动态</Heading>
+                <div className="row">
+                    {news.map((item, idx) => (
+                        <div key={idx} className="col col--6">
+                            <div className={styles.newsCard}>
+                                <div className={styles.newsCardContent}>
+                                    <div className={styles.newsHeader}>
+                                        <h3 className={styles.newsTitle}>{item.title}</h3>
+                                        <p className={styles.newsDate}>{item.date}</p>
+                                    </div>
+                                    <p className={styles.newsDescription}>{item.description}</p>
+                                    <Link to={item.link} className={styles.newsLink}>查看更多</Link>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
+
+function QuickLinks() {
+    const links = [
+        { title: '图书馆', url: 'https://www.cityu.edu.hk/lib/', icon: '/path/to/library-icon.svg' },
+        { title: 'AIMS', url: 'https://banweb.cityu.edu.hk/', icon: '/path/to/aims-icon.svg' },
+        { title: 'Canvas', url: 'https://canvas.cityu.edu.hk/', icon: '/path/to/canvas-icon.svg' },
+    ];
+
+    return (
+        <div className={clsx(styles.quickLinksSection)}>
+            <div className="container">
+                <Heading as="h2">快捷导航</Heading>
+                <div className="row">
+                    {links.map((link, idx) => (
+                        <div key={idx} className="col col--4 text--center">
+                            <Link to={link.url} className={styles.quickLinkCard}>
+                                <img src={link.icon} alt={link.title} />
+                                <p>{link.title}</p>
+                            </Link>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </div>
+    );
+}
+
 export default function Home() {
     const {siteConfig} = useDocusaurusContext();
     return (
@@ -97,6 +174,8 @@ export default function Home() {
             <main>
                 <HeroBanner />
                 <FeaturesSection />
+                <LatestNews />
+                {/*<QuickLinks/>*/}
             </main>
         </Layout>
     );
