@@ -2,8 +2,8 @@ name: Fetch News Daily
 
 on:
   schedule:
-    # 这个任务会在每天的 6:00 AM UTC 执行
-    - cron: '0 6 * * *'
+    # 这个任务会在每天的 12:00 AM UTC 执行
+    - cron: '0 12 * * *'
   workflow_dispatch: # 允许手动触发任务
 
 jobs:
