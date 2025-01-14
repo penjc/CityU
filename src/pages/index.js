@@ -93,7 +93,7 @@ function LatestNews() {
 
     useEffect(() => {
         // 从静态文件中加载新闻数据
-        fetch('/cityu-navigator/scripts/news.json')
+        fetch('https://penjc.github.io/cityU-navigator/scripts/news.json')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
