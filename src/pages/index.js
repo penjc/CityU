@@ -25,7 +25,7 @@ function HeroBanner() {
                         <span className={styles.navigator}> 手册</span>
                     </h1>
                     <p className={styles.subtitle}>
-                        轻松畅游 CityU 之旅
+                        轻松畅游城大之旅
                     </p>
                     <Link className={clsx('button button--primary', styles.ctaButton)} to="/start">
                         开始探索 →
@@ -53,7 +53,7 @@ function FeaturesSection() {
         {
             title: '资源中心',
             imgSrc: '/cityU-navigator/img/resource-hub.svg',
-            description: '访问为 CityU 学生精选的指南、工具和学习资料。',
+            description: '访问为城大学生精选的攻略和学习资料。',
         },
         {
             title: '职业洞察',
