@@ -252,7 +252,7 @@ const config = {
         id: 'star_support', // 一个唯一的 ID，用于控制显示状态
         content: `
       <span class="gradient-text">
-        ⭐️ 如果本站能帮助到你，欢迎点一个 Star 支持作者
+        ⭐️ 如果本站能帮助到您，欢迎点一个 Star 支持作者
       </span>
       <a href="https://github.com/penjc/cityU-navigator" target="_blank" class="specific-github-link">GitHub</a>
   `,
