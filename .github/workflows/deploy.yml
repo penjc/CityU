@@ -1,6 +1,10 @@
 name: 部署到 GitHub Pages
 
 on:
+  workflow_run:
+    workflows: [ "Fetch News Daily" ]
+    types:
+      - completed
   push:
     branches:
       - main
