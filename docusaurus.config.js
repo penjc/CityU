@@ -144,14 +144,14 @@ const config = {
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'course',
-            label: '课程指南',
+            sidebarId: 'welcome',
+            label: '初见城大',
           },
           {
             type: 'docSidebar',
             position: 'left',
-            sidebarId: 'welcome',
-            label: '初见城大',
+            sidebarId: 'course',
+            label: '课程指南',
           },
           {
             type: 'docSidebar',
