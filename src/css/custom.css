@@ -20,32 +20,45 @@
   --ifm-background-color: #f6f9fe;
   --ifm-heading-color: #333333;
   --ifm-body-color: #555555;
+
+  --ifm-card-hover: #f0f8ff;
+  --ifm-card-border: #ddd;
+  --ifm-newsDescription: #555;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #f96c53;
-  --ifm-color-primary-dark: #f85133;
-  --ifm-color-primary-darker: #f74323;
-  --ifm-color-primary-darkest: #e12808;
+  --ifm-color-primary: #dc642f;
+  --ifm-color-primary-dark: #d74831;
+  --ifm-color-primary-darker: #cf233a;
+  --ifm-color-primary-darkest: #c61541;
   --ifm-color-primary-light: #fa8773;
   --ifm-color-primary-lighter: #fb9583;
   --ifm-color-primary-lightest: #fcbeb3;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  --ifm-background-color-dark: #20232a;
+  --ifm-background-color: #20232a;
   --ifm-heading-color: #ffffff;
   --ifm-body-color: #cccccc;
+
+  --ifm-card-hover: #3b3f47;
+  --ifm-card-border: #666;
+  --ifm-newsDescription: #ccc;
 }
 
 .navbar {
-  background-color: #f6f9fe; /* 替换为你需要的背景色 */
+  background-color: var(--ifm-background-color); /* 替换为你需要的背景色 */
   color: #ffffff; /* 替换为导航文字颜色 */
 }
 
 [data-theme='dark'] .navbar {
-  background-color: #20232a; /* 深色模式下的背景色 */
   color: #cccccc; /* 深色模式下的文字颜色 */
+}
+
+/* 删除导航栏的边框 */
+.navbar {
+  border: none !important; /* 删除边框 */
+  box-shadow: none !important; /* 删除阴影效果 */
 }
 
 /* 定义旋转动画 */
@@ -104,9 +117,6 @@
     padding: 8px 0 0;
     min-height: 30px;
 
-    a:hover svg {
-      color: var(--brand);
-    }
   }
 
   .footer__title {
@@ -153,12 +163,6 @@
   .footer__copyright {
     font-size: .8em;
     text-align: left;
-  }
-
-  svg[class^="iconExternalLink"] {
-    color: var(--subtle);
-    right: -1px;
-    width: 9px;
   }
 }
 
