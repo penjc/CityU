@@ -12,7 +12,7 @@
 }
 
 .heroDark {
-  background-color: var(--ifm-background-color-dark); /* 使用深色主题背景色变量 */
+  background-color: var(--ifm-background-color); /* 使用深色主题背景色变量 */
 }
 
 .container {
@@ -103,8 +103,8 @@
   box-shadow: 0 12px 24px rgba(0, 0, 0, 1); /* 鼠标悬停时增加阴影 */
 }
 
-.section {
-  padding: 4rem 1rem;
+.featureSection {
+  padding: 5rem 1rem;
   background-color: var(--ifm-background-color);
 }
 
@@ -125,31 +125,43 @@
 }
 
 .newsSection {
-  padding: 3rem 0; /* 设置整个容器上下间距 */
+  padding: 4rem 0; /* 增加容器的上下间距，提升视觉效果 */
+  background-color: var(--ifm-background-color); /* 使用主页背景色 */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* 增加阴影效果 */
+}
+
+.news{
+  font-size: 2rem; /* 增大字体 */
+  font-weight: 700;
+  background: linear-gradient(90deg, #de6f31,#9f0c43); /* 渐变色 */
+  -webkit-background-clip: text; /* 让背景渐变只应用到文字 */
+  color: transparent; /* 确保文字透明 */
 }
 
 .row {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  gap: 2rem; /* 设置卡片之间的间距 */
+  gap: 2rem; /* 卡片之间的间距 */
 }
 
 .newsCard {
   margin: 2rem 0; /* 设置卡片的上下间距 */
-  background-color: white;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 16px; /* 圆角更大，提升现代感 */
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* 更柔和的阴影效果 */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden; /* 防止内容溢出卡片边缘 */
+  border: 1px solid var(--ifm-card-border); /* 为卡片添加细边框，增加精致感 */
 }
 
 .newsCard:hover {
-  transform: translateY(-5px); /* 鼠标悬停时轻微抬起 */
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); /* 增加悬停效果 */
+  transform: translateY(-8px); /* 鼠标悬停时卡片更明显的抬起 */
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15); /* 强化悬停效果 */
+  background-color: var(--ifm-card-hover); /* 悬停时背景颜色稍微改变 */
 }
 
 .newsCardContent {
-  padding: 1.5rem;
+  padding: 1.8rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -160,13 +172,13 @@
   display: flex;
   justify-content: space-between; /* 标题和日期两端对齐 */
   align-items: center; /* 垂直居中 */
-  margin-bottom: 1rem; /* 和下方内容的间距 */
+  margin-bottom: 1rem;
 }
 
 .newsTitle {
   color: var(--ifm-color-primary);
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.5rem; /* 增加标题的字体大小，提升可读性 */
+  font-weight: 700;
   margin: 0; /* 移除额外间距 */
   flex: 1; /* 标题占用剩余空间 */
   overflow: hidden;
@@ -175,29 +187,39 @@
 }
 
 .newsDate {
-  font-size: 0.875rem;
+  font-size: 1rem;
   color: #888; /* 浅灰色日期 */
-  white-space: nowrap; /* 强制一行显示 */
+  white-space: nowrap;
   margin-left: 1rem;
 }
 
 .newsDescription {
-  font-size: 1rem;
-  color: #555; /* 柔和的文本颜色 */
-  margin-bottom: 1.5rem;
-  line-height: 1.6; /* 行高提升可读性 */
+  font-size: 1.1rem; /* 增加描述文字的字体大小 */
+  color: var(--ifm-newsDescription);
+  margin-bottom: 2rem; /* 增加底部间距，使内容更舒适 */
+  line-height: 1.7; /* 提高可读性 */
   text-align: justify;
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* 限制描述最多显示三行 */
+  -webkit-line-clamp: 4; /* 增加描述最多显示四行 */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .newsLink {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--ifm-color-primary);
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  margin-top: 1rem; /* 给链接增加上间距 */
+}
+
+.newsLink:hover {
+  transform: translateX(4px); /* 向右轻微位移，提升点击感 */
+}
+
+.container {
+  max-width: 1200px; /* 限制容器宽度 */
 }

@@ -63,7 +63,7 @@ function FeaturesSection() {
     ];
 
     return (
-        <div className={clsx(styles.section)}>
+        <div className={clsx(styles.featureSection)}>
             <div className="container">
                 <div className="row">
                     {features.map((feature, idx) => (
@@ -124,7 +124,7 @@ function LatestNews() {
         <div className={clsx(styles.newsSection)}>
             <div className="container">
                 <div align="center" style={{ lineHeight: '1.5', fontSize: '0.9rem' }}>
-                    <Heading as="h2" ali>城大动态</Heading></div>
+                    <Heading as="h2" className={styles.news}>城大新闻</Heading></div>
                 <div className="row">
                     {news.map((item, idx) => (
                         <div key={idx} className="col col--6">
