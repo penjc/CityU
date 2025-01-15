@@ -20,6 +20,7 @@
     "@mdx-js/react": "^3.0.0",
     "axios": "^1.7.9",
     "clsx": "^2.0.0",
+    "google-translate-api-x": "^10.7.2",
     "node-cron": "^3.0.3",
     "prism-react-renderer": "^2.3.0",
     "puppeteer": "^24.0.0",
