@@ -97,13 +97,13 @@ const config = {
 
             // 对特定页面加大权重
             const highPriorityUrls = [
-                '/',
-                'https://penjc.github.io/cityU-navigator/docs/courses/intro',
-              '/cityU-navigator/',
-              '/start',
-              '/docs/welcome/intro',
-              '/docs/courses/intro',
-              '/docs/career/intro',
+              'https://penjc.github.io/cityU-navigator/',
+              'https://penjc.github.io/cityU-navigator/start',
+              'https://penjc.github.io/cityU-navigator/docs/welcome/intro',
+              'https://penjc.github.io/cityU-navigator/docs/courses/intro',
+              'https://penjc.github.io/cityU-navigator/docs/career/intro',
+              'https://penjc.github.io/cityU-navigator/docs/faq/intro',
+              'https://penjc.github.io/cityU-navigator/about',
             ];
 
             const updatedItems = items.map(item => {
