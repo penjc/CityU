@@ -89,13 +89,30 @@ const config = {
         sitemap: {
           lastmod: 'date',
           changefreq: 'weekly',
-          priority: 0.5,
-          ignorePatterns: ['/tags/**'],
+          priority: 0.5, // 默认优先级
           filename: 'sitemap.xml',
           createSitemapItems: async (params) => {
-            const {defaultCreateSitemapItems, ...rest} = params;
+            const { defaultCreateSitemapItems, ...rest } = params;
             const items = await defaultCreateSitemapItems(rest);
-            return items.filter((item) => !item.url.includes('/page/'));
+
+            // 对特定页面加大权重
+            const highPriorityUrls = [
+              '/cityU-navigator/',
+              '/start',
+              '/docs/welcome/intro',
+              '/docs/courses/intro',
+              '/docs/career/intro',
+            ];
+
+            const updatedItems = items.map(item => {
+              // 如果页面在 highPriorityUrls 中，优先级设为 1.0
+              if (highPriorityUrls.some(url => item.url.includes(url))) {
+                item.priority = 1.0;
+              }
+              return item;
+            });
+
+            return updatedItems;
           },
         },
       }),
