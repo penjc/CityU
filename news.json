@@ -1,30 +1,44 @@
 [
   {
     "title": "A delegation from Goertek visits CityUHK",
-    "date": "2025-01-14T12:00:00Z",
-    "summary": "A delegation from Goertek visited CityUHK on 19 December. The two sides discussed establishing a strategic partnership, with plans to carry out comprehensive industry-academia collaboration in different locations, such as Hong Kong, Shenzhen, Dongguan and Qingdao.",
+    "description": "A delegation from Goertek visited CityUHK on 19 December. The two sides discussed establishing a strategic partnership, with plans to carry out comprehensive industry-academia collaboration in different locations, such as Hong Kong, Shenzhen, Dongguan and Qingdao.",
+    "date": "2025-01-14",
     "link": "https://www.cityu.edu.hk/media/news/2025/01/14/delegation-goertek-visits-cityuhk",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/250114-th_visit.jpg?itok=xVSui3JR"
   },
   {
     "title": "A delegation from the Shenzhen Municipal Education Bureau and the Bureau of Public Works of Shenzhen Municipality visits CityUHK for insights",
-    "date": "2025-01-13T12:00:00Z",
-    "summary": "A delegation from the Shenzhen Municipal Education Bureau and the Bureau of Public Works of Shenzhen Municipality, along with representatives from three mainland universities, visited CityUHK on 19 December. The aim of the visit was to gain in-depth insights into CityUHK's campus planning, management and operations, providing a valuable reference and experience for future campus development in Shenzhen.",
+    "description": "A delegation from the Shenzhen Municipal Education Bureau and the Bureau of Public Works of Shenzhen Municipality, along with representatives from three mainland universities, visited CityUHK on 19 December. The aim of the visit was to gain in-depth insights into CityUHK's campus planning, management and operations, providing a valuable reference and experience for future campus development in Shenzhen.",
+    "date": "2025-01-13",
     "link": "https://www.cityu.edu.hk/media/news/2025/01/13/delegation-shenzhen-municipal-education-bureau-and-bureau-public-works-shenzhen-municipality-visits-cityuhk-insights",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/250110-th_SZvisit.jpg?itok=rlY3v0pN"
   },
   {
     "title": "CityUHK promotes international education and fosters innovative academic and scientific research",
-    "date": "2025-01-13T12:00:00Z",
-    "summary": "Professor Freddy Boey, President and University Distinguished Professor of CityUHK, gave an exclusive interview to the China Media Group (Asia Pacific) to discuss the University’s efforts and achievements in promoting international education and fostering innovative academic and scientific research.",
+    "description": "Professor Freddy Boey, President and University Distinguished Professor of CityUHK, gave an exclusive interview to the China Media Group (Asia Pacific) to discuss the University’s efforts and achievements in promoting international education and fostering innovative academic and scientific research.",
+    "date": "2025-01-13",
     "link": "https://www.cityu.edu.hk/media/news/2025/01/13/cityuhk-promotes-international-education-and-fosters-innovative-academic-and-scientific-research",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/20250110-CCTV-3.jpg?itok=hSyzvXS7"
   },
   {
     "title": "Central China Normal University delegation visits CityUHK",
-    "date": "2025-01-09T12:00:00Z",
-    "summary": "A delegation from Central China Normal University visited CityUHK on 9 December. They met with senior management of CityUHK and engaged in discussions and exchanges on topics on digital teaching and the application of big data.",
+    "description": "A delegation from Central China Normal University visited CityUHK on 9 December. They met with senior management of CityUHK and engaged in discussions and exchanges on topics on digital teaching and the application of big data.",
+    "date": "2025-01-09",
     "link": "https://www.cityu.edu.hk/media/news/2025/01/09/central-china-normal-university-delegation-visits-cityuhk",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/241216_CCNU_1_crop_0.jpg?itok=6nyN-xDq"
+  },
+  {
+    "title": "Major youth science innovation award for digital health expert at CityUHK",
+    "description": "Recognised for his leading position in digital medicine, Professor Yu Xinge from the Department of Biomedical Engineering at CityUHK was honoured with the 3rd Zhong Nanshan Youth Science and Technology Innovation Award.",
+    "date": "2025-01-08",
+    "link": "https://www.cityu.edu.hk/media/news/2025/01/08/major-youth-science-innovation-award-digital-health-expert-cityuhk",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/250107_ProfYuXinge_1.jpg?itok=HXWaEw99"
+  },
+  {
+    "title": "CityUHK, MTR and MTR Academy sign MoU on Railway Innovation Collaboration and Talent Development",
+    "description": "CityUHK, MTR and MTRA signed an MoU on 6 January, aiming to establish a partnership to focus on advanced railway-related research, talent development, and innovation while fostering a railway-related I&T ecosystem through collaborative efforts and knowledge exchange.",
+    "date": "2025-01-07",
+    "link": "https://www.cityu.edu.hk/media/news/2025/01/07/cityuhk-mtr-and-mtr-academy-sign-mou-railway-innovation-collaboration-and-talent-development",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-01/250107-1_MTRMou.jpg?itok=EDdfRCV2"
   }
 ]
