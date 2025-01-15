@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CityU 手册',
-  tagline: 'Your Compass to CityU Success',
+  tagline: '全面的CityU课程、生活与职业发展资源',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -109,8 +109,14 @@ const config = {
       metadata: [
         {name: 'google-site-verification', content: 'AUpZDRdVtmdoR8Q35bcYZ3dn_qAduJvQUQD4pSS5aMQ'},
         {name: 'msvalidate.01', content: '645627EF454E2562A60001314F5C1819'},
-        {name: 'keywords', content: 'CityU 手册, Course, Information, University, Education'},
-        {name: 'description', content: 'CityU 手册: Your ultimate guide to navigate courses at CityU.'},
+        {
+          name: 'keywords',
+          content: 'CityU, 香港城市大学, CityU 学生手册, CityU 校园指南, CityU 课程信息, CityU 职业发展, CityU 新生指南, 香港城市大学课程选择, CityU 学术支持, CityU 校园生活, CityU 职业规划, 香港城市大学就业资源'
+        },
+        {
+          name: 'description',
+          content: 'CityU Navigator 是一个为香港城市大学学生提供的全面平台，涵盖课程选择、校园生活、职业发展等信息，帮助学生更好地适应大学生活并规划未来职业发展。'
+        },
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:title', content: 'CityU 手册'},
         {name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.'},
@@ -297,11 +303,12 @@ const config = {
       },
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org/',
-        '@type': 'EducationalOrganization',
-        name: 'CityU Navigator',
-        url: 'https://penjc.github.io/cityU-navigator',
+        '@type': 'Organization',
+        name: 'CityU 手册',
+        url: 'https://penjc.github.io/cityU-navigator/',
         logo: 'https://penjc.github.io/cityU-navigator/img/logo.png', // 替换为实际 LOGO 路径
-        description: 'Your ultimate guide to navigate computer science courses at CityU.',
+        description: 'CityU 手册是一个开源平台，旨在为香港城市大学学生提供详细的课程信息、校园指南和职业发展资源，帮助他们更有效地导航学术和校园生活。CityU Navigator is an open-source platform providing CityU students with detailed course information, campus guides, and career resources.',
+        'sameAs': 'https://www.cityu.edu.hk/',
       }),
     },
   ],
