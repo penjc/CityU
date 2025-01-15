@@ -2,8 +2,7 @@ name: Fetch News Daily
 
 on:
   schedule:
-    # 这个任务会在每天的 12:00 AM UTC 执行
-    - cron: '0 12 * * *'
+    - cron: '0 16 * * *'
   workflow_dispatch: # 允许手动触发任务
 
 jobs:
@@ -11,25 +10,21 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 检出代码
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      # 设置 Node.js 环境
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: npm # 替换为 npm 缓存
+          cache: npm
 
       - name: 安装依赖
-        run: npm ci # 使用 npm ci 代替 yarn install --frozen-lockfile
+        run: npm ci
 
-      # 运行新闻抓取脚本
       - name: Fetch News
-        run: node static/scripts/fetchLatestNews.js  # 调用抓取新闻的脚本
+        run: node static/scripts/fetchLatestNews.js
 
-      # 可选: 将抓取的数据推送回 GitHub 仓库
       - name: Commit and push news data
         run: |
           git config --global user.name "GitHub Actions"
@@ -39,4 +34,4 @@ jobs:
           git commit -m "Update news data"
           git push -f
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # GitHub 提供的 token
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
