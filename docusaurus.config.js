@@ -97,6 +97,8 @@ const config = {
 
             // 对特定页面加大权重
             const highPriorityUrls = [
+                '/',
+                'https://penjc.github.io/cityU-navigator/docs/courses/intro',
               '/cityU-navigator/',
               '/start',
               '/docs/welcome/intro',
