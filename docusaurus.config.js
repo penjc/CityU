@@ -105,8 +105,10 @@ const config = {
             ];
 
             const updatedItems = items.map(item => {
-              // 如果页面在 highPriorityUrls 中，优先级设为 1.0
-              if (highPriorityUrls.some(url => item.url.includes(url))) {
+              // 如果页面是高优先级的页面，并且是精准匹配，而不是子页面，优先级设为 1.0
+              if (
+                  highPriorityUrls.some(url => item.url === url) // 精准匹配，避免子页面
+              ) {
                 item.priority = 1.0;
               }
               return item;
