@@ -130,10 +130,13 @@ const config = {
       // 导航栏
       navbar: {
         title: 'CityU 手册',
+        hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
           src: 'img/logo.svg',
           className: 'navbar-icon',
+          href: 'https://penjc.github.io/cityU-navigator/',
+          target: '_self',
         },
         items: [
           {
@@ -274,7 +277,6 @@ const config = {
       <a href="https://github.com/penjc/cityU-navigator" target="_blank" class="specific-github-link">GitHub</a>
   `,
         backgroundColor: '#fdf8f4', // 背景色
-        textColor: '#000', // 文字颜色可以忽略，因为会被渐变覆盖
         isCloseable: false, // 是否允许关闭通知栏
       },
     },
