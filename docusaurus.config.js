@@ -136,7 +136,7 @@ const config = {
         },
         {
           name: 'description',
-          content: 'CityU Navigator 是一个为香港城市大学学生提供的全面平台，涵盖课程选择、校园生活、职业发展等信息，帮助学生更好地适应大学生活并规划未来职业发展。'
+          content: 'CityU 手册是一个为香港城市大学学生提供的全面平台，涵盖课程选择、校园生活、职业发展等信息，帮助学生更好地适应大学生活并规划未来职业发展。'
         },
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:title', content: 'CityU 手册'},
