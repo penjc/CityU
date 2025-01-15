@@ -131,9 +131,9 @@
 }
 
 .news{
-  font-size: 2rem; /* 增大字体 */
+  font-size: 3rem; /* 增大字体 */
   font-weight: 700;
-  background: linear-gradient(90deg, #de6f31,#9f0c43); /* 渐变色 */
+  background: linear-gradient(#de6f31,#9f0c43); /* 渐变色 */
   -webkit-background-clip: text; /* 让背景渐变只应用到文字 */
   color: transparent; /* 确保文字透明 */
 }
@@ -146,7 +146,7 @@
 }
 
 .newsCard {
-  margin: 2rem 0; /* 设置卡片的上下间距 */
+  margin: 1.3rem 0; /* 设置卡片的上下间距 */
   border-radius: 16px; /* 圆角更大，提升现代感 */
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1); /* 更柔和的阴影效果 */
   transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
@@ -165,7 +165,7 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  height: 300px;
 }
 
 .newsHeader {
@@ -200,7 +200,7 @@
   line-height: 1.7; /* 提高可读性 */
   text-align: justify;
   display: -webkit-box;
-  -webkit-line-clamp: 4; /* 增加描述最多显示四行 */
+  -webkit-line-clamp: 3; /* 增加描述最多显示3行 */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
