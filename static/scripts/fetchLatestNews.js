@@ -16,7 +16,9 @@ function formatDate(dateString) {
 async function translateText(text) {
     try {
         const translated = await translate(text, { to: 'zh-CN' }); // 将文本翻译为中文
-        return translated.text;
+        // 确保 "CityUHK" 翻译为 "香港城市大学"
+        let finalText = translated.text.replace(/Cityuhk|Cityu/g, '香港城市大学');
+        return finalText;
     } catch (error) {
         console.error('翻译失败:', error);
         return text; // 如果翻译失败，返回原始文本
