@@ -279,7 +279,7 @@ const config = {
           alt: 'CityU Navigator Logo',
           src: 'img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
-          style: { width: '130px', height: 'auto' },
+          style: { width: '157px', height: 'auto' },
         },
         copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.`,
       },
