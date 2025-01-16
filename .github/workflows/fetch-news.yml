@@ -23,7 +23,9 @@ jobs:
         run: npm ci
 
       - name: Fetch News
-        run: node static/scripts/fetchLatestNews.js
+        run: |
+          cd static/scripts
+          node fetchLatestNews.js
 
       - name: Commit and push news data
         run: |
