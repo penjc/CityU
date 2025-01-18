@@ -1,47 +1,49 @@
-/* Hero Section */
-.hero {
+.heroFeaturesSection {
+  position: relative;
+  min-height: calc(100vh - var(--navbar-height) - var(--notification-bar-height));
+  padding: 6rem 1rem;
+  background: url('https://penjc.github.io/cityU-navigator/img/cityu.png') no-repeat center/cover;
+  background-attachment: fixed; /* 背景固定不滚动 */
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 4rem 1rem; /* 增加左右 padding */
-  transition: background-color 0.3s ease; /* 平滑切换背景色 */
-  margin-bottom: 1rem;
-  margin-top: -3rem;
+  text-align: center;
+  filter: brightness(0.9); /* 适度调暗背景 */
 }
 
-.heroLight {
-  background-color: var(--ifm-background-color); /* 使用主题背景色变量 */
-}
-
-.heroDark {
-  background-color: var(--ifm-background-color); /* 使用深色主题背景色变量 */
-}
-
-.container {
-  display: flex;
-  max-width: 1100px; /* 限制最大宽度 */
+/* 白色主题下的遮罩层 */
+.heroFeaturesSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
-  gap: 2rem; /* 增加文字与图片的间距 */
-  padding: 0 1rem; /* 两侧增加一定的空白 */
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8); /* 半透明白色 */
+  backdrop-filter: blur(1px); /* 背景模糊效果 */
+  z-index: 1; /* 遮罩层在背景上方 */
 }
 
-.textContent {
-  flex: 1; /* 确保文字区域自适应 */
-  max-width: 500px; /* 限制文字内容宽度 */
+/* 黑色主题下的遮罩层 */
+[data-theme='dark'] .heroFeaturesSection::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* 半透明黑色 */
+  backdrop-filter: blur(2px); /* 背景模糊效果 */
+  z-index: 1; /* 遮罩层在背景上方 */
+}
+.heroContent {
+  position: relative; /* 保证内容在遮罩层上方 */
+  z-index: 2; /* 确保内容在遮罩层上方 */
+  margin-bottom: 4rem; /* 与 Features 部分的间距 */
 }
 
 .title {
-  font-size: 3.2rem; /* 调整字体大小 */
-  font-weight: 900;
-  color: var(--ifm-heading-color);
-  margin-bottom: 1rem; /* 增加标题与副标题之间的间距 */
-  line-height: 1.2;
-}
-
-/* 渐变颜色的 CityU */
-.cityu {
   font-size: 4.5rem; /* 字体大小与 Navigator 保持一致 */
   font-weight: 900;
   line-height: 1.2;
@@ -50,64 +52,51 @@
   -webkit-text-fill-color: transparent; /* 文字为透明，显示背景 */
   text-fill-color: transparent; /* 支持更多浏览器 */
 }
+/*.cityu {*/
+/*  font-size: 4.5rem; !* 字体大小与 Navigator 保持一致 *!*/
+/*  font-weight: 900;*/
+/*  line-height: 1.2;*/
+/*  background: linear-gradient(90deg, #de6f31, #da542b, #d23437, #bf1846, #9f0c43); !* 渐变颜色 *!*/
+/*  -webkit-background-clip: text; !* 仅应用背景到文字 *!*/
+/*  -webkit-text-fill-color: transparent; !* 文字为透明，显示背景 *!*/
+/*  text-fill-color: transparent; !* 支持更多浏览器 *!*/
+/*}*/
 
-/* 黑色的 Navigator */
-.navigator {
-  font-size: 4.5rem; /* 字体大小与 CityU 保持一致 */
-  font-weight: 900;
-  line-height: 1.2;
-  color: var(--ifm-heading-color); /* 使用主题标题颜色（默认黑色） */
-}
+/*!* 黑色的 Navigator *!*/
+/*.navigator {*/
+/*  font-size: 4.5rem; !* 字体大小与 CityU 保持一致 *!*/
+/*  font-weight: 900;*/
+/*  color: var(--ifm-heading-color); !* 使用主题标题颜色（默认黑色） *!*/
+/*  text-transform: uppercase;*/
+/*}*/
 
 .subtitle {
-  max-width: 400px;
-  font-size: 1.1rem; /* 保持副标题字体大小 */
-  color: var(--ifm-body-color);
-  line-height: 1.6;
-  margin-bottom: 1rem; /* 减小底部间距 */
+  font-size: 1.4rem;
 }
 
 .ctaButton {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   padding: 0.8rem 2rem;
-  border-radius: 6px; /* 增加圆角效果 */
-  background: var(--ifm-color-primary); /* 使用主题主色调 */
+  background: var(--ifm-color-primary);
   color: #fff;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* 添加轻微阴影 */
+  border-radius: 8px;
   text-decoration: none;
-  transition: background 0.3s ease, box-shadow 0.3s ease; /* 平滑过渡 */
-  /* 移除按钮的顶部额外间距 */
-  margin-top: 0;
+  transition: all 0.3s ease;
 }
 
 .ctaButton:hover {
-  background: var(--ifm-color-primary-dark); /* 鼠标悬停时更深的颜色 */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* 增加阴影 */
+  background: var(--ifm-color-primary-dark);
+  box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.2);
 }
 
-.imageContainer {
-  flex: 1; /* 确保图片区域自适应 */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.heroImage {
-  max-width: 100%; /* 确保图片自适应 */
-  height: auto;
-  border-radius: 12px; /* 增加图片的圆角 */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 1); /* 添加阴影效果 */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* 平滑变换效果 */
-}
-
-.heroImage:hover {
-  transform: scale(1.03); /* 鼠标悬停时略微放大 */
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 1); /* 鼠标悬停时增加阴影 */
-}
-
-.featureSection {
-  padding: 5rem 1rem;
-  background-color: var(--ifm-background-color);
+.features {
+  position: relative; /* 保证 Features 部分也在遮罩层上方 */
+  z-index: 2;
+  display: flex; /* 使用 flex 布局 */
+  flex-wrap: wrap; /* 内容换行 */
+  justify-content: space-around; /* 横向间距 */
+  text-align: center;
+  gap: 2rem; /* 增加子元素间距 */
 }
 
 .featureImage {
@@ -115,17 +104,60 @@
 }
 
 .featureTitle {
-  font-size: 1.25rem;
-  font-weight: 700;
+  font-size: 1.2rem;
+  font-weight: bold;
   color: var(--ifm-heading-color);
 }
 
 .featureDescription {
   font-size: 1rem;
-  color: var(--ifm-body-color);
-  margin-top: 0.5rem;
+  color: var(--ifm-heading-color);
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
+
+@media only screen and (max-width: 646px) {
+  .heroFeaturesSection {
+    background-position: -450px center;
+    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
+  }
+
+  .features {
+    flex-direction: column; /* 垂直排列 */
+    align-items: center; /* 子元素水平居中 */
+    gap: 1.5rem; /* 增加子元素之间的间距 */
+  }
+
+  .featureImage {
+    width: 80px; /* 调整图片大小以适配小屏幕 */
+    height: 80px;
+  }
+
+  .featureTitle {
+    font-size: 1.1rem; /* 调整标题字体大小 */
+  }
+
+  .featureDescription {
+    font-size: 0.9rem; /* 调整描述字体大小 */
+    /*margin: 0 15px; !* 减小左右边距，避免过多留白 *!*/
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .heroFeaturesSection {
+    background-position: -650px center;
+    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
+  }
+}
+
+
+@media only screen and (max-width: 375px) {
+  .heroFeaturesSection {
+    background-position: -530px center;
+    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
+  }
+}
 /* 新闻部分 */
 .newsSection {
   padding: 4rem 0; /* 增加容器的上下间距，提升视觉效果 */
