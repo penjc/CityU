@@ -289,7 +289,7 @@ export default function Home() {
                 <Comments />
                 <LatestNews />
                 {/*<Runtime />*/}
-                <SiteStats />
+                {/*<SiteStats />*/}
             </main>
         </Layout>
     );
