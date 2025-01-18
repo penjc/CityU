@@ -15,6 +15,7 @@ on:
       - COURSE_TEMPLATE.mdx
       - LICENSE
       - .github/workflows/**
+      - images/**
 
 jobs:
   build:
