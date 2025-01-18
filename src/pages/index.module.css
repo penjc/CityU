@@ -5,6 +5,8 @@
   justify-content: center;
   padding: 4rem 1rem; /* 增加左右 padding */
   transition: background-color 0.3s ease; /* 平滑切换背景色 */
+  margin-bottom: 1rem;
+  margin-top: -3rem;
 }
 
 .heroLight {
