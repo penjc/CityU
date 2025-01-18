@@ -223,3 +223,92 @@
 .container {
   max-width: 1200px; /* 限制容器宽度 */
 }
+
+/* 课程评价部分 */
+.commentsSection {
+  padding: 4rem 0;
+  background-color: var(--ifm-background-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.commentsTitle {
+  font-size: 3rem;
+  font-weight: 700;
+  background: linear-gradient(#de6f31, #9f0c43);
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.commentCard {
+  margin: 1.3rem 0;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  overflow: hidden;
+  border: 1px solid var(--ifm-card-border);
+}
+
+.commentCard:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.15);
+  background-color: var(--ifm-card-hover);
+}
+
+.commentCardContent {
+  padding: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.courseCode {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--ifm-color-primary);
+  margin-bottom: 1rem;
+}
+
+.reviewText {
+  font-size: 1.1rem;
+  color: var(--ifm-body-color);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  text-align: justify;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.reviewAuthor {
+  font-size: 1rem;
+  color: #555;
+  font-style: italic;
+  text-align: right;
+}
+
+.commentLink {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.commentLink:hover {
+  transform: translateX(4px);
+  color: var(--ifm-color-primary-dark);
+}
