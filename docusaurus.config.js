@@ -283,12 +283,12 @@ const config = {
           alt: 'CityU Navigator Logo',
           src: 'img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
-          style: { width: '157px', height: 'auto' },
+          style: { width: '160px', height: 'auto' },
         },
-        copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.<br/>
+        copyright: `Copyright © ${new Date().getFullYear()} CityU 手册<br/>
         <span id="busuanzi_container_site_pv">
           <img src='/cityU-navigator/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-          本站访问量 <span id="busuanzi_value_site_pv"></span> 次 |
+          本站访问量 <span id="busuanzi_value_site_pv"></span> 次<br/>
           <img src='/cityU-navigator/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
           本站访客数 <span id="busuanzi_value_site_uv"></span> 人
         </span>
