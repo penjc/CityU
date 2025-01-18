@@ -1,0 +1,46 @@
+{
+  "CS5222": {
+    "course_name": "计算机网络与互联网",
+    "reviews": [
+      {
+        "text": "教的和本科一样，教材PPT和平时作业用的‘计算机网络自顶而下的方法’，考试占比大，内容较多。",
+        "author": "CityU学生"
+      },
+      {
+        "text": "简单的课。",
+        "author": "CityU学生"
+      }
+    ],
+    "link": "https://penjc.github.io/cityU-navigator/docs/courses/College-of-Computing/DepartmentOfComputerScience/CS5222-Computer_Networks_and_Internets"
+  },
+  "CS5285": {
+    "course_name": "电子商务信息安全",
+    "reviews": [
+      {
+        "text": "考试有一定难度，平常需要认真学，发的作业也要好好做，可以找期中期末的往年卷做做，考试题型都在平时作业和往年卷里。",
+        "author": "CityU学生"
+      }
+    ],
+    "link": "https://penjc.github.io/cityU-navigator/docs/courses/College-of-Computing/DepartmentOfComputerScience/CS5285-Information_Security_for_eCommerce"
+  },
+  "CS5481": {
+    "course_name": "数据工程",
+    "reviews": [
+      {
+        "text": "老师人非常好，上课有直播和回放，有复习课，给分还可以。",
+        "author": "CityU学生"
+      }
+    ],
+    "link": "https://penjc.github.io/cityU-navigator/docs/courses/College-of-Computing/DepartmentOfComputerScience/CS5481-Data_Engineering"
+  },
+  "EC5001": {
+    "course_name": "电子商贸介绍",
+    "reviews": [
+      {
+        "text": "水课，一半商业一半计算机，商业部分有点名，计算机部分无点名有直播回放，商业部分主要考课上讲的几种分析方法，计算机部分主要是XML和一些概念。",
+        "author": "CityU学生"
+      }
+    ],
+    "link": "https://penjc.github.io/cityU-navigator/docs/courses/College-of-Computing/DepartmentOfComputerScience/EC5001-Introduction_to_eCommerce"
+  }
+}
