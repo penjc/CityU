@@ -285,11 +285,13 @@ const config = {
           href: 'https://www.cityu.edu.hk/',
           style: { width: '157px', height: 'auto' },
         },
-        copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.
-<!--        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
-<!--        <div>-->
-<!--          本站访问量：<span id="busuanzi_container_site_pv"></span> 次 ｜ 本站访客数：<span id="busuanzi_container_site_uv"></span> 人-->
-<!--        </div>-->
+        copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.<br/>
+        <span id="busuanzi_container_site_pv">
+          <img src='/cityU-navigator/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
+          本站访问量 <span id="busuanzi_value_site_pv"></span> 次 |
+          <img src='/cityU-navigator/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
+          本站访客数 <span id="busuanzi_value_site_uv"></span> 人
+        </span>
         `,
       },
       // 搜索
@@ -340,6 +342,12 @@ const config = {
         description: 'CityU 手册是一个开源平台，旨在为香港城市大学学生提供详细的课程信息、校园指南和职业发展资源，帮助他们更有效地导航学术和校园生活。CityU Navigator is an open-source platform providing CityU students with detailed course information, campus guides, and career resources.',
         'sameAs': 'https://www.cityu.edu.hk/',
       }),
+    },
+  ],
+  scripts: [
+    {
+      src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+      async: true,
     },
   ],
 };
