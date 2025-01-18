@@ -89,21 +89,22 @@ function FeaturesSection() {
 // 课程评论
 import courseReviews from '/static/scripts/comment.json';
 const getRandomReviews = (reviewsData) => {
-    const courses = Object.values(reviewsData);
+    const courses = Object.entries(reviewsData); // Use entries to get course_code and course details
     const selectedCourses = [];
     const seenReviews = new Set();
 
     while (selectedCourses.length < 4) {
-        const randomCourse = courses[Math.floor(Math.random() * courses.length)];
-        const randomReview = randomCourse.reviews[Math.floor(Math.random() * randomCourse.reviews.length)];
-        const reviewIdentifier = `${randomCourse.course_name}-${randomReview.text}`;
+        const [courseCode, courseDetails] = courses[Math.floor(Math.random() * courses.length)];
+        const randomReview = courseDetails.reviews[Math.floor(Math.random() * courseDetails.reviews.length)];
+        const reviewIdentifier = `${courseCode}-${randomReview.text}`;
 
         if (!seenReviews.has(reviewIdentifier)) {
             selectedCourses.push({
-                course_code: randomCourse.course_name,
+                course_code: courseCode, // Include course_code
+                course_name: courseDetails.course_name, // Include course_name
                 review_text: randomReview.text,
                 author: randomReview.author,
-                link: randomCourse.link
+                link: courseDetails.link
             });
             seenReviews.add(reviewIdentifier);
         }
@@ -111,6 +112,7 @@ const getRandomReviews = (reviewsData) => {
 
     return selectedCourses;
 };
+
 function Comments() {
     const [reviews, setReviews] = useState([]);
 
@@ -128,7 +130,8 @@ function Comments() {
                         <div key={index} className="col col--6">
                             <div className={styles.commentCard}>
                                 <div className={styles.commentCardContent}>
-                                    <h3 className={styles.courseCode}>{review.course_code}</h3>
+                                    {/* Display course_code and course_name */}
+                                    <h3 className={styles.courseCode}>{review.course_code} - {review.course_name}</h3>
                                     <p className={styles.reviewText}>{review.review_text}</p>
                                     <p className={styles.reviewAuthor}><strong>-- {review.author}</strong></p>
                                     <Link
@@ -190,7 +193,7 @@ function LatestNews() {
                                         <p className={styles.newsDate}>{item.date}</p>
                                     </div>
                                     <p className={styles.newsDescription}>{item.description}</p>
-                                    <Link to={item.link} className={styles.newsLink}>查看详情</Link>
+                                    <Link to={item.link} className={styles.newsLink}>查看详情 →</Link>
                                 </div>
                             </div>
                         </div>
