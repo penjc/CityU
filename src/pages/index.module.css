@@ -316,3 +316,41 @@
   transform: translateX(4px);
   color: var(--ifm-color-primary-dark);
 }
+
+/*页脚访客量和运行时间*/
+.siteStats {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--ifm-runtime-background-color); /* 和页脚背景一致 */
+  color: var(--ifm-runtime-color); /* 适配背景的文字颜色 */
+}
+
+.statItem {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px; /* 开启runItem则调为0 10 */
+  color: var(--ifm-runtime-color); /* 适配背景的文字颜色 */
+  font-size: 0.9rem; /* 调整字体大小 */
+}
+
+.runItem {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  color: var(--ifm-runtime-color); /* 适配背景的文字颜色 */
+  font-size: 0.9rem; /* 调整字体大小 */
+}
+
+.icon {
+  width: 20px; /* 根据需要调整图标大小 */
+  height: 20px;
+  margin-right: 5px; /* 图标和文字之间的间距 */
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));
+}
+
+
+.separator {
+  /*margin: 200px 1px;*/
+  color: var(--ifm-runtime-color);
+}
