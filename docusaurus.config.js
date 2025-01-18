@@ -44,6 +44,10 @@ const config = {
       // 'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-J2CVMJM0PN',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: './courseSidebars.js',
           // Please change this to your repo.
