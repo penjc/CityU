@@ -24,6 +24,9 @@
   --ifm-card-hover: #f0f8ff;
   --ifm-card-border: #ddd;
   --ifm-newsDescription: #555;
+
+  --ifm-runtime-background-color: #20232a;
+  --ifm-runtime-color: #858a96;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -44,6 +47,9 @@
   --ifm-card-hover: #3b3f47;
   --ifm-card-border: #666;
   --ifm-newsDescription: #ccc;
+
+  --ifm-runtime-background-color: #20232a;
+  --ifm-runtime-color: #858a96;
 }
 
 .navbar {

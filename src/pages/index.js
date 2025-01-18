@@ -204,6 +204,78 @@ function LatestNews() {
     );
 }
 
+function Runtime() {
+    const [runtime, setRuntime] = useState('');
+
+    useEffect(() => {
+        const startDate = new Date("01/10/2025 12:00:00"); // 替换为你的站点上线时间
+
+        const updateRuntime = () => {
+            const now = new Date();
+            const diff = now - startDate;
+
+            const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+            const hours = Math.floor((diff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+            const minutes = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
+            const seconds = Math.floor((diff % (60 * 1000)) / 1000);
+
+            setRuntime(`${days}天 ${hours}小时 ${minutes}分 ${seconds}秒`);
+        };
+
+        const interval = setInterval(updateRuntime, 1000);
+        return () => clearInterval(interval); // 清理定时器
+    }, []);
+
+    return (
+        <div className={clsx(styles.siteStats)}>
+            <span className={styles.runItem}>
+                <img src='/cityU-navigator/img/run.svg' alt="运行" className={styles.icon}/>
+                <strong>本站已运行：</strong> {runtime}
+            </span>
+        </div>
+    );
+}
+
+
+function SiteStats() {
+    const [visitCount, setVisitCount] = useState(0);
+    const [visitorCount, setVisitorCount] = useState(0);
+
+    useEffect(() => {
+        // 访问量（每次访问页面都会增加）
+        let visits = parseInt(localStorage.getItem('visitCount') || '0', 10);
+        visits += 1;
+        localStorage.setItem('visitCount', visits);
+        setVisitCount(visits);
+
+        // 访客量（基于 SessionStorage 判断是否为新会话）
+        if (!sessionStorage.getItem('isNewVisitor')) {
+            let visitors = parseInt(localStorage.getItem('visitorCount') || '0', 10);
+            visitors += 1;
+            localStorage.setItem('visitorCount', visitors);
+            sessionStorage.setItem('isNewVisitor', 'true');
+            setVisitorCount(visitors);
+        } else {
+            const currentVisitors = parseInt(localStorage.getItem('visitorCount') || '0', 10);
+            setVisitorCount(currentVisitors);
+        }
+    }, []);
+
+    return (
+        <div className={clsx(styles.siteStats)}>
+            <span className={styles.statItem}>
+                <img src='/cityU-navigator/img/view.svg' alt="访问量" className={styles.icon} />
+                <strong>本站访问量 {visitCount.toLocaleString()} 次</strong>
+            </span>
+            <span className={styles.separator}>|</span>
+            <span className={styles.statItem}>
+                <img src='/cityU-navigator/img/user.svg' alt="访客量" className={styles.icon} />
+                <strong>本站访客量 {visitorCount.toLocaleString()} 人</strong>
+            </span>
+        </div>
+    );
+}
+
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
     return (
@@ -216,6 +288,8 @@ export default function Home() {
                 <FeaturesSection />
                 <Comments />
                 <LatestNews />
+                {/*<Runtime />*/}
+                <SiteStats />
             </main>
         </Layout>
     );
