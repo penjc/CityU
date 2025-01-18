@@ -286,10 +286,10 @@ const config = {
           style: { width: '157px', height: 'auto' },
         },
         copyright: `Copyright © ${new Date().getFullYear()} CityU 手册.
-        <div>
-          本站访问量：<span id="busuanzi_container_site_pv"></span> 次 ｜ 本站访客数：<span id="busuanzi_container_site_uv"></span> 人
-        </div>
-        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<!--        <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>-->
+<!--        <div>-->
+<!--          本站访问量：<span id="busuanzi_container_site_pv"></span> 次 ｜ 本站访客数：<span id="busuanzi_container_site_uv"></span> 人-->
+<!--        </div>-->
         `,
       },
       // 搜索
