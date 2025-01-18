@@ -124,6 +124,7 @@
   margin-top: 0.5rem;
 }
 
+/* 新闻部分 */
 .newsSection {
   padding: 4rem 0; /* 增加容器的上下间距，提升视觉效果 */
   background-color: var(--ifm-background-color); /* 使用主页背景色 */
@@ -276,6 +277,9 @@
   font-weight: 600;
   color: var(--ifm-color-primary);
   margin-bottom: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .reviewText {
