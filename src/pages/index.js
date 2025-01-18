@@ -7,42 +7,7 @@ import { useColorMode } from '@docusaurus/theme-common';
 import { useEffect, useState } from 'react';
 import styles from './index.module.css';
 
-function HeroBanner() {
-    const { colorMode } = useColorMode();
-
-    return (
-        <div
-            className={clsx(
-                styles.hero,
-                colorMode === 'dark' ? styles.heroDark : styles.heroLight
-            )}
-        >
-            <div className={styles.container}>
-                <div className={styles.textContent}>
-                    <h1 className={styles.title}>
-                        <span className={styles.cityu}>CityU</span>
-                        <span className={styles.navigator}> 手册</span>
-                    </h1>
-                    <p className={styles.subtitle}>
-                        轻松畅游城大之旅
-                    </p>
-                    <Link className={clsx('button button--primary', styles.ctaButton)} to="/start">
-                        开始探索 →
-                    </Link>
-                </div>
-                <div className={styles.imageContainer}>
-                    <img
-                        className={styles.heroImage}
-                        src="/cityU-navigator/img/cityu.png"
-                        alt="CityU 插图"
-                    />
-                </div>
-            </div>
-        </div>
-    );
-}
-
-function FeaturesSection() {
+function HeroFeaturesSection() {
     const features = [
         {
             title: '课程全览',
@@ -62,26 +27,41 @@ function FeaturesSection() {
     ];
 
     return (
-        <div className={clsx(styles.featureSection)}>
-            <div className="container">
-                <div className="row">
-                    {features.map((feature, idx) => (
-                        <div key={idx} className="col col--4 text--center">
-                            <img
-                                src={feature.imgSrc}
-                                alt={feature.title}
-                                className={styles.featureImage}
-                                width="100"
-                                height="100"
-                            />
-                            <Heading as="h3" className={styles.featureTitle}>
-                                {feature.title}
-                            </Heading>
-                            <p className={styles.featureDescription}>{feature.description}</p>
-                        </div>
-                    ))}
-                </div>
+        <div className={clsx(styles.heroFeaturesSection)}>
+            <div className={styles.heroContent}>
+                <h1 className={styles.title}>
+                    <span className={styles.cityu}>CityU</span>
+                    <span className={styles.navigator}> 手册</span>
+                </h1>
+                <p className={styles.subtitle}>轻松畅游城大之旅</p>
+                <Link
+                    className={clsx('button button--primary', styles.ctaButton)}
+                    to="/start"
+                >
+                    开始探索 →
+                </Link>
             </div>
+            <div className={styles.features}>
+                        {features.map((feature, idx) => (
+                            <div
+                                key={idx}
+                            >
+                                <img
+                                    src={feature.imgSrc}
+                                    alt={feature.title}
+                                    className={styles.featureImage}
+                                    width="100"
+                                    height="100"
+                                />
+                                <h3 className={styles.featureTitle}>
+                                    {feature.title}
+                                </h3>
+                                <p className={styles.featureDescription}>
+                                    {feature.description}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
         </div>
     );
 }
@@ -212,8 +192,9 @@ export default function Home() {
             title={`${siteConfig.title}`}
             description="您的 CityU 学术与生活指南">
             <main>
-                <HeroBanner />
-                <FeaturesSection />
+                <HeroFeaturesSection/>
+                {/*<HeroBanner />*/}
+                {/*<FeaturesSection />*/}
                 <Comments />
                 <LatestNews />
             </main>
