@@ -45,9 +45,9 @@ function HeroBanner() {
 function FeaturesSection() {
     const features = [
         {
-            title: '课程推荐',
+            title: '课程全览',
             imgSrc: '/cityU-navigator/img/course.svg',
-            description: '根据您的兴趣和职业目标发现最适合的课程。',
+            description: '探索完整的课程信息与学生真实评价。',
         },
         {
             title: '资源中心',
