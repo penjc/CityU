@@ -70,8 +70,8 @@
 
 /* 删除导航栏的边框 */
 .navbar {
-  border: none !important; /* 删除边框 */
-  box-shadow: none !important; /* 删除阴影效果 */
+  /*border: none !important; !* 删除边框 *!*/
+  /*box-shadow: none !important; !* 删除阴影效果 *!*/
 }
 
 .clean-btn.navbar-sidebar__back {
