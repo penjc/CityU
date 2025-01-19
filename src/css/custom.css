@@ -59,18 +59,27 @@
 
 .navbar {
   background-color: var(--ifm-background-color); /* 替换为你需要的背景色 */
-  color: #ffffff; /* 替换为导航文字颜色 */
+  /*color: #ffffff; !* 替换为导航文字颜色 *!*/
   height: var(--navbar-height);
 }
 
 [data-theme='dark'] .navbar {
-  color: #cccccc; /* 深色模式下的文字颜色 */
+  /*color: #cccccc; !* 深色模式下的文字颜色 *!*/
+  height: var(--navbar-height);
 }
 
 /* 删除导航栏的边框 */
 .navbar {
   border: none !important; /* 删除边框 */
   box-shadow: none !important; /* 删除阴影效果 */
+}
+
+.clean-btn.navbar-sidebar__back {
+  color: var(--ifm-heading-color); /* 使用全局主题变量 */
+}
+
+.clean-btn.navbar-sidebar__back:hover {
+  color: var(--ifm-color-primary); /* 可选：鼠标悬停时设置为主色 */
 }
 
 /* 定义旋转动画 */
@@ -237,14 +246,9 @@
   color: #9f0c43; /* 鼠标悬停时文字颜色 */
 }
 
-/* 浅色模式下三条杠颜色 */
-[data-theme='light'] .navbar__toggle {
-  color: #333; /* 适合浅色背景的颜色 */
-}
-
-/* 暗色模式下三条杠颜色 */
-[data-theme='dark'] .navbar__toggle {
-  color: #fff; /* 适合深色背景的颜色 */
+/*三条杠*/
+.navbar__toggle {
+  color: var(--ifm-heading-color);
 }
 
 /* 定义搜索框容器样式 */
