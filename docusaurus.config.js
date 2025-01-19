@@ -292,7 +292,7 @@ const config = {
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `   版权所有 © ${new Date().getFullYear()} CityU 手册<br/>
-<!--        <img src='/cityU-navigator/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> <span id="runtime_span"></span><br/>-->
+        <img src='/cityU-navigator/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> <span id="runtime_span"></span><br/>
         <span id="busuanzi_container_site_pv">
           <img src='/cityU-navigator/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
           本站访问量 <span id="busuanzi_value_site_pv"></span> 次 | <img src='/cityU-navigator/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> 本站访客数 <span id="busuanzi_value_site_uv"></span> 人
