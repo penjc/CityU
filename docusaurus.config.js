@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'CityU 手册',
-  tagline: '全面的CityU课程、生活与职业发展资源',
+  tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
   favicon: 'https://penjc.github.io/cityU-navigator/img/favicon.ico',
 
   // Set the production url of your site here
@@ -352,7 +352,27 @@ const config = {
         url: 'https://penjc.github.io/cityU-navigator/',
         logo: 'https://penjc.github.io/cityU-navigator/img/logo.png', // 替换为实际 LOGO 路径
         description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
-        'sameAs': 'https://www.cityu.edu.hk/',
+        mainEntity: [
+          {
+            "@type": "WebPage",
+            "name": "开始探索",
+            "url": "https://penjc.github.io/cityU-navigator/start"
+          },
+          {
+            "@type": "WebPage",
+            "name": "初见城大",
+            "url": "https://penjc.github.io/cityU-navigator/docs/welcome/intro"
+          },
+          {
+            "@type": "WebPage",
+            "name": "课程指南",
+            "url": "https://penjc.github.io/cityU-navigator/docs/courses/intro"
+          },
+          {
+            "@type": "WebPage",
+            "name": "职业启航",
+            "url": "https://penjc.github.io/cityU-navigator/docs/career/intro"
+          },]
       }),
     },
   ],
