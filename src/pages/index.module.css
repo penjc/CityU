@@ -1,6 +1,6 @@
 .heroFeaturesSection {
   position: relative;
-  min-height: calc(100vh - var(--navbar-height) - var(--notification-bar-height));
+  min-height: calc(100vh - var(--navbar-height) - var(--announcement-bar-height));
   padding: 6rem 1rem;
   background: url('https://penjc.github.io/cityU-navigator/img/cityu.png') no-repeat center/cover;
   background-attachment: fixed; /* 背景固定不滚动 */
