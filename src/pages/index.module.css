@@ -34,7 +34,7 @@
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.6); /* 半透明黑色 */
-  backdrop-filter: blur(2px); /* 背景模糊效果 */
+  backdrop-filter: blur(2.5px); /* 背景模糊效果 */
   z-index: 1; /* 遮罩层在背景上方 */
 }
 .heroContent {
