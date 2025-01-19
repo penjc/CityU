@@ -140,7 +140,7 @@ const config = {
         },
         {
           name: 'description',
-          content: 'CityU 手册是一个为香港城市大学学生提供的全面平台，提供全面的课程信息与真实学生评价、校园攻略与资源和职业发展内容。'
+          content: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。'
         },
         {
           tagName: 'link',
@@ -351,7 +351,7 @@ const config = {
         name: 'CityU 手册',
         url: 'https://penjc.github.io/cityU-navigator/',
         logo: 'https://penjc.github.io/cityU-navigator/img/logo.png', // 替换为实际 LOGO 路径
-        description: 'CityU 手册是一个开源平台，旨在为香港城市大学学生提供详细的课程信息、校园指南和职业发展资源，帮助他们更有效地导航学术和校园生活。CityU Navigator is an open-source platform providing CityU students with detailed course information, campus guides, and career resources.',
+        description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
         'sameAs': 'https://www.cityu.edu.hk/',
       }),
     },
