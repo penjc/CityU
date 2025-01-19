@@ -116,12 +116,7 @@
   margin-right: 30px;
 }
 
-
 @media only screen and (max-width: 646px) {
-  .heroFeaturesSection {
-    background-position: -450px center;
-    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
-  }
 
   .features {
     flex-direction: column; /* 垂直排列 */
@@ -144,20 +139,6 @@
   }
 }
 
-@media only screen and (max-width: 440px) {
-  .heroFeaturesSection {
-    background-position: -650px center;
-    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
-  }
-}
-
-
-@media only screen and (max-width: 375px) {
-  .heroFeaturesSection {
-    background-position: -530px center;
-    background-size: cover; /* 确保背景图片仍然覆盖整个容器 */
-  }
-}
 /* 新闻部分 */
 .newsSection {
   padding: 4rem 0; /* 增加容器的上下间距，提升视觉效果 */
