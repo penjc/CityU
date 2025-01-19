@@ -190,11 +190,9 @@ export default function Home() {
         <Layout
             id="homePage"
             title={`${siteConfig.title}`}
-            description="您的 CityU 学术与生活指南">
+            description="CityU Navigator是一个专为香港城市大学学生打造的平台，提供全面课程信息与学生评价、校园资源和职业发展内容。">
             <main>
                 <HeroFeaturesSection/>
-                {/*<HeroBanner />*/}
-                {/*<FeaturesSection />*/}
                 <Comments />
                 <LatestNews />
             </main>
