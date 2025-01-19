@@ -12,6 +12,12 @@
   filter: brightness(0.9); /* 适度调暗背景 */
 }
 
+@media only screen and (max-width: 646px) {
+  .heroFeaturesSection {
+    background: url('https://penjc.github.io/cityU-navigator/img/cityu2.png') no-repeat center/cover;
+    filter: brightness(0.9); /* 适度调暗背景 */
+  }
+}
 /* 白色主题下的遮罩层 */
 .heroFeaturesSection::before {
   content: '';
