@@ -15,7 +15,7 @@
 @media only screen and (max-width: 1024px) {
   .heroFeaturesSection {
     background: url('https://penjc.github.io/cityU-navigator/img/cityu2.png') no-repeat center/cover;
-    background-attachment: fixed; /* 背景固定不滚动 */
+    /*background-attachment: fixed; !* 背景固定不滚动 *!*/
     filter: brightness(0.9); /* 适度调暗背景 */
   }
 }
