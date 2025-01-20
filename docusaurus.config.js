@@ -378,7 +378,8 @@ const config = {
   ],
   scripts: [
     {
-      src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+      // src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+      src: '/cityU-navigator/scripts/uvandpv.js',
       async: true,
     },
     {
