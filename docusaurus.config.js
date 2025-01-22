@@ -332,13 +332,13 @@ const config = {
         href: 'https://penjc.github.io/cityU-navigator/img/favicon.ico', // 使用你提供的图标链接
       },
     },
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com', // 示例，预加载 Google Fonts
-      },
-    },
+    // {
+    //   tagName: 'link',
+    //   attributes: {
+    //     rel: 'preconnect',
+    //     href: 'https://fonts.googleapis.com', // 示例，预加载 Google Fonts
+    //   },
+    // },
     // 添加 JSON-LD 结构化数据
     {
       tagName: 'script',
