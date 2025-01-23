@@ -51,7 +51,7 @@
 }
 
 .title {
-  font-size: 4.5rem; /* 字体大小与 Navigator 保持一致 */
+  font-size: 4.5rem;
   font-weight: 900;
   line-height: 1.2;
   background: linear-gradient(90deg, #de6f31, #da542b, #d23437, #bf1846, #9f0c43); /* 渐变颜色 */
@@ -59,23 +59,6 @@
   -webkit-text-fill-color: transparent; /* 文字为透明，显示背景 */
   text-fill-color: transparent; /* 支持更多浏览器 */
 }
-/*.cityu {*/
-/*  font-size: 4.5rem; !* 字体大小与 Navigator 保持一致 *!*/
-/*  font-weight: 900;*/
-/*  line-height: 1.2;*/
-/*  background: linear-gradient(90deg, #de6f31, #da542b, #d23437, #bf1846, #9f0c43); !* 渐变颜色 *!*/
-/*  -webkit-background-clip: text; !* 仅应用背景到文字 *!*/
-/*  -webkit-text-fill-color: transparent; !* 文字为透明，显示背景 *!*/
-/*  text-fill-color: transparent; !* 支持更多浏览器 *!*/
-/*}*/
-
-/*!* 黑色的 Navigator *!*/
-/*.navigator {*/
-/*  font-size: 4.5rem; !* 字体大小与 CityU 保持一致 *!*/
-/*  font-weight: 900;*/
-/*  color: var(--ifm-heading-color); !* 使用主题标题颜色（默认黑色） *!*/
-/*  text-transform: uppercase;*/
-/*}*/
 
 .subtitle {
   font-size: 1.4rem;

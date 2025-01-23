@@ -52,7 +52,7 @@
 
 ## 🧐 关于本站
 
-[![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/CityU/)
+[![CityU Screen Shot][product-screenshot]](https://penjc.github.io/CityU/)
 
 **CityU 手册** 是一个专为 `City University of Hong Kong` 学生打造的开源项目。
 

@@ -158,7 +158,7 @@ const config = {
           }
         },
         {name: 'twitter:card', content: 'summary_large_image'},
-        {name: 'twitter:title', content: 'CityU Navigator'},
+        {name: 'twitter:title', content: 'CityU 手册'},
         {name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.'},
         // { name: 'twitter:image', content: '/img/cityu-social-card.png' }, // 确保图片路径正确
       ],
@@ -299,7 +299,7 @@ const config = {
           },
         ],
         logo: {
-          alt: 'CityU Navigator Logo',
+          alt: 'CityU Logo',
           src: 'img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
         },
