@@ -49,6 +49,8 @@ const config = {
           anonymizeIP: true,
         },
         docs: {
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: './courseSidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -56,6 +58,9 @@ const config = {
             'https://github.com/penjc/cityU-navigator/edit/main/',
         },
         blog: {
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
+          blogSidebarTitle: '最新文章',
           showReadingTime: true,
           feedOptions: {
             type: ['rss', 'atom'],
@@ -74,8 +79,11 @@ const config = {
           customCss: './src/css/custom.css',
         },
         pages: {
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           path: 'src/pages',
-          // editUrl:'',
+          editUrl:
+              'https://github.com/penjc/cityU-navigator/edit/main/',
           routeBasePath: '',
           include: ['**/*.{js,jsx,ts,tsx,md,mdx}'],
           exclude: [
@@ -257,6 +265,10 @@ const config = {
                 label: '贡献指南',
                 href: '/contributing',
               },
+              // {
+              //   label: '博客',
+              //   href: '/blog',
+              // },
             ],
           },
           {
