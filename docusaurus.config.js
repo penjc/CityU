@@ -235,13 +235,13 @@ const config = {
             ],
           },
           {
-            href: 'https://github.com/penjc/CityU',
-            label: 'GitHub',
+            to: '/contributing',
+            label: '加入我们',
             position: 'right',
           },
           {
-            to: '/contributing',
-            label: '加入我们',
+            href: 'https://github.com/penjc/CityU',
+            className: 'header-github-link',
             position: 'right',
           },
         ],
@@ -265,10 +265,10 @@ const config = {
                 label: '贡献指南',
                 href: '/contributing',
               },
-              // {
-              //   label: '博客',
-              //   href: '/blog',
-              // },
+              {
+                label: '博客',
+                href: '/blog',
+              },
             ],
           },
           {
