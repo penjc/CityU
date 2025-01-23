@@ -63,7 +63,7 @@
 
 ```bash
 git clone https://github.com/penjc/CityU.git
-cd cityU-navigator
+cd CityU
 ```
 
 ---

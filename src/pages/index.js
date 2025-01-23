@@ -30,8 +30,8 @@ function HeroFeaturesSection() {
         <div className={clsx(styles.heroFeaturesSection)}>
             <div className={styles.heroContent}>
                 <h1 className={styles.title}>
-                    <span className={styles.cityu}>CityU</span>
-                    <span className={styles.navigator}> 手册</span>
+                    <span>CityU</span>
+                    <span> 手册</span>
                 </h1>
                 <p className={styles.subtitle}>轻松畅游城大之旅</p>
                 <Link
