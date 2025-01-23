@@ -11,17 +11,17 @@ function HeroFeaturesSection() {
     const features = [
         {
             title: '课程全览',
-            imgSrc: '/cityU-navigator/img/course.svg',
+            imgSrc: '/CityU/img/course.svg',
             description: '探索完整的课程信息与学生真实评价。',
         },
         {
             title: '资源中心',
-            imgSrc: '/cityU-navigator/img/resource-hub.svg',
+            imgSrc: '/CityU/img/resource-hub.svg',
             description: '访问为城大学生精选的攻略和学习资料。',
         },
         {
             title: '职业洞察',
-            imgSrc: '/cityU-navigator/img/career-insights.svg',
+            imgSrc: '/CityU/img/career-insights.svg',
             description: '借助校友经验，规划您的职业未来。',
         },
     ];
@@ -140,7 +140,7 @@ function LatestNews() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('https://penjc.github.io/cityU-navigator/scripts/news.json')
+        fetch('https://penjc.github.io/CityU/scripts/news.json')
             .then((response) => response.json())
             .then((data) => {
                 setNews(data);

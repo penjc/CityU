@@ -12,7 +12,7 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://penjc.github.io/cityU-navigator/">
+  <a href="https://penjc.github.io/CityU/">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -21,12 +21,12 @@
   <p align="center">
     一站式 CityU 学术与生活指南，提供详细的课程信息、学生评价、校园攻略及职业资源。
     <br />
-    <a href="https://penjc.github.io/cityU-navigator/start"><strong>开始探索 »</strong></a>
+    <a href="https://penjc.github.io/CityU/start"><strong>开始探索 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
+    <a href="https://github.com/penjc/CityU/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
     &middot;
-    <a href="https://github.com/penjc/cityU-navigator/issues/new?labels=enhancement&template=feature-request---.md">功能建议</a>
+    <a href="https://github.com/penjc/CityU/issues/new?labels=enhancement&template=feature-request---.md">功能建议</a>
   </p>
 </div>
 
@@ -52,15 +52,15 @@
 
 ## 🧐 关于本站
 
-[![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/cityU-navigator/)
+[![CityU Navigator Screen Shot][product-screenshot]](https://penjc.github.io/CityU/)
 
 **CityU 手册** 是一个专为 `City University of Hong Kong` 学生打造的开源项目。
 
 ### 内容概览
-- 🏫 **[初见城大](https://penjc.github.io/cityU-navigator/docs/welcome/intro)**：城大`全面指南`，涵盖新生注册、校园设施和学生资源等关键信息，轻松融入城大生活。
-- 📘 **[课程指南](https://penjc.github.io/cityU-navigator/docs/courses/intro)**：深入了解最新的 课程结构、学习内容和课程目标，掌握详细的考试信息和 `真实学生评价`。
-- 💼 **[职业启航](https://penjc.github.io/cityU-navigator/docs/career/intro)**：提供丰富的 `职业资源`，帮助学生掌握行业机会、就业准备和 `同学分享`，助力顺利进入职场。
-- ❓ **[常见问题](https://penjc.github.io/cityU-navigator/docs/faq/intro)**：一站式解答学生 `常见疑问`，提供详细解答和实用资源。
+- 🏫 **[初见城大](https://penjc.github.io/CityU/docs/welcome/intro)**：城大`全面指南`，涵盖新生注册、校园设施和学生资源等关键信息，轻松融入城大生活。
+- 📘 **[课程指南](https://penjc.github.io/CityU/docs/courses/intro)**：深入了解最新的 课程结构、学习内容和课程目标，掌握详细的考试信息和 `真实学生评价`。
+- 💼 **[职业启航](https://penjc.github.io/CityU/docs/career/intro)**：提供丰富的 `职业资源`，帮助学生掌握行业机会、就业准备和 `同学分享`，助力顺利进入职场。
+- ❓ **[常见问题](https://penjc.github.io/CityU/docs/faq/intro)**：一站式解答学生 `常见疑问`，提供详细解答和实用资源。
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -71,7 +71,7 @@
 
 贡献是开源社区的核心！我们欢迎一切形式的贡献！
 
-请参考 [贡献指南](https://penjc.github.io/cityU-navigator/contributing) 开始您的贡献。
+请参考 [贡献指南](https://penjc.github.io/CityU/contributing) 开始您的贡献。
 
 1. Fork 项目
 2. 新建分支：`git checkout -b feature/YourFeature`
@@ -107,7 +107,7 @@
 
 ## 📜 许可证
 
-本项目基于 MIT License 许可。详情请查看 [LICENSE](https://github.com/penjc/cityU-navigator/blob/main/LICENSE)。
+本项目基于 MIT License 许可。详情请查看 [LICENSE](https://github.com/penjc/CityU/blob/main/LICENSE)。
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -116,7 +116,7 @@
 ## 📬 联系我们
 
 - [Email](mailto:jcpeng3-c@my.cityu.edu.hk)
-- [GitHub Issues](https://github.com/penjc/cityU-navigator/issues)
+- [GitHub Issues](https://github.com/penjc/CityU/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,21 +124,21 @@
 
 ## 👨‍💻 贡献者
 
-感谢所有为 **CityU 手册** 作出贡献的人！[【参与贡献】](https://penjc.github.io/cityU-navigator/contributing)
+感谢所有为 **CityU 手册** 作出贡献的人！[【参与贡献】](https://penjc.github.io/CityU/contributing)
 
-<a href="https://github.com/penjc/cityU-navigator/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=penjc/cityU-navigator" alt="贡献者列表" />
+<a href="https://github.com/penjc/CityU/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=penjc/CityU" alt="贡献者列表" />
 </a>
 
 <!-- MARKDOWN LINKS -->
-[contributors-shield]: https://img.shields.io/github/contributors/penjc/cityU-navigator.svg?style=for-the-badge
-[contributors-url]: https://github.com/penjc/cityU-navigator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/penjc/cityU-navigator.svg?style=for-the-badge
-[forks-url]: https://github.com/penjc/cityU-navigator/network/members
-[stars-shield]: https://img.shields.io/github/stars/penjc/cityU-navigator.svg?style=for-the-badge
-[stars-url]: https://github.com/penjc/cityU-navigator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/penjc/cityU-navigator.svg?style=for-the-badge
-[issues-url]: https://github.com/penjc/cityU-navigator/issues
-[license-shield]: https://img.shields.io/github/license/penjc/cityU-navigator.svg?style=for-the-badge
-[license-url]: https://github.com/penjc/cityU-navigator/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/penjc/CityU.svg?style=for-the-badge
+[contributors-url]: https://github.com/penjc/CityU/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/penjc/CityU.svg?style=for-the-badge
+[forks-url]: https://github.com/penjc/CityU/network/members
+[stars-shield]: https://img.shields.io/github/stars/penjc/CityU.svg?style=for-the-badge
+[stars-url]: https://github.com/penjc/CityU/stargazers
+[issues-shield]: https://img.shields.io/github/issues/penjc/CityU.svg?style=for-the-badge
+[issues-url]: https://github.com/penjc/CityU/issues
+[license-shield]: https://img.shields.io/github/license/penjc/CityU.svg?style=for-the-badge
+[license-url]: https://github.com/penjc/CityU/blob/main/LICENSE
 [product-screenshot]: images/screenshot.png

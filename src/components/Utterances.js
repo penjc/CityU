@@ -7,7 +7,7 @@ const Utterances = () => {
         const script = document.createElement('script');
         script.src = 'https://utteranc.es/client.js';
         script.async = true;
-        script.setAttribute('repo', 'penjc/cityU-navigator');
+        script.setAttribute('repo', 'penjc/CityU');
         script.setAttribute('issue-term', 'title');
         script.setAttribute('theme', 'github-light');
         script.setAttribute('crossorigin', 'anonymous');

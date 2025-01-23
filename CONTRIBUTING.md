@@ -29,11 +29,11 @@
     - **职业起航**：为求职者提供建议和工具。
     - **常见问题**：解答用户的常见疑问。
 
-### 🌟 [改善功能](https://github.com/penjc/cityU-navigator/issues/new?labels=enhancement&template=feature-request---.md)
+### 🌟 [改善功能](https://github.com/penjc/CityU/issues/new?labels=enhancement&template=feature-request---.md)
 - 优化网站设计和导航，提升用户体验。
 - 提议或实现新功能。
 
-### 🔍 [修复问题](https://github.com/penjc/cityU-navigator/issues/new?labels=bug&template=bug-report---.md)
+### 🔍 [修复问题](https://github.com/penjc/CityU/issues/new?labels=bug&template=bug-report---.md)
 - 报告或修复网站功能或内容中的错误。
 
 ---
@@ -62,7 +62,7 @@
 从 GitHub 克隆代码库：
 
 ```bash
-git clone https://github.com/penjc/cityU-navigator.git
+git clone https://github.com/penjc/CityU.git
 cd cityU-navigator
 ```
 
@@ -92,7 +92,7 @@ npm run start
 ## 🛠️3 如何提交贡献？
 
 1. **Fork 仓库**  
-   前往 [CityU 手册 GitHub 仓库](https://github.com/penjc/cityU-navigator)，点击 **Fork**。
+   前往 [CityU 手册 GitHub 仓库](https://github.com/penjc/CityU)，点击 **Fork**。
 
 2. **创建新分支**  
    为您的分支使用一个描述性的名称：
@@ -141,7 +141,7 @@ npm run start
 #### 4.1.1 课程信息页面模版
 **用途**：提供单个课程的详细信息，包括简介、学习目标、评估方式和课程评价。
 
-**模版链接**：[课程信息页面模版](https://github.com/penjc/cityU-navigator/blob/main/COURSE_TEMPLATE.mdx)
+**模版链接**：[课程信息页面模版](https://github.com/penjc/CityU/blob/main/COURSE_TEMPLATE.mdx)
 
 ---
 
@@ -149,13 +149,13 @@ npm run start
 
 如果您有任何问题或需要帮助，请通过以下方式联系我们：
 
-- **提交 Issue**：[GitHub Issues](https://github.com/penjc/cityU-navigator/issues)
+- **提交 Issue**：[GitHub Issues](https://github.com/penjc/CityU/issues)
 
 ---
 
 ## ⚠️6 行为准则
 
-所有贡献者都需遵守 [行为准则](https://github.com/penjc/cityU-navigator/blob/main/CODE_OF_CONDUCT.md)。请在互动中保持尊重与包容。
+所有贡献者都需遵守 [行为准则](https://github.com/penjc/CityU/blob/main/CODE_OF_CONDUCT.md)。请在互动中保持尊重与包容。
 
 ---
 
