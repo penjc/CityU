@@ -12,13 +12,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'CityU 手册',
   tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
-  favicon: 'https://penjc.github.io/cityU-navigator/img/favicon.ico',
+  favicon: 'https://penjc.github.io/CityU/img/favicon.ico',
 
   // Set the production url of your site here
   url: 'https://penjc.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/cityU-navigator',
+  baseUrl: '/CityU',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -109,13 +109,13 @@ const config = {
 
             // 对特定页面加大权重
             const highPriorityUrls = [
-              'https://penjc.github.io/cityU-navigator/',
-              'https://penjc.github.io/cityU-navigator/start',
-              'https://penjc.github.io/cityU-navigator/docs/welcome/intro',
-              'https://penjc.github.io/cityU-navigator/docs/courses/intro',
-              'https://penjc.github.io/cityU-navigator/docs/career/intro',
-              'https://penjc.github.io/cityU-navigator/docs/faq/intro',
-              'https://penjc.github.io/cityU-navigator/about',
+              'https://penjc.github.io/CityU/',
+              'https://penjc.github.io/CityU/start',
+              'https://penjc.github.io/CityU/docs/welcome/intro',
+              'https://penjc.github.io/CityU/docs/courses/intro',
+              'https://penjc.github.io/CityU/docs/career/intro',
+              'https://penjc.github.io/CityU/docs/faq/intro',
+              'https://penjc.github.io/CityU/about',
             ];
 
             const updatedItems = items.map(item => {
@@ -154,7 +154,7 @@ const config = {
           tagName: 'link',
           attributes: {
             rel: 'icon',
-            href: 'https://penjc.github.io/cityU-navigator/img/favicon.ico',
+            href: 'https://penjc.github.io/CityU/img/favicon.ico',
           }
         },
         {name: 'twitter:card', content: 'summary_large_image'},
@@ -181,7 +181,7 @@ const config = {
           alt: 'Site Logo',
           src: 'img/logo.svg',
           className: 'navbar-icon',
-          href: 'https://penjc.github.io/cityU-navigator/',
+          href: 'https://penjc.github.io/CityU/',
           target: '_self',
         },
         items: [
@@ -304,10 +304,10 @@ const config = {
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `   版权所有 © ${new Date().getFullYear()} CityU 手册<br/>
-        <img src='/cityU-navigator/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> <span id="runtime_span"></span><br/>
+        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> <span id="runtime_span"></span><br/>
         <span id="busuanzi_container_site_pv">
-          <img src='/cityU-navigator/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-          本站访问量 <span id="busuanzi_value_site_pv"></span> 次 | <img src='/cityU-navigator/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> 本站访客数 <span id="busuanzi_value_site_uv"></span> 人
+          <img src='/CityU/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
+          本站访问量 <span id="busuanzi_value_site_pv"></span> 次 | <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> 本站访客数 <span id="busuanzi_value_site_uv"></span> 人
         </span>
         `,
       },
@@ -341,7 +341,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        href: 'https://penjc.github.io/cityU-navigator/img/favicon.ico', // 使用你提供的图标链接
+        href: 'https://penjc.github.io/CityU/img/favicon.ico', // 使用你提供的图标链接
       },
     },
     // {
@@ -361,29 +361,29 @@ const config = {
         '@context': 'https://schema.org/',
         '@type': 'Organization',
         name: 'CityU 手册',
-        url: 'https://penjc.github.io/cityU-navigator/',
-        logo: 'https://penjc.github.io/cityU-navigator/img/logo.png', // 替换为实际 LOGO 路径
+        url: 'https://penjc.github.io/CityU/',
+        logo: 'https://penjc.github.io/CityU/img/logo.png', // 替换为实际 LOGO 路径
         description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
         mainEntity: [
           {
             "@type": "WebPage",
             "name": "开始探索",
-            "url": "https://penjc.github.io/cityU-navigator/start"
+            "url": "https://penjc.github.io/CityU/start"
           },
           {
             "@type": "WebPage",
             "name": "初见城大",
-            "url": "https://penjc.github.io/cityU-navigator/docs/welcome/intro"
+            "url": "https://penjc.github.io/CityU/docs/welcome/intro"
           },
           {
             "@type": "WebPage",
             "name": "课程指南",
-            "url": "https://penjc.github.io/cityU-navigator/docs/courses/intro"
+            "url": "https://penjc.github.io/CityU/docs/courses/intro"
           },
           {
             "@type": "WebPage",
             "name": "职业启航",
-            "url": "https://penjc.github.io/cityU-navigator/docs/career/intro"
+            "url": "https://penjc.github.io/CityU/docs/career/intro"
           },]
       }),
     },
@@ -391,11 +391,11 @@ const config = {
   scripts: [
     {
       // src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-      src: '/cityU-navigator/scripts/uvandpv.js',
+      src: '/CityU/scripts/uvandpv.js',
       async: true,
     },
     {
-      src: '/cityU-navigator/scripts/runtime.js',
+      src: '/CityU/scripts/runtime.js',
       async: true,
     },
   ],

@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://penjc.github.io/cityU-navigator/sitemap.xml
+Sitemap: https://penjc.github.io/CityU/sitemap.xml
