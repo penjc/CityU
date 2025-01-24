@@ -1,0 +1,88 @@
+/* styles.module.css */
+
+.mainContent {
+    padding: 4rem 1rem;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.pageTitle {
+    font-size: 3rem; /* 标题大小 */
+    font-weight: bold;
+    margin-bottom: 5rem;
+    background: linear-gradient(90deg, #de6f31, #9f0c43);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.friendList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.friendCard {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.friendCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.cardImageContainer {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.cardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cardBody {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cardTitle {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.cardTitle:hover {
+    transform: scale(1.05);
+    text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardDescription {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .friendList {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .friendList {
+        grid-template-columns: 1fr;
+    }
+}

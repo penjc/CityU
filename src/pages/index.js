@@ -3,7 +3,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
-import { useColorMode } from '@docusaurus/theme-common';
 import { useEffect, useState } from 'react';
 import styles from './index.module.css';
 

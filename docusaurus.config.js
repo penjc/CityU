@@ -259,20 +259,24 @@ const config = {
             ],
           },
           {
-            title: '参与',
+            title: '更多',
             items: [
-              {
-                label: '贡献指南',
-                href: '/contributing',
-              },
               {
                 label: '博客',
                 href: '/blog',
               },
+              {
+                label: '友链',
+                href: '/friendLinks',
+              },
+              {
+                label: '贡献指南',
+                href: '/contributing',
+              },
             ],
           },
           {
-            title: '更多',
+            title: '法律相关',
             items: [
               {
                 label: '版权',
