@@ -69,14 +69,33 @@
 }
 
 .cardTitle {
+    /*position: relative;*/
+    /*display: inline-block;*/
+    text-decoration: none !important;
+    font-size: 1.3rem;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     transition: color 0.3s, transform 0.3s;
 }
 
 .cardTitle:hover {
     transform: scale(1.05);
     text-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cardTitle::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* 下划线的粗细 */
+    background-color: currentColor; /* 与文字颜色一致 */
+    transition: width 0.3s ease; /* 控制下划线从左到右的动画效果 */
+}
+
+.cardTitle:hover::after {
+    width: 100%; /* 下划线展开到整个链接宽度 */
 }
 
 .cardDescription {
