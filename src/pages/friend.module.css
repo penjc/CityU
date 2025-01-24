@@ -9,11 +9,20 @@
 .pageTitle {
     font-size: 3rem; /* 标题大小 */
     font-weight: bold;
-    margin-bottom: 5rem;
     background: linear-gradient(90deg, #de6f31, #9f0c43);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+}
+
+.description{
+
+}
+
+.contactButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7rem;
 }
 
 .friendList {
