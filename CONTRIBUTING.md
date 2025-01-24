@@ -16,18 +16,20 @@
 
 ---
 
-## 📋 1.1 您可以贡献的内容
+## 📋 2 您可以贡献的内容
 
 以下是您可以参与的领域：
 
-### 📝 内容贡献
-- 添加或更新 **课程页面**：
-    - 总结课程大纲、学习目标及评估方式。
-    - 分享往届学生的课程反馈和经验。
-- 扩展其他部分：
-    - **初见城大**：为新生提供详细的入学信息。
-    - **职业起航**：为求职者提供建议和工具。
-    - **常见问题**：解答用户的常见疑问。
+### 📝 **内容贡献**
+- **课程页面**：
+    - 添加或更新课程内容，如总结课程大纲、学习目标及评估方式。
+    - 分享对课程的真实评价、学习方法及考试经验，帮助他人更好地选择课程。
+- **其他板块**：
+    - **初见城大**：为新生提供更详细的入学指导，包括注册流程、校园资源及生活建议。
+    - **职业启航**：扩展职业资源，提供求职技巧及面试准备工具或投稿你的求职经历。
+    - **常见问题**：解答在学习、生活及职业规划方面的常见疑问，帮助更多学生解决困惑。
+
+通过参与以上内容，您将帮助更多 CityU 学生高效利用资源，提升学术与职业体验。🎉
 
 ### 🌟 [改善功能](https://github.com/penjc/CityU/issues/new?labels=enhancement&template=feature-request---.md)
 - 优化网站设计和导航，提升用户体验。
@@ -38,9 +40,9 @@
 
 ---
 
-## 🤝 2 如何开始？
+## 🤝 3 如何开始？
 
-### 2.1. 安装Node
+### 3.1. 安装Node
 **Node.js 版本 18.0 或更高**：  
 您可以通过以下命令检查当前版本：
   ```bash
@@ -58,7 +60,7 @@
 
 ---
 
-### 2.2 克隆代码库
+### 3.2 克隆代码库
 从 GitHub 克隆代码库：
 
 ```bash
@@ -68,7 +70,7 @@ cd CityU
 
 ---
 
-### 2.3 安装依赖
+### 3.3 安装依赖
 安装项目所需依赖：
 
 ```bash
@@ -77,7 +79,7 @@ npm install
 
 ---
 
-### 2.4 本地运行
+### 3.4 本地运行
 启动开发服务器以预览网站：
 
 ```bash
@@ -86,10 +88,13 @@ npm run start
 
 开发服务器将运行在 `http://localhost:3000`，您可以在浏览器中访问。
 
+:::tip
+本站由 [Docusaurus](https://docusaurus.io/) 构建，您可以参考 [Docusaurus 文档](https://docusaurus.io/docs) 了解更多关于本站的构建和贡献信息。
+:::
 
 ---
 
-## 🛠️3 如何提交贡献？
+## 🛠️4 如何提交贡献？
 
 1. **Fork 仓库**  
    前往 [CityU 手册 GitHub 仓库](https://github.com/penjc/CityU)，点击 **Fork**。
@@ -119,14 +124,32 @@ npm run start
 6. **创建 Pull Request**  
    前往原始仓库并点击 **New Pull Request**。
 
+:::warning
+每次提交前，请确保您的分支是基于 **[CityU 手册仓库](https://github.com/penjc/CityU)** 最新的 `main` 分支。（由于仓库可能会在您做更改时有更新，因此建议您在提交前先更新您的分支，避免发生代码冲突。）
+
+可以通过以下命令更新你的本地分支：
+```bash
+git add remote upstream https://github.com/penjc/CityU.git
+git add .
+git checkout main
+git pull upstream main
+git checkout -b feature/your-feature-name
+git rebase main
+```
+:::
+
+:::tip
+您可以参考 [GitHub Docs](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests) 了解更多关于 GitHub 协作的使用方法。
+:::
+
 ---
 
-## ✍️4 **内容指南**
+## ✍️5 **内容指南**
 
 在此部分，我们将详细列出每种页面的模版，并附上结构化的格式说明，帮助您快速高效地完成内容创作。
 
 
-### 4.1 **内容撰写要求**
+### **内容撰写要求**
 1. **格式化**
     - 使用正确的 **mdx** 格式撰写页面。
     - 请确保所有内容符合以下模版的结构规范。
@@ -136,28 +159,31 @@ npm run start
 
 ---
 
-### 4.1 **页面模版列表**
+### **页面模版**
 
-#### 4.1.1 课程信息页面模版
-**用途**：提供单个课程的详细信息，包括简介、学习目标、评估方式和课程评价。
+#### 课程信息页面模版:
+- **用途**：提供单个课程的详细信息，包括简介、学习目标、评估方式和课程评价。
 
-**模版链接**：[课程信息页面模版](https://github.com/penjc/CityU/blob/main/COURSE_TEMPLATE.mdx)
+- **模版链接**：[课程信息页面模版](https://github.com/penjc/CityU/blob/main/COURSE_TEMPLATE.mdx)
 
 ---
 
-## 📬5 联系与支持
+## 📬6 联系与支持
 
 如果您有任何问题或需要帮助，请通过以下方式联系我们：
 
-- **提交 Issue**：[GitHub Issues](https://github.com/penjc/CityU/issues)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat-square)](https://github.com/penjc/CityU)
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Submit%20Issue-green?logo=github&style=flat-square)](https://github.com/penjc/CityU/issues)
+
 
 ---
 
-## ⚠️6 行为准则
+## ⚠️7 行为准则
 
 所有贡献者都需遵守 [行为准则](https://github.com/penjc/CityU/blob/main/CODE_OF_CONDUCT.md)。请在互动中保持尊重与包容。
 
 ---
 
-非常感谢您考虑为 **CityU 手册** 做出贡献！  
-让我们携手将它打造为 CityU 社区的一份宝贵资源！
+> 非常感谢您考虑为 **CityU 手册** 做出贡献！
+> 让我们携手将它打造为城大社区的一份宝贵资源！

@@ -91,6 +91,36 @@ npm run start
 
 开发服务器将运行在 `http://localhost:3000`，您可以在浏览器中访问。
 
+<ExpandableSection title="目录说明">
+    **blog/**
+    存放博客文件，用于记录更新日志、公告等内容。
+    - **authors.yml**：博客作者信息配置文件。
+    - **tags.yml**：博客标签配置文件。
+
+    **docs/**
+    包含文档内容，分为多个子目录（`welcome`, `courses`, `career`, `faq`），分别对应不同的模块：
+    - **welcome/**：初见城大。
+    - **courses/**：课程指南。
+    - **career/**：职业起航。
+    - **faq/**：常见问题及解答。
+
+    **src/pages/**
+    自定义页面目录，用于非文档页面的内容，如：
+    - **index.js**：网站首页。
+    - **start.mdx**：开始探索页面。
+    - **about.mdx**：关于页面。
+    - **contributing.mdx**：贡献指南。
+    - **copyright.mdx**：版权声明页面。
+    - **disclaimer.mdx**：免责声明页面。
+    - **privacy-policy.mdx**：隐私政策页面。
+
+    **docusaurus.config.js**
+    网站配置文件，用于配置元数据、插件、导航栏等信息。
+</ExpandableSection>
+
+:::tip
+本站由 [Docusaurus](https://docusaurus.io/) 构建，您可以参考 [Docusaurus 文档](https://docusaurus.io/docs) 了解更多关于本站的构建和贡献信息。
+:::
 
 ---
 
@@ -124,6 +154,24 @@ npm run start
 6. **创建 Pull Request**  
    前往原始仓库并点击 **New Pull Request**。
 
+:::warning
+每次提交前，请确保您的分支是基于 **[CityU 手册仓库](https://github.com/penjc/CityU)** 最新的 `main` 分支。（由于仓库可能会在您做更改时有更新，因此建议您在提交前先更新您的分支，避免发生代码冲突。）
+
+可以通过以下命令更新你的本地分支：
+```bash
+git add remote upstream https://github.com/penjc/CityU.git
+git add .
+git checkout main
+git pull upstream main
+git checkout -b feature/your-feature-name
+git rebase main
+```
+:::
+
+:::tip
+您可以参考 [GitHub Docs](https://docs.github.com/zh/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests) 了解更多关于 GitHub 协作的使用方法。
+:::
+
 ---
 
 ## ✍️5 **内容指南**
@@ -148,8 +196,7 @@ npm run start
 
 - **模版链接**：[课程信息页面模版](https://github.com/penjc/CityU/blob/main/COURSE_TEMPLATE.mdx)
 
-- **模版详情**：
-<ExpandableSection title="查看模版代码">
+<ExpandableSection title="查看模版详情">
 ```mdx
 ---
 sidebar_position: 1
