@@ -30,6 +30,12 @@ const friendLinks = [
         image: '/CityU/img/friend/hitsz.png',
     },
     {
+        title: 'TJU CourseSharing',
+        description: '天津大学课程共享计划',
+        website: 'https://cs.tjuse.com/zh-CN/',
+        image: '/CityU/img/friend/tju.png',
+    },
+    {
         title: 'DUT Manual',
         description: '大工人的一站式生存指南',
         website: 'https://man.naosi.org/',
@@ -58,12 +64,6 @@ const friendLinks = [
         description: '南方科技大学留学经验文档',
         website: 'https://sustech-application.com/#/',
         image: '/CityU/img/friend/sust.png',
-    },
-    {
-        title: '四川大学飞跃手册',
-        description: '四川大学留学经验文档',
-        website: 'https://scu-flying.com/',
-        image: '/CityU/img/friend/scu.png',
     },
 ];
 
