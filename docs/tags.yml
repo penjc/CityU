@@ -1,0 +1,4 @@
+course:
+  label: '课程'
+  permalink: '/course'
+  description: '城大课程'
