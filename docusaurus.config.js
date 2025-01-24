@@ -262,12 +262,12 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '博客',
-                href: '/blog',
-              },
-              {
                 label: '友链',
                 href: '/friendLinks',
+              },
+              {
+                label: '博客',
+                href: '/blog',
               },
               {
                 label: '贡献指南',

@@ -69,7 +69,7 @@ function FriendCard({ site }) {
             </div>
             <div className={styles.cardBody}>
                 <a href={site.website} className={styles.cardTitle} target="_blank" rel="noopener noreferrer">
-                    <h3>{site.title}</h3>
+                    {site.title}
                 </a>
                 <p className={styles.cardDescription}>{site.description}</p>
             </div>
@@ -87,7 +87,7 @@ export default function Home() {
             <main className={styles.mainContent}>
                 <h1 className={clsx('text--center', styles.pageTitle)}>友链</h1>
                 <p className={clsx('text--center', styles.description)}>
-                    欢迎更多优质资源加入友链，共建一个互助共享的学习社区。
+                    欢迎更多优质平台加入友链，共建一个互助共享的学习社区。
                 </p>
                 <div className={clsx('text--center', styles.contactButton)}>
                     <a href="mailto:jcpeng3-c@my.cityu.edu.hk" className="button button--primary">
