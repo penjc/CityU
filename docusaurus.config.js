@@ -66,7 +66,10 @@ const config = {
           blogSidebarTitle: '最新文章',
           showReadingTime: true,
           feedOptions: {
-            type: ['rss', 'atom'],
+            type: 'all',
+            title: 'CityU GuideBook Blog',
+            description: 'Keep up to date with upcoming CityU GuideBook releases and articles by following our feed!',
+            copyright: `Copyright © ${new Date().getFullYear()} CityU GuideBook`,
             xslt: true,
           },
           // Please change this to your repo.
@@ -259,7 +262,7 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: '探索',
+            title: '快速导航',
             items: [
               { label: '首页', to: '/' },
               { label: '快速开始', to: '/start' },
@@ -267,7 +270,7 @@ const config = {
             ],
           },
           {
-            title: '更多',
+            title: '探索更多',
             items: [
               {
                 label: '博客',
@@ -284,7 +287,7 @@ const config = {
             ],
           },
           {
-            title: '法律相关',
+            title: '法律信息',
             items: [
               {
                 label: '版权',
@@ -306,6 +309,14 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/penjc/CityU',
+              },
+              {
+                label: 'RSS 订阅',
+                href: 'https://penjc.github.io/CityU/blog/rss.xml',
+              },
+              {
+                label: 'Atom 订阅',
+                href: 'https://penjc.github.io/CityU/blog/atom.xml',
               },
             ],
           },
