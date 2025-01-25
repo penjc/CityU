@@ -32,7 +32,10 @@ jobs:
 
       - name: Install Dependencies
         run: npm ci
+
       - name: Build Web
+        env:
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }} # 将 Token 注入到环境变量
         run: npm run build
 
       - name: Update Build

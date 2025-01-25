@@ -10,6 +10,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  customFields: {
+    CHANGE_LOG: process.env.CHANGE_LOG,
+  },
   title: 'CityU 手册',
   tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
   favicon: 'https://penjc.github.io/CityU/img/favicon.ico',
@@ -267,16 +270,16 @@ const config = {
             title: '更多',
             items: [
               {
-                label: '友链',
-                href: '/friendLinks',
-              },
-              {
                 label: '博客',
                 href: '/blog',
               },
               {
                 label: '贡献指南',
                 href: '/contributing',
+              },
+              {
+                label: '更新日志',
+                href: '/changeLog',
               },
             ],
           },

@@ -4,23 +4,35 @@ on:
   pull_request:
     branches:
       - main
-    # 如果你想要进一步定义触发、路径以及其他内容，请检阅 Github Actions 文档
-    # https://docs.github.com/zh/actions/using-workflows/workflow-syntax-for-github-actions#on
 
 jobs:
   test-deploy:
     name: 测试部署
     runs-on: ubuntu-latest
     steps:
+      # 检出代码
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
+      # 设置 Node.js 环境
       - uses: actions/setup-node@v4
         with:
           node-version: 18
-          cache: npm # 替换为 npm 缓存
+          cache: npm
 
+      # 安装依赖
       - name: 安装依赖
         run: npm ci
+
+      # 设置环境变量
+      - name: 设置环境变量
+        env:
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
+        run: echo "环境变量 GITHUB_TOKEN 已设置"
+
+      # 测试构建网站
       - name: 测试构建网站
+        env:
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }} # 将环境变量注入到构建中
         run: npm run build
