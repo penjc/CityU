@@ -238,13 +238,13 @@ const config = {
             ],
           },
           {
-            to: '/contributing',
-            label: '加入我们',
+            to: '/friendLinks',
+            label: '友情链接',
             position: 'right',
           },
           {
-            to: '/friendLinks',
-            label: '友情链接',
+            to: '/contributing',
+            label: '加入我们',
             position: 'right',
           },
           {
