@@ -81,11 +81,11 @@ export default function Home() {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            id="homePage"
+            id="friendPage"
             title={`${siteConfig.title}`}
             description="CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。">
             <main className={styles.mainContent}>
-                <h1 className={clsx('text--center', styles.pageTitle)}>友链</h1>
+                <h1 className={clsx('text--center', styles.pageTitle)}>友情链接</h1>
                 <p className={clsx('text--center', styles.description)}>
                     欢迎更多优质平台加入友链，共建一个互助共享的学习社区。
                 </p>
@@ -94,9 +94,10 @@ export default function Home() {
                         联系我们以添加友链
                     </a>
                 </div>
+                <div className={styles.divider}></div>
                 <div className={styles.friendList}>
                     {friendLinks.map((site, index) => (
-                        <FriendCard key={index} site={site} />
+                        <FriendCard key={index} site={site}/>
                     ))}
                 </div>
             </main>

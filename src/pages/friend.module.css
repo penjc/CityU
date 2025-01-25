@@ -7,9 +7,9 @@
 }
 
 .pageTitle {
-    font-size: 3rem; /* 标题大小 */
+    font-size: 3rem;
     font-weight: bold;
-    background: linear-gradient(90deg, #de6f31, #9f0c43);
+    background: linear-gradient(90deg, #de6f31, #da542b, #d23437, #bf1846, #9f0c43);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -22,7 +22,17 @@
 .contactButton {
     display: flex;
     justify-content: center;
-    margin-bottom: 7rem;
+    margin-bottom: 2.5rem;
+}
+
+.divider {
+    width: 95%; /* 设置宽度为内容区域的百分比 */
+    max-width: 1200px; /* 最大宽度限制 */
+    height: 4px; /* 高度 */
+    background: linear-gradient(90deg, #de6f31, #bf1846, #9f0c43); /* 渐变色 */
+    margin: 0 auto 2rem;
+    margin-bottom: 5rem;
+    border-radius: 2px; /* 圆角 */
 }
 
 .friendList {

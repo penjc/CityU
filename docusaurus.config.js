@@ -240,6 +240,11 @@ const config = {
             position: 'right',
           },
           {
+            to: '/friendLinks',
+            label: '友情链接',
+            position: 'right',
+          },
+          {
             href: 'https://github.com/penjc/CityU',
             className: 'header-github-link',
             position: 'right',
