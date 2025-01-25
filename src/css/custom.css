@@ -56,8 +56,9 @@
 }
 
 .announcementBar_mb4j{
-  height: var(--announcement-bar-height) !important;
+  height: var(--announcement-bar-height);
 }
+
 .navbar {
   background-color: var(--ifm-background-color); /* 替换为你需要的背景色 */
   /*color: #ffffff; !* 替换为导航文字颜色 *!*/
@@ -245,6 +246,24 @@
 .specific-github-link:hover {
   text-decoration-color: #9f0c43; /* 鼠标悬停时下划线颜色变化 */
   color: #9f0c43; /* 鼠标悬停时文字颜色 */
+}
+
+@media only screen and (max-width: 400px) {
+    .specific-github-link {
+        font-size: 10px;
+    }
+    .gradient-text {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 270px) {
+  .specific-github-link {
+    font-size: 8px;
+  }
+  .gradient-text {
+    font-size: 8px;
+  }
 }
 
 /*三条杠*/
