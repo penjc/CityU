@@ -10,7 +10,7 @@
 
 .subtitle {
     font-size: 1.2rem; /* 副标题大小 */
-    color: #555;
+    color: var(--ifm-newsDescription);
     margin-bottom: 1rem;
     text-align: center;
 }

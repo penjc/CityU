@@ -2,10 +2,14 @@
 title: 关于我们
 ---
 
+import styles from './title.module.css';
+
 <div align="center" style={{ lineHeight: '1.5', fontSize: '0.9rem' }}>
     <h1 style={{ marginBottom: '0.5rem', fontSize: '2.5rem', background: 'linear-gradient(90deg, #de6f31, #da542b, #bf1846, #9f0c43)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}><strong>关于我们</strong></h1>
-    <p style={{ marginBottom: '0.5rem', color: '#555' }}>欢迎了解 <strong>CityU 手册</strong>！</p>
-    <p style={{ marginBottom: '0.5rem', color: '#555' }}>我们致力于为香港城市大学的学生提供实用的校园与学术资源，帮助大家顺利适应校园生活，迈向未来的职业之路。</p>
+    <p className={styles.subtitle}>
+        欢迎来到 <strong>CityU 手册</strong>！<br />
+        我们致力于为香港城市大学的学生提供实用的校园与学术资源，帮助大家顺利适应校园生活，迈向未来的职业之路。
+    </p>
 </div>
 
 ---

@@ -4,12 +4,27 @@ sidebar_position: 0
 hide_title: true
 ---
 
+import styles from '../title.module.css';
+
 <div align="center" style={{ lineHeight: '1.5', fontSize: '0.9rem' }}>
-    <h1 style={{ marginBottom: '0.5rem', fontSize: '2.5rem', background: 'linear-gradient(90deg, #de6f31, #da542b, #bf1846, #9f0c43)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}><strong>课程指南</strong></h1>
-    <p style={{ marginBottom: '0.5rem', color: '#555' }}>欢迎来到 <strong>CityU 手册</strong>！</p>
-    <p style={{ marginBottom: '0.5rem', color: '#555' }}>在这里，您可以浏览城大所有课程的内容与细节，参考往届学生的真实评价。</p>
-    <p style={{ marginBottom: '0.5rem', color: '#555' }}>本站已收录城大超过 <strong><em>1000</em></strong> 门 Master 课程，涵盖所有课程的详细信息和学生评价。</p>
+    <h1
+        style={{
+            marginBottom: '0.5rem',
+            fontSize: '2.5rem',
+            background: 'linear-gradient(90deg, #de6f31, #da542b, #bf1846, #9f0c43)',
+            WebkitBackgroundClip: 'text',
+            WebkitTextFillColor: 'transparent',
+        }}
+    >
+        <strong>课程指南</strong>
+    </h1>
+    <p className={styles.subtitle}>
+        欢迎来到 <strong>CityU 手册</strong>！<br />
+        在这里，您可以浏览城大所有课程的内容与细节，参考往届学生的真实评价。<br />
+        本站已收录城大超过 <strong><em>1000</em></strong> 门 Master 课程，涵盖所有课程的详细信息和学生评价。
+    </p>
 </div>
+
 
 ---
 
