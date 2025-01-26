@@ -326,11 +326,15 @@ const config = {
           src: 'img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
         },
-        copyright: `   版权所有 © ${new Date().getFullYear()} CityU 手册<br/>
-        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> <span id="runtime_span"></span><br/>
+        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册<br/>
+        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
+        本站已运行：<span id="runtime_span"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span><br/>
         <span id="busuanzi_container_site_pv">
           <img src='/CityU/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-          本站访问量 <span id="busuanzi_value_site_pv"></span> 次 | <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/> 本站访客数 <span id="busuanzi_value_site_uv"></span> 人
+          访问量：<span id="busuanzi_value_site_pv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>
+          &nbsp;|&nbsp; 
+          <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
+          访客量：<span id="busuanzi_value_site_uv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>
         </span>
         `,
       },
@@ -413,8 +417,8 @@ const config = {
   ],
   scripts: [
     {
-      // src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-      src: '/CityU/scripts/uvandpv.js',
+      src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+      // src: '/CityU/scripts/uvandpv.js',
       async: true,
     },
     {

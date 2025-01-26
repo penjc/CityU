@@ -11,7 +11,7 @@ function showRuntime() {
     const minutes = Math.floor((elapsed % (1000 * 60 * 60)) / (1000 * 60));
     const seconds = Math.floor((elapsed % (1000 * 60)) / 1000);
 
-    runtimeSpan.innerHTML = `本站已运行: ${days}天 ${hours}小时 ${minutes}分 ${seconds}秒`;
+    runtimeSpan.innerHTML = `${days}天 ${hours}小时 ${minutes}分 ${seconds}秒`;
 }
 
 // 每秒更新一次运行时间
