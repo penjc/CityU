@@ -29,6 +29,7 @@ jobs:
       - name: 设置环境变量
         env:
           CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
+          DEPLOY_ENV: github
         run: echo "环境变量 GITHUB_TOKEN 已设置"
 
       # 测试构建网站

@@ -35,7 +35,8 @@ jobs:
 
       - name: Build Web
         env:
-          CHANGE_LOG: ${{ secrets.CHANGE_LOG }} # 将 Token 注入到环境变量
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
+          DEPLOY_ENV: github
         run: npm run build
 
       - name: Update Build

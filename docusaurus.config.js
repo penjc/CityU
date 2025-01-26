@@ -18,10 +18,8 @@ const config = {
   favicon: 'https://penjc.github.io/CityU/img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://penjc.github.io',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/CityU',
+  url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'http://111.229.160.106',
+  baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
