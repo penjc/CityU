@@ -18,7 +18,7 @@ const config = {
   favicon: 'https://penjc.github.io/CityU/img/favicon.ico',
 
   // Set the production url of your site here
-  url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'http://111.229.160.106',
+  url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'https://stepforx.com',
   // baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
   baseUrl: '/CityU/',
 
