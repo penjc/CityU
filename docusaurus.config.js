@@ -19,7 +19,8 @@ const config = {
 
   // Set the production url of your site here
   url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'http://111.229.160.106',
-  baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
+  // baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
+  baseUrl: '/CityU/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -185,7 +186,7 @@ const config = {
           alt: 'Site Logo',
           src: 'img/logo.svg',
           className: 'navbar-icon',
-          href: 'https://penjc.github.io/CityU/',
+          href: '/',
           target: '_self',
         },
         items: [
