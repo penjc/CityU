@@ -1,0 +1,68 @@
+name: Deploy to Gitee
+
+on:
+  workflow_run:
+    workflows: [ "Fetch News Daily" ]
+    types:
+      - completed
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+      - CODE_OF_CONDUCT.md
+      - CONTRIBUTING.md
+      - COURSE_TEMPLATE.mdx
+      - LICENSE
+      - images/**
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy to Gitee
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: npm
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Web
+        env:
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
+          DEPLOY_ENV: server
+        run: npm run build
+
+      - name: Configure Gitee Credentials
+        env:
+          GITEE_USERNAME: ${{ secrets.GITEE_USERNAME }}
+          GITEE_EMAIL: ${{ secrets.GITEE_EMAIL }}
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          git config --global user.name "${GITEE_USERNAME}"
+          git config --global user.email "${GITEE_EMAIL}"
+
+      - name: Push to Gitee
+        env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+        run: |
+          # Clone the Gitee repository
+          git clone https://oauth2:${{ secrets.GITEE_TOKEN }}@gitee.com/penjc/cityu-build.git gitee-repo
+          cd gitee-repo
+
+          # Remove old files and copy new build files
+          rm -rf *
+          cp -r ../build/* .
+
+          # Commit and push changes
+          git add --all
+          git commit -m "Automated deployment: $(date)"
+          git push origin main
