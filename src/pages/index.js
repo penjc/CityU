@@ -10,17 +10,17 @@ function HeroFeaturesSection() {
     const features = [
         {
             title: '课程全览',
-            imgSrc: '/CityU/img/course.svg',
+            imgSrc: 'https://penjc.github.io/CityU/img/course.svg',
             description: '探索完整的课程信息与学生真实评价。',
         },
         {
             title: '资源中心',
-            imgSrc: '/CityU/img/resource-hub.svg',
+            imgSrc: 'https://penjc.github.io/CityU/img/resource-hub.svg',
             description: '访问为城大学生精选的攻略和学习资料。',
         },
         {
             title: '职业洞察',
-            imgSrc: '/CityU/img/career-insights.svg',
+            imgSrc: 'https://penjc.github.io/CityU/img/career-insights.svg',
             description: '借助校友经验，规划您的职业未来。',
         },
     ];

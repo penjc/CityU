@@ -19,8 +19,8 @@ const config = {
 
   // Set the production url of your site here
   url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'https://stepforx.com',
-  // baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
-  baseUrl: '/CityU/',
+  baseUrl: process.env.DEPLOY_ENV === 'github' ? '/CityU/' : '/',
+  // baseUrl: '/CityU/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -184,7 +184,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
-          src: 'img/logo.svg',
+          src: 'https://penjc.github.io/CityU/img/logo.svg',
           className: 'navbar-icon',
           href: '/',
           target: '_self',
@@ -322,19 +322,20 @@ const config = {
         ],
         logo: {
           alt: 'CityU Logo',
-          src: 'img/cityu-logo.svg',
+          src: 'https://penjc.github.io/CityU/img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
         },
-        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册<br/>
-        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-        本站已运行：<span id="runtime_span"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span><br/>
-        <span id="busuanzi_container_site_pv">
-          <img src='/CityU/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-          访问量：<span id="busuanzi_value_site_pv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>
-          &nbsp;|&nbsp; 
-          <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>
-          访客量：<span id="busuanzi_value_site_uv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>
-        </span>
+        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册
+<!--        <br/>-->
+<!--        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
+<!--        本站已运行：<span id="runtime_span"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span><br/>-->
+<!--        <span id="busuanzi_container_site_pv">-->
+<!--          <img src='/CityU/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
+<!--          访问量：<span id="busuanzi_value_site_pv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>-->
+<!--          &nbsp;|&nbsp; -->
+<!--          <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
+<!--          访客量：<span id="busuanzi_value_site_uv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>-->
+<!--        </span>-->
         `,
       },
       // 搜索
@@ -414,16 +415,16 @@ const config = {
       }),
     },
   ],
-  scripts: [
-    {
-      src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-      // src: '/CityU/scripts/uvandpv.js',
-      async: true,
-    },
-    {
-      src: '/CityU/scripts/runtime.js',
-      async: true,
-    },
-  ],
+  // scripts: [
+  //   {
+  //     src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
+  //     // src: '/CityU/scripts/uvandpv.js',
+  //     async: true,
+  //   },
+  //   {
+  //     src: '/CityU/scripts/runtime.js',
+  //     async: true,
+  //   },
+  // ],
 };
 export default config;

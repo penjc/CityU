@@ -18,13 +18,13 @@ export default function ColorModeToggle({ className, ...props }) {
             {...props}>
             {colorMode === 'dark' ? (
                 <img
-                    src="/CityU/img/moon.svg" // 替换为你的图标路径
+                    src="https://penjc.github.io/CityU/img/moon.svg" // 替换为你的图标路径
                     alt="Switch to light mode"
                     className={styles.icon}
                 />
             ) : (
                 <img
-                    src="/CityU/img/sun.svg" // 替换为你的图标路径
+                    src="https://penjc.github.io/CityU/img/sun.svg" // 替换为你的图标路径
                     alt="Switch to dark mode"
                     className={styles.icon}
                 />
