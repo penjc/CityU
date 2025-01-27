@@ -10,17 +10,17 @@ function HeroFeaturesSection() {
     const features = [
         {
             title: '课程全览',
-            imgSrc: 'https://stepforx.com/img/course.svg',
+            imgSrc: 'https://cityuhk.cn/img/course.svg',
             description: '探索完整的课程信息与学生真实评价。',
         },
         {
             title: '资源中心',
-            imgSrc: 'https://stepforx.com/img/resource-hub.svg',
+            imgSrc: 'https://cityuhk.cn/img/resource-hub.svg',
             description: '访问为城大学生精选的攻略和学习资料。',
         },
         {
             title: '职业洞察',
-            imgSrc: 'https://stepforx.com/img/career-insights.svg',
+            imgSrc: 'https://cityuhk.cn/img/career-insights.svg',
             description: '借助校友经验，规划您的职业未来。',
         },
     ];
@@ -139,7 +139,7 @@ function LatestNews() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('https://stepforx.com/scripts/news.json')
+        fetch('https://cityuhk.cn/scripts/news.json')
             .then((response) => response.json())
             .then((data) => {
                 setNews(data);

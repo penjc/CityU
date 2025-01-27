@@ -18,13 +18,13 @@ export default function ColorModeToggle({ className, ...props }) {
             {...props}>
             {colorMode === 'dark' ? (
                 <img
-                    src="https://stepforx.com/img/moon.svg" // 替换为你的图标路径
+                    src="https://cityuhk.cn/img/moon.svg" // 替换为你的图标路径
                     alt="Switch to light mode"
                     className={styles.icon}
                 />
             ) : (
                 <img
-                    src="https://stepforx.com/img/sun.svg" // 替换为你的图标路径
+                    src="https://cityuhk.cn/img/sun.svg" // 替换为你的图标路径
                     alt="Switch to dark mode"
                     className={styles.icon}
                 />
