@@ -15,7 +15,7 @@ const config = {
   },
   title: 'CityU 手册',
   tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
-  favicon: 'https://penjc.github.io/CityU/img/favicon.ico',
+  favicon: 'https://stepforx.com/img/favicon.ico',
 
   // Set the production url of your site here
   url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'https://stepforx.com',
@@ -121,6 +121,13 @@ const config = {
               'https://penjc.github.io/CityU/docs/career/intro',
               'https://penjc.github.io/CityU/docs/faq/intro',
               'https://penjc.github.io/CityU/about',
+              'https://stepforx.com/',
+              'https://stepforx.com/start',
+              'https://stepforx.com/docs/welcome/intro',
+              'https://stepforx.com/docs/courses/intro',
+              'https://stepforx.com/docs/career/intro',
+              'https://stepforx.com/docs/faq/intro',
+              'https://stepforx.com/about',
             ];
 
             const updatedItems = items.map(item => {
@@ -159,7 +166,7 @@ const config = {
           tagName: 'link',
           attributes: {
             rel: 'icon',
-            href: 'https://penjc.github.io/CityU/img/favicon.ico',
+            href: 'https://stepforx.com/img/favicon.ico',
           }
         },
         {name: 'twitter:card', content: 'summary_large_image'},
@@ -184,7 +191,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
-          src: 'https://penjc.github.io/CityU/img/logo.svg',
+          src: 'https://stepforx.com/img/logo.svg',
           className: 'navbar-icon',
           href: '/',
           target: '_self',
@@ -311,18 +318,18 @@ const config = {
               },
               {
                 label: 'RSS 订阅',
-                href: 'https://penjc.github.io/CityU/blog/rss.xml',
+                href: 'https://stepforx.com/blog/rss.xml',
               },
               {
                 label: 'Atom 订阅',
-                href: 'https://penjc.github.io/CityU/blog/atom.xml',
+                href: 'https://stepforx.com/blog/atom.xml',
               },
             ],
           },
         ],
         logo: {
           alt: 'CityU Logo',
-          src: 'https://penjc.github.io/CityU/img/cityu-logo.svg',
+          src: 'https://stepforx.com/img/cityu-logo.svg',
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册
@@ -368,7 +375,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        href: 'https://penjc.github.io/CityU/img/favicon.ico', // 使用你提供的图标链接
+        href: 'https://stepforx.com/img/favicon.ico', // 使用你提供的图标链接
       },
     },
     // {
@@ -388,29 +395,29 @@ const config = {
         '@context': 'https://schema.org/',
         '@type': 'Organization',
         name: 'CityU 手册',
-        url: 'https://penjc.github.io/CityU/',
-        logo: 'https://penjc.github.io/CityU/img/logo.png', // 替换为实际 LOGO 路径
+        url: 'https://stepforx.com/',
+        logo: 'https://stepforx.com/img/logo.png', // 替换为实际 LOGO 路径
         description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
         mainEntity: [
           {
             "@type": "WebPage",
             "name": "开始探索",
-            "url": "https://penjc.github.io/CityU/start"
+            "url": "https://stepforx.com/start"
           },
           {
             "@type": "WebPage",
             "name": "初见城大",
-            "url": "https://penjc.github.io/CityU/docs/welcome/intro"
+            "url": "https://stepforx.com/docs/welcome/intro"
           },
           {
             "@type": "WebPage",
             "name": "课程指南",
-            "url": "https://penjc.github.io/CityU/docs/courses/intro"
+            "url": "https://stepforx.com/docs/courses/intro"
           },
           {
             "@type": "WebPage",
             "name": "职业启航",
-            "url": "https://penjc.github.io/CityU/docs/career/intro"
+            "url": "https://stepforx.com/docs/career/intro"
           },]
       }),
     },

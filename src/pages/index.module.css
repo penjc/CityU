@@ -2,7 +2,7 @@
   position: relative;
   min-height: calc(100vh - var(--navbar-height) - var(--announcement-bar-height));
   padding: 6rem 1rem;
-  background: url('https://penjc.github.io/CityU/img/cityu.png') no-repeat center/cover;
+  background: url('https://stepforx.com/img/cityu.png') no-repeat center/cover;
   /*background-attachment: fixed; !* 背景固定不滚动 *!*/
   display: flex;
   flex-direction: column;
@@ -14,7 +14,7 @@
 
 @media only screen and (max-width: 1024px) {
   .heroFeaturesSection {
-    background: url('https://penjc.github.io/CityU/img/cityu2.png') no-repeat center/cover;
+    background: url('https://stepforx.com/img/cityu2.png') no-repeat center/cover;
     /*background-attachment: fixed; !* 背景固定不滚动 *!*/
     filter: brightness(0.9); /* 适度调暗背景 */
   }
