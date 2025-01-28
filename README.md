@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://cityuhk.cn">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://cityuhk.cn/img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 <h2 align="center">CityU 手册</h3>
@@ -141,4 +141,4 @@
 [issues-url]: https://github.com/penjc/CityU/issues
 [license-shield]: https://img.shields.io/github/license/penjc/CityU.svg?style=for-the-badge
 [license-url]: https://github.com/penjc/CityU/blob/main/LICENSE
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: https://cityuhk.cn/img/screenshot.png
