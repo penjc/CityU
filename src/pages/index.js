@@ -139,7 +139,7 @@ function LatestNews() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('https://cityuhk.cn/scripts/news.json')
+        fetch('https://penjc.github.io/CityU/scripts/news.json')
             .then((response) => response.json())
             .then((data) => {
                 setNews(data);
