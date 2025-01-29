@@ -7,6 +7,8 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const isGitHub = process.env.DEPLOY_ENV === 'github';
+const baseUrl = isGitHub ? 'https://penjc.github.io/CityU' : 'https://cityuhk.cn';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,7 +17,7 @@ const config = {
   },
   title: 'CityU 手册',
   tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
-  favicon: 'https://cityuhk.cn/img/favicon.ico',
+  favicon: `${baseUrl}/img/favicon.ico`,
 
   // Set the production url of your site here
   url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'https://cityuhk.cn',
@@ -114,20 +116,27 @@ const config = {
 
             // 对特定页面加大权重
             const highPriorityUrls = [
-              'https://penjc.github.io/CityU/',
-              'https://penjc.github.io/CityU/start',
-              'https://penjc.github.io/CityU/docs/welcome/intro',
-              'https://penjc.github.io/CityU/docs/courses/intro',
-              'https://penjc.github.io/CityU/docs/career/intro',
-              'https://penjc.github.io/CityU/docs/faq/intro',
-              'https://penjc.github.io/CityU/about',
-              'https://cityuhk.cn/',
-              'https://cityuhk.cn/start',
-              'https://cityuhk.cn/docs/welcome/intro',
-              'https://cityuhk.cn/docs/courses/intro',
-              'https://cityuhk.cn/docs/career/intro',
-              'https://cityuhk.cn/docs/faq/intro',
-              'https://cityuhk.cn/about',
+              `${baseUrl}/`,
+              `${baseUrl}/start`,
+              `${baseUrl}/docs/welcome/intro`,
+              `${baseUrl}/docs/courses/intro`,
+              `${baseUrl}/docs/career/intro`,
+              `${baseUrl}/docs/faq/intro`,
+              `${baseUrl}/about`,
+              // 'https://penjc.github.io/CityU/',
+              // 'https://penjc.github.io/CityU/start',
+              // 'https://penjc.github.io/CityU/docs/welcome/intro',
+              // 'https://penjc.github.io/CityU/docs/courses/intro',
+              // 'https://penjc.github.io/CityU/docs/career/intro',
+              // 'https://penjc.github.io/CityU/docs/faq/intro',
+              // 'https://penjc.github.io/CityU/about',
+              // 'https://cityuhk.cn/',
+              // 'https://cityuhk.cn/start',
+              // 'https://cityuhk.cn/docs/welcome/intro',
+              // 'https://cityuhk.cn/docs/courses/intro',
+              // 'https://cityuhk.cn/docs/career/intro',
+              // 'https://cityuhk.cn/docs/faq/intro',
+              // 'https://cityuhk.cn/about',
             ];
 
             const updatedItems = items.map(item => {
@@ -166,7 +175,7 @@ const config = {
           tagName: 'link',
           attributes: {
             rel: 'icon',
-            href: 'https://cityuhk.cn/img/favicon.ico',
+            href: `https://${baseUrl}/img/favicon.ico`,
           }
         },
         {name: 'twitter:card', content: 'summary_large_image'},
@@ -191,7 +200,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
-          src: 'https://cityuhk.cn/img/logo.svg',
+          src: `${baseUrl}/img/logo.svg`,
           className: 'navbar-icon',
           href: '/',
           target: '_self',
@@ -318,18 +327,18 @@ const config = {
               },
               {
                 label: 'RSS 订阅',
-                href: 'https://cityuhk.cn/blog/rss.xml',
+                href: 'https://penjc.github.io/CityU/blog/rss.xml',
               },
               {
                 label: 'Atom 订阅',
-                href: 'https://cityuhk.cn/blog/atom.xml',
+                href: 'https://penjc.github.io/CityU/blog/atom.xml',
               },
             ],
           },
         ],
         logo: {
           alt: 'CityU Logo',
-          src: 'https://cityuhk.cn/img/cityu-logo.svg',
+          src: `${baseUrl}/img/cityu-logo.svg`,
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册
@@ -375,7 +384,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        href: 'https://cityuhk.cn/img/favicon.ico', // 使用你提供的图标链接
+        href: `${baseUrl}/img/favicon.ico`, // 使用你提供的图标链接
       },
     },
     // {
@@ -395,29 +404,29 @@ const config = {
         '@context': 'https://schema.org/',
         '@type': 'Organization',
         name: 'CityU 手册',
-        url: 'https://cityuhk.cn/',
-        logo: 'https://cityuhk.cn/img/logo.png', // 替换为实际 LOGO 路径
+        url: `${baseUrl}`,
+        logo: `${baseUrl}/img/logo.png`, // 替换为实际 LOGO 路径
         description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
         mainEntity: [
           {
             "@type": "WebPage",
             "name": "开始探索",
-            "url": "https://cityuhk.cn/start"
+            "url": `${baseUrl}/start`,
           },
           {
             "@type": "WebPage",
             "name": "初见城大",
-            "url": "https://cityuhk.cn/docs/welcome/intro"
+            "url": `${baseUrl}/docs/welcome/intro`
           },
           {
             "@type": "WebPage",
             "name": "课程指南",
-            "url": "https://cityuhk.cn/docs/courses/intro"
+            "url": `${baseUrl}/docs/courses/intro`
           },
           {
             "@type": "WebPage",
             "name": "职业启航",
-            "url": "https://cityuhk.cn/docs/career/intro"
+            "url": `${baseUrl}/docs/career/intro`
           },]
       }),
     },

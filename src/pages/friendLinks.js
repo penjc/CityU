@@ -3,61 +3,62 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import clsx from 'clsx';
 import styles from './friend.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
-const friendLinks = [
-    {
-        title: '图灵班学习指南',
-        description: '浙江大学图灵班各门课程的学习指南以及学习资源',
-        website: 'https://zju-turing.github.io/TuringCourses/',
-        image: 'https://cityuhk.cn/img/friend/zju.png',
-    },
+const friendLinksData = [
     {
         title: 'WHU课代表计划',
         description: '武汉大学课程资料整理',
         website: 'https://openwhu.github.io/',
-        image: 'https://cityuhk.cn/img/friend/whu.png',
+        image: '/img/friend/whu.png',
     },
     {
         title: 'HITSZ OpenAuto',
         description: 'HITSZ 自动化课程攻略共享计划',
         website: 'https://hoa.moe/',
-        image: 'https://cityuhk.cn/img/friend/hitsz.png',
+        image: '/img/friend/hitsz.png',
     },
     {
         title: 'TJU CourseSharing',
         description: '天津大学课程共享计划',
         website: 'https://cs.tjuse.com/zh-CN/',
-        image: 'https://cityuhk.cn/img/friend/tju.png',
+        image: 'img/friend/tju.png',
     },
     {
         title: 'DUT Manual',
         description: '大工人的一站式生存指南',
         website: 'https://man.naosi.org/',
-        image: 'https://cityuhk.cn/img/friend/dut.png',
+        image: '/img/friend/dut.png',
     },
     {
         title: '华工手册',
         description: '华南理工大学校园信息聚合的项目',
         website: 'https://www.gzic.online/',
-        image: 'https://cityuhk.cn/img/friend/scut.png',
+        image: '/img/friend/scut.png',
     },
     {
         title: 'SHUFly',
         description: '上海大学溯源手册',
         website: 'https://shuosc.github.io/fly/',
-        image: 'https://cityuhk.cn/img/friend/shu.png',
+        image: '/img/friend/shu.png',
     },
     {
         title: '清华大学飞跃手册',
         description: '清华大学留学经验文档',
         website: 'https://feiyue.online/',
-        image: 'https://cityuhk.cn/img/friend/thu.png',
+        image: '/img/friend/thu.png',
     },
     {
         title: '南方科技大学飞跃手册',
         description: '南方科技大学留学经验文档',
         website: 'https://sustech-application.com/#/',
-        image: 'https://cityuhk.cn/img/friend/sust.png',
+        image: '/img/friend/sust.png',
+    },
+    {
+        title: '图灵班学习指南',
+        description: '浙江大学图灵班各门课程的学习指南以及学习资源',
+        website: 'https://zju-turing.github.io/TuringCourses/',
+        image: '/img/friend/zju.png',
     },
 ];
 
@@ -79,6 +80,10 @@ function FriendCard({ site }) {
 
 export default function Home() {
     const { siteConfig } = useDocusaurusContext();
+    const friendLinks = friendLinksData.map(site => ({
+        ...site,
+        image: useBaseUrl(site.image), // 这里才使用 useBaseUrl()
+    }));
     return (
         <Layout
             id="friendPage"

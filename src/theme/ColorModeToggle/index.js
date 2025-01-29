@@ -2,6 +2,7 @@ import React from 'react';
 import clsx from 'clsx';
 import { useColorMode } from '@docusaurus/theme-common';
 import styles from './styles.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 export default function ColorModeToggle({ className, ...props }) {
     const { colorMode, setColorMode } = useColorMode(); // 修改为 setColorMode
@@ -18,13 +19,13 @@ export default function ColorModeToggle({ className, ...props }) {
             {...props}>
             {colorMode === 'dark' ? (
                 <img
-                    src="https://cityuhk.cn/img/moon.svg" // 替换为你的图标路径
+                    src={useBaseUrl("/img/moon.svg")}
                     alt="Switch to light mode"
                     className={styles.icon}
                 />
             ) : (
                 <img
-                    src="https://cityuhk.cn/img/sun.svg" // 替换为你的图标路径
+                    src={useBaseUrl("/img/sun.svg")}
                     alt="Switch to dark mode"
                     className={styles.icon}
                 />

@@ -5,28 +5,49 @@ import Layout from '@theme/Layout';
 import Heading from '@theme/Heading';
 import { useEffect, useState } from 'react';
 import styles from './index.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function HeroFeaturesSection() {
     const features = [
         {
             title: '课程全览',
-            imgSrc: 'https://cityuhk.cn/img/course.svg',
+            imgSrc: useBaseUrl('/img/course.svg'),
             description: '探索完整的课程信息与学生真实评价。',
         },
         {
             title: '资源中心',
-            imgSrc: 'https://cityuhk.cn/img/resource-hub.svg',
+            imgSrc: useBaseUrl('/img/resource-hub.svg'),
             description: '访问为城大学生精选的攻略和学习资料。',
         },
         {
             title: '职业洞察',
-            imgSrc: 'https://cityuhk.cn/img/career-insights.svg',
+            imgSrc: useBaseUrl('/img/career-insights.svg'),
             description: '借助校友经验，规划您的职业未来。',
         },
     ];
 
+    const bgDesktop = useBaseUrl('/img/cityu.png');
+    const bgMobile = useBaseUrl('/img/cityu2.png');
+
+    // 监听窗口大小
+    const [bgImage, setBgImage] = useState(bgDesktop);
+
+    useEffect(() => {
+        function handleResize() {
+            setBgImage(window.innerWidth <= 1024 ? bgMobile : bgDesktop);
+        }
+
+        handleResize(); // 初始化
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, [bgDesktop, bgMobile]);
+
+
     return (
-        <div className={clsx(styles.heroFeaturesSection)}>
+        <div className={clsx(styles.heroFeaturesSection)}
+             style={{ background: `url(${bgImage}) no-repeat center/cover` }}
+        >
             <div className={styles.heroContent}>
                 <h1 className={styles.title}>
                     <span>CityU</span>

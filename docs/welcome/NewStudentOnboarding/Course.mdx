@@ -4,6 +4,7 @@ sidebar_position: 3
 
 import Utterances from '@site/src/components/Utterances';
 import styles from '@site/src/css/img.module.css';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 # 选课流程
 
@@ -45,7 +46,7 @@ Master Class Schedule 包含大学所有课程部分的实时数据，包括以�
 <div align="center" className={styles.imageContainer}>
     <img
         className={styles.heroImage}
-        src="https://cityuhk.cn/img/Master-Class-Schedule.png"
+        src={useBaseUrl('/img/Master-Class-Schedule.png')}
         alt="Master Class Schedule"
         style={{
             width: "100%"
