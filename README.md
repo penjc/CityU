@@ -57,10 +57,10 @@
 **CityU 手册** 是一个专为 `City University of Hong Kong` 学生打造的开源项目。
 
 ### 内容概览
-- 🏫 **[初见城大](https://penjc.gitihub.io/CityU/docs/welcome/intro)**：城大`全面指南`，涵盖新生注册、校园设施和学生资源等关键信息，轻松融入城大生活。
-- 📘 **[课程指南](https://penjc.gitihub.io/CityU/docs/courses/intro)**：深入了解最新的 课程结构、学习内容和课程目标，掌握详细的考试信息和 `真实学生评价`。
-- 💼 **[职业启航](https://penjc.gitihub.io/CityU/docs/career/intro)**：提供丰富的 `职业资源`，帮助学生掌握行业机会、就业准备和 `同学分享`，助力顺利进入职场。
-- ❓ **[常见问题](https://penjc.gitihub.io/CityU/docs/faq/intro)**：一站式解答学生 `常见疑问`，提供详细解答和实用资源。
+- 🏫 **[初见城大](https://penjc.github.io/CityU/docs/welcome/intro)**：城大`全面指南`，涵盖新生注册、校园设施和学生资源等关键信息，轻松融入城大生活。
+- 📘 **[课程指南](https://penjc.github.io/CityU/docs/courses/intro)**：深入了解最新的 课程结构、学习内容和课程目标，掌握详细的考试信息和 `真实学生评价`。
+- 💼 **[职业启航](https://penjc.github.io/CityU/docs/career/intro)**：提供丰富的 `职业资源`，帮助学生掌握行业机会、就业准备和 `同学分享`，助力顺利进入职场。
+- ❓ **[常见问题](https://penjc.github.io/CityU/docs/faq/intro)**：一站式解答学生 `常见疑问`，提供详细解答和实用资源。
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
