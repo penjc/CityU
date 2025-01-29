@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const isGitHub = process.env.DEPLOY_ENV === 'github';
-const baseUrl = isGitHub ? 'https://penjc.github.io/CityU' : 'https://cityuhk.cn';
+const baseUrl = isGitHub ? 'https://penjc.github.io/CityU' : 'https://111.229.160.106';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
