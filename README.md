@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://penjc.github.io/CityU">
-    <img src="./images/logo.png" alt="Logo" width="80" height="80">
+    <img src="./images/logo.png" alt="Logo"  height="80">
   </a>
 
 <h2 align="center">CityU 手册</h3>

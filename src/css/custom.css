@@ -85,33 +85,33 @@
 }
 
 /* 定义旋转动画 */
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/*@keyframes spin {*/
+/*  from {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*}*/
 
-@keyframes spin-reverse {
-  from {
-    transform: rotate(360deg);
-  }
-  to {
-    transform: rotate(0deg);
-  }
-}
+/*@keyframes spin-reverse {*/
+/*  from {*/
+/*    transform: rotate(360deg);*/
+/*  }*/
+/*  to {*/
+/*    transform: rotate(0deg);*/
+/*  }*/
+/*}*/
 
 /* 默认状态 */
-.navbar-icon {
-  transition: transform 0.5s ease; /* 添加平滑的过渡效果 */
-}
+/*.navbar-icon {*/
+/*  transition: transform 0.5s ease; !* 添加平滑的过渡效果 *!*/
+/*}*/
 
- /*鼠标悬停时的旋转效果*/
-.navbar-icon:hover {
-  animation: spin 0.5s linear; /* 旋转一圈 */
-}
+/* !*鼠标悬停时的旋转效果*!*/
+/*.navbar-icon:hover {*/
+/*  animation: spin 0.5s linear; !* 旋转一圈 *!*/
+/*}*/
 
 /* 鼠标按住时的旋转效果 */
 /*.navbar-icon:active {*/

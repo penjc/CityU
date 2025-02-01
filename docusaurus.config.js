@@ -17,7 +17,7 @@ const config = {
   },
   title: 'CityU 手册',
   tagline: '全面的 CityU 课程信息与评价、生活攻略和职业发展资源',
-  favicon: `${baseUrl}/img/favicon.ico`,
+  favicon: `/img/favicon.ico`,
 
   // Set the production url of your site here
   url: process.env.DEPLOY_ENV === 'github' ? 'https://penjc.github.io' : 'https://cityuhk.cn',
@@ -200,7 +200,8 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
-          src: `${baseUrl}/img/logo.svg`,
+          src: `/img/logo.svg
+          `,
           className: 'navbar-icon',
           href: '/',
           target: '_self',
