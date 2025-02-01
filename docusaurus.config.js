@@ -200,7 +200,7 @@ const config = {
         hideOnScroll: true,
         logo: {
           alt: 'Site Logo',
-          src: `/img/logo.svg
+          src: `/img/logo.png
           `,
           className: 'navbar-icon',
           href: '/',
