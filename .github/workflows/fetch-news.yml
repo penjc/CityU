@@ -19,7 +19,7 @@ jobs:
           node-version: 18
           cache: npm
 
-      - name: 安装依赖
+      - name: Install Requirements
         run: npm ci
 
       - name: Fetch News
