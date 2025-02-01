@@ -287,10 +287,10 @@ const config = {
           {
             title: '探索更多',
             items: [
-              {
-                label: '博客',
-                href: '/blog',
-              },
+              // {
+              //   label: '博客',
+              //   href: '/blog',
+              // },
               {
                 label: '贡献指南',
                 href: '/contributing',
@@ -325,14 +325,14 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/penjc/CityU',
               },
-              {
-                label: 'RSS 订阅',
-                href: 'https://penjc.github.io/CityU/blog/rss.xml',
-              },
-              {
-                label: 'Atom 订阅',
-                href: 'https://penjc.github.io/CityU/blog/atom.xml',
-              },
+              // {
+              //   label: 'RSS 订阅',
+              //   href: 'https://penjc.github.io/CityU/blog/rss.xml',
+              // },
+              // {
+              //   label: 'Atom 订阅',
+              //   href: 'https://penjc.github.io/CityU/blog/atom.xml',
+              // },
             ],
           },
         ],
