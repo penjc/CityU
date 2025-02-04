@@ -159,8 +159,9 @@ function LatestNews() {
     const [news, setNews] = useState([]);
     const [loading, setLoading] = useState(true);
 
+    const newsUrl = useBaseUrl('/scripts/news.json');
     useEffect(() => {
-        fetch('https://penjc.github.io/CityU/scripts/news.json')
+        fetch(newsUrl)
             .then((response) => response.json())
             .then((data) => {
                 setNews(data);
