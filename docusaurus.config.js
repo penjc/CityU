@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 const isGitHub = process.env.DEPLOY_ENV === 'github';
-const baseUrl = isGitHub ? 'https://penjc.github.io/CityU' : 'https://111.229.160.106';
+const baseUrl = isGitHub ? 'https://penjc.github.io/CityU' : 'https://cityuhk.cn';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -261,11 +261,11 @@ const config = {
             label: '友情链接',
             position: 'right',
           },
-          {
-            to: '/contributing',
-            label: '加入我们',
-            position: 'right',
-          },
+          // {
+          //   to: '/contributing',
+          //   label: '加入我们',
+          //   position: 'right',
+          // },
           {
             href: 'https://github.com/penjc/CityU',
             className: 'header-github-link',
@@ -342,7 +342,7 @@ const config = {
           src: `${baseUrl}/img/cityu-logo.svg`,
           href: 'https://www.cityu.edu.hk/',
         },
-        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册
+        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册  <a href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号</a>
 <!--        <br/>-->
 <!--        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
 <!--        本站已运行：<span id="runtime_span"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span><br/>-->

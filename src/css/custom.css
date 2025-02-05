@@ -120,6 +120,28 @@
 
 
 /* Footer */
+.footer a {
+  color: #858a96; /* 备案号颜色 */
+  text-decoration: none; /* 去除下划线 */
+}
+
+.footer a:hover {
+  color: var(--ifm-color-primary);
+}
+
+.beian-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 6px;
+  filter: grayscale(100%) brightness(60%); /* 变灰色 */
+  transition: filter 0.1s ease-in-out;
+  vertical-align: middle;
+}
+
+/* 悬停时恢复原色 */
+.footer a:hover .beian-icon {
+  filter: none;
+}
 
 .footer {
   &.footer--dark {
@@ -193,6 +215,8 @@
     font-size: .9em;
   }
 }
+
+
 
 @media only screen and (max-width: 996px) {
   .footer {
