@@ -343,25 +343,22 @@ const config = {
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册  <a href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号</a>
-<!--        <br/>-->
-<!--        <img src='/CityU/img/run.svg' alt="运行时间" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
-<!--        本站已运行：<span id="runtime_span"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span><br/>-->
-<!--        <span id="busuanzi_container_site_pv">-->
-<!--          <img src='/CityU/img/view.svg' alt="访问量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
-<!--          访问量：<span id="busuanzi_value_site_pv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>-->
-<!--          &nbsp;|&nbsp; -->
-<!--          <img src='/CityU/img/user.svg' alt="访客量" style="width:16px;height:16px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/>-->
-<!--          访客量：<span id="busuanzi_value_site_uv"><img src='/CityU/img/loading.gif' alt="加载中" style="width:15px;height:15px;vertical-align:middle;filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.3));"/></span>-->
-<!--        </span>-->
         `,
       },
       // 搜索
-      algolia: {
-        appId: 'UPYPM5BQ76',
-        apiKey: '6cf5858fef7de9367d8ef73f722b371e',
-        indexName: 'penjcio',
-        contextualSearch: false,
-      },
+      algolia: isGitHub
+          ? {
+            appId: 'UPYPM5BQ76',
+            apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+            indexName: 'penjcio',
+            contextualSearch: false,
+          }
+          : {
+            appId: 'YOUR_OTHER_APP_ID',
+            apiKey: 'YOUR_OTHER_API_KEY',
+            indexName: 'YOUR_OTHER_INDEX',
+            contextualSearch: true,
+          },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
