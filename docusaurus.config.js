@@ -342,7 +342,9 @@ const config = {
           src: `${baseUrl}/img/cityu-logo.svg`,
           href: 'https://www.cityu.edu.hk/',
         },
-        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册  <a href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号</a>
+        copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册 <br/>
+        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=31011502403049" rel="noreferrer" target="_blank"><img src="${baseUrl}/img/gawb.webp" alt="备案" class="gabeian-icon"> 沪公网安备31011502403049号</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号</a>
         `,
       },
       // 搜索
@@ -354,11 +356,27 @@ const config = {
             contextualSearch: false,
           }
           : {
-            appId: 'YOUR_OTHER_APP_ID',
-            apiKey: 'YOUR_OTHER_API_KEY',
-            indexName: 'YOUR_OTHER_INDEX',
-            contextualSearch: true,
+            appId: 'LT3Y699LZF',
+            apiKey: '52e4f9129381dc6aae08b42ad139fd66',
+            indexName: 'cityuhk',
+            contextualSearch: false,
           },
+          // : {
+          //   appId: 'UPYPM5BQ76',
+          //       apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+          //       indexName: 'penjcio',
+          //       contextualSearch: false,
+          //       replaceSearchResultPathname: {
+          //     from: '/CityU/', // or as RegExp: /\/docs\//
+          //         to: '/',
+          //   },
+          // },
+      // algolia: {
+      //     appId: 'LT3Y699LZF',
+      //     apiKey: '52e4f9129381dc6aae08b42ad139fd66',
+      //     indexName: 'cityuhk',
+      //     contextualSearch: false,
+      // },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

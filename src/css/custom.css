@@ -129,10 +129,15 @@
   color: var(--ifm-color-primary);
 }
 
+.gabeian-icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
 .beian-icon {
   width: 16px;
   height: 16px;
-  margin-left: 6px;
   filter: grayscale(100%) brightness(60%); /* 变灰色 */
   transition: filter 0.1s ease-in-out;
   vertical-align: middle;
