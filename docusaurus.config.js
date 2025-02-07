@@ -355,22 +355,22 @@ const config = {
             indexName: 'penjcio',
             contextualSearch: false,
           }
-          : {
-            appId: 'LT3Y699LZF',
-            apiKey: '52e4f9129381dc6aae08b42ad139fd66',
-            indexName: 'cityuhk',
-            contextualSearch: false,
-          },
           // : {
-          //   appId: 'UPYPM5BQ76',
-          //       apiKey: '6cf5858fef7de9367d8ef73f722b371e',
-          //       indexName: 'penjcio',
-          //       contextualSearch: false,
-          //       replaceSearchResultPathname: {
-          //     from: '/CityU/', // or as RegExp: /\/docs\//
-          //         to: '/',
-          //   },
+          //   appId: 'LT3Y699LZF',
+          //   apiKey: '52e4f9129381dc6aae08b42ad139fd66',
+          //   indexName: 'cityuhk',
+          //   contextualSearch: false,
           // },
+          : {
+            appId: 'UPYPM5BQ76',
+                apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+                indexName: 'penjcio',
+                contextualSearch: false,
+                replaceSearchResultPathname: {
+              from: '/CityU/', // or as RegExp: /\/docs\//
+                  to: '/',
+            },
+          },
       // algolia: {
       //     appId: 'LT3Y699LZF',
       //     apiKey: '52e4f9129381dc6aae08b42ad139fd66',

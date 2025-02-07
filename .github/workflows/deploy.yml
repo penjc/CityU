@@ -2,20 +2,20 @@ name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
-#  workflow_run:
-#    workflows: [ "Fetch News Daily" ]
-#    types:
-#      - completed
-#  push:
-#    branches:
-#      - main
-#    paths-ignore:
-#      - README.md
-#      - CODE_OF_CONDUCT.md
-#      - CONTRIBUTING.md
-#      - LICENSE
-#      - .github/workflows/**
-#      - images/**
+  workflow_run:
+    workflows: [ "Fetch News Daily" ]
+    types:
+      - completed
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - README.md
+      - CODE_OF_CONDUCT.md
+      - CONTRIBUTING.md
+      - LICENSE
+      - .github/workflows/**
+      - images/**
 
 jobs:
   build:
