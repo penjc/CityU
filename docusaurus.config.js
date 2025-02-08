@@ -35,8 +35,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "fr" with "zh-Hans".
+  // useful metadata like html lang.
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -49,8 +48,9 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         gtag: {
-          trackingID: 'G-J2CVMJM0PN',
-          anonymizeIP: true,
+          // trackingID: 'G-J2CVMJM0PN, G-GT9NE9JDDR',
+          trackingID: 'G-GT9NE9JDDR',
+          anonymizeIP: false,
         },
         docs: {
           showLastUpdateAuthor: true,
