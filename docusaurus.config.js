@@ -50,7 +50,7 @@ const config = {
         gtag: {
           // trackingID: 'G-J2CVMJM0PN, G-GT9NE9JDDR',
           trackingID: 'G-GT9NE9JDDR',
-          anonymizeIP: false,
+          anonymizeIP: true,
         },
         docs: {
           showLastUpdateAuthor: true,
