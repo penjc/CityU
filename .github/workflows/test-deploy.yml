@@ -31,4 +31,5 @@ jobs:
       - name: 测试构建网站
         env:
           CHANGE_LOG: ${{ secrets.CHANGE_LOG }} # 将环境变量注入到构建中
+          DEPLOY_ENV: github
         run: npm run build
