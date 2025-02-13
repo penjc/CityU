@@ -343,8 +343,8 @@ const config = {
           href: 'https://www.cityu.edu.hk/',
         },
         copyright: `版权所有 © ${new Date().getFullYear()} CityU 手册 <br/>
-        <a href="https://beian.mps.gov.cn/#/query/webSearch?code=31011502403049" rel="noreferrer" target="_blank"><img src="${baseUrl}/img/gawb.webp" alt="备案" class="gabeian-icon"> 沪公网安备31011502403049号</a>
-        <a href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号-1</a>
+        <a class="beianlink" href="https://beian.mps.gov.cn/#/query/webSearch?code=31011502403049" rel="noreferrer" target="_blank"><img src="${baseUrl}/img/gawb.webp" alt="备案" class="gabeian-icon"> 沪公网安备31011502403049号</a>
+        <a class="beianlink" href="https://beian.miit.gov.cn/" target="_blank"><img src="${baseUrl}/img/icpb.webp" alt="备案" class="beian-icon"/> 沪ICP备2025112622号-1</a>
         `,
       },
       // 搜索

@@ -120,28 +120,35 @@
 
 
 /* Footer */
-.footer a {
+.beianlink {
   color: #858a96; /* 备案号颜色 */
   text-decoration: none; /* 去除下划线 */
 }
 
+.footer a {
+  text-decoration: none;
+}
 .footer a:hover {
   color: var(--ifm-color-primary);
 }
 
-.gabeian-icon {
-  width: 16px;
-  height: 16px;
+.beianlink {
+  display: inline-block;
+}
+
+.gabeian-icon,
+.beian-icon {
+  width: 13px;
+  height: 13px;
   vertical-align: middle;
+  margin-top: -3px;
 }
 
 .beian-icon {
-  width: 16px;
-  height: 16px;
-  filter: grayscale(100%) brightness(60%); /* 变灰色 */
+  filter: grayscale(100%) brightness(60%);
   transition: filter 0.1s ease-in-out;
-  vertical-align: middle;
 }
+
 
 /* 悬停时恢复原色 */
 .footer a:hover .beian-icon {
@@ -180,7 +187,7 @@
   }
 
   .footer__col {
-    margin: 0 0 0 2%; /*字体左右位置，数字越大越右*/
+    margin: 4px 0 12px 2%;
     padding-left: 0 !important;
   }
 
