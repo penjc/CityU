@@ -1,13 +1,13 @@
 penjc:
     name: Jiancheng PENG
     title: CityU 手册站长
-    url: https://github.com/penjc
+    url: https://github.com/penjc/
     image_url: https://github.com/penjc.png
     page: true
     socials:
         github: penjc
+        homepage: https://pengjiancheng.com/
 #        linkedin: penjc
 #        twitter: penjc
 #        instagram: penjc
 #        youtube: penjc
-        blog: https://penjc.github.io/
