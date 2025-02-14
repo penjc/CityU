@@ -181,7 +181,7 @@ const config = {
         {name: 'twitter:card', content: 'summary_large_image'},
         {name: 'twitter:title', content: 'CityU 手册'},
         {name: 'twitter:description', content: 'Your ultimate guide to navigate courses at CityU.'},
-        // { name: 'twitter:image', content: '/img/cityu-social-card.png' }, // 确保图片路径正确
+        // { name: 'twitter:image', content: '/img/cityu-social-card.png' },
       ],
       docs: {
         sidebar: {
@@ -386,7 +386,7 @@ const config = {
         id: 'star_support', // 一个唯一的 ID，用于控制显示状态
         content: `
       <span class="gradient-text">
-        ⭐️ 欢迎点一个 Star 支持作者
+        ⭐️ 如果本站能帮助到您，欢迎点一个 Star 支持作者
       </span>
       <a href="https://github.com/penjc/CityU" target="_blank" class="specific-github-link">GitHub</a>
   `,
@@ -400,7 +400,7 @@ const config = {
       tagName: 'link',
       attributes: {
         rel: 'icon',
-        href: `${baseUrl}/img/favicon.ico`, // 使用你提供的图标链接
+        href: `${baseUrl}/img/favicon.ico`,
       },
     },
     // {
@@ -421,7 +421,7 @@ const config = {
         '@type': 'Organization',
         name: 'CityU 手册',
         url: `${baseUrl}`,
-        logo: `${baseUrl}/img/logo.png`, // 替换为实际 LOGO 路径
+        logo: `${baseUrl}/img/logo.png`,
         description: 'CityU 手册是香港城市大学学生的全方位资源平台，提供详细的课程信息、真实的学生评价、校园生活指南及职业发展资源，助力学生顺利适应大学生活并规划未来职业道路。',
         mainEntity: [
           {
@@ -447,16 +447,5 @@ const config = {
       }),
     },
   ],
-  // scripts: [
-  //   {
-  //     src: 'https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js',
-  //     // src: '/CityU/scripts/uvandpv.js',
-  //     async: true,
-  //   },
-  //   {
-  //     src: '/CityU/scripts/runtime.js',
-  //     async: true,
-  //   },
-  // ],
 };
 export default config;

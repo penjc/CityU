@@ -7,7 +7,7 @@ on:
 
 jobs:
   test-deploy:
-    name: Test Deploy
+    name: 测试部署
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -25,11 +25,11 @@ jobs:
       - name: 设置环境变量
         env:
           CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
-          DEPLOY_ENV: github
+          DEPLOY_ENV: server
         run: echo "环境变量 GITHUB_TOKEN 已设置"
 
       - name: 测试构建网站
         env:
-          CHANGE_LOG: ${{ secrets.CHANGE_LOG }} # 将环境变量注入到构建中
-          DEPLOY_ENV: github
+          CHANGE_LOG: ${{ secrets.CHANGE_LOG }}
+          DEPLOY_ENV: server
         run: npm run build

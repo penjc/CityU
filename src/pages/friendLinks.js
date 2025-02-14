@@ -95,7 +95,7 @@ export default function Home() {
                     欢迎更多优质平台加入友链，共建一个互助共享的学习社区。
                 </p>
                 <div className={clsx('text--center', styles.contactButton)}>
-                    <a href="mailto:jcpeng3-c@my.cityu.edu.hk" className="button button--primary">
+                    <a href="mailto:contact@cityuhk.cn" className="button button--primary">
                         联系我们以添加友链
                     </a>
                 </div>

@@ -19,14 +19,14 @@
 <h2 align="center">CityU 手册</h3>
 
   <p align="center">
-    一站式 CityU 学术与生活指南，提供详细的课程信息、学生评价、校园攻略及职业资源。
+    一站式 香港城市大学 学术与生活指南，提供详细的课程信息、学生评价、校园攻略及职业资源。
     <br />
     <a href="https://cityuhk.cn/start"><strong>开始探索 »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/penjc/CityU/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
+    <a href="https://github.com/penjc/CityU/issues/new?labels=enhancement&template=feature-request---.md">功能建议</a>    
     &middot;
-    <a href="https://github.com/penjc/CityU/issues/new?labels=enhancement&template=feature-request---.md">功能建议</a>
+    <a href="https://github.com/penjc/CityU/issues/new?labels=bug&template=bug-report---.md">报告 Bug</a>
   </p>
 </div>
 
@@ -79,7 +79,7 @@
 4. 推送分支：`git push origin feature/YourFeature`
 5. 发起 Pull Request
 
-<details>
+<details open>
   <summary>🖋 可以为 CityU 手册贡献的内容</summary>
 
 #### 📚 **内容改进**
@@ -107,7 +107,10 @@
 
 ## 📜 许可证
 
-本项目基于 MIT License 许可。详情请查看 [LICENSE](https://github.com/penjc/CityU/blob/main/LICENSE)。
+本项目的代码基于 [MIT License](https://opensource.org/licenses/MIT) 许可协议，内容部分遵循 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。详情请查看 [LICENSE](https://github.com/penjc/CityU/blob/main/LICENSE)。
+
+- **MIT License**：适用于本项目的代码，允许您自由使用、修改和分发，只需保留原始版权声明。
+- **CC-BY-SA 4.0**：适用于本项目的所有正文内容，您可以自由复制、修改和分发这些内容，只要提供适当的署名（**CityU 手册**），引用内容和链接的知识产权归原出处作者，并且在衍生作品上使用相同的许可证。
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +118,11 @@
 
 ## 📬 联系我们
 
-- [Email](mailto:jcpeng3-c@my.cityu.edu.hk)
-- [GitHub Issues](https://github.com/penjc/CityU/issues)
+如果您在使用中遇到问题，或者有任何反馈，欢迎通过以下方式与我们取得联系：
+
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Submit%20Issue-green?logo=github&style=flat-square)](https://github.com/penjc/CityU/issues)
+[![Email](https://img.shields.io/badge/Email-contact%40cityuhk.cn-orange?logo=gmail&style=flat-square)](mailto:contact@cityuhk.cn)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

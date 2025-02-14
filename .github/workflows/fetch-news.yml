@@ -3,7 +3,7 @@ name: Fetch News Daily
 on:
   schedule:
     - cron: '0 16 * * *'
-  workflow_dispatch: # 允许手动触发任务
+  workflow_dispatch:
 
 jobs:
   fetch-news:

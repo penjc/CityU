@@ -1,7 +1,10 @@
 {
-  "name": "cityu",
+  "name": "cityu-guidebook",
+  "description": "CityU 手册",
   "version": "0.0.0",
+  "author": "penjc",
   "private": true,
+  "github": "https://github.com/penjc",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
