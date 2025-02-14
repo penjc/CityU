@@ -4,7 +4,7 @@ updates:
     directory: '/'
     schedule:
       interval: weekly
-    open-pull-requests-limit: 99
+    open-pull-requests-limit: 10
     labels:
       - 'pr: dependencies'
   - package-ecosystem: 'npm'
@@ -13,6 +13,6 @@ updates:
       interval: weekly
     # Disable version updates for npm dependencies
     # https://docs.github.com/en/code-security/dependabot/dependabot-security-updates/configuring-dependabot-security-updates#overriding-the-default-behavior-with-a-configuration-file
-    open-pull-requests-limit: 20
+    open-pull-requests-limit: 10
     labels:
       - 'pr: dependencies'
