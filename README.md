@@ -1,14 +1,20 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-[//]: # ([![Contributors][contributors-shield]][contributors-url])
+
+![Stargazers](https://img.shields.io/github/stars/penjc/CityU.svg?style=for-the-badge)
+[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![MIT License][license-shield]][license-url]
+![Size](https://img.shields.io/github/repo-size/penjc/CityU?style=for-the-badge)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://cityuhk.cn/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://cityu.netlify.app/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github)](https://penjc.github.io/CityU/)
+[![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://cityuhk.cn/blog)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@cityuhk.cn)
 
 [//]: # ([![Forks][forks-shield]][forks-url])
 
-[//]: # ([![Stargazers][stars-shield]][stars-url])
-
-[//]: # ([![Issues][issues-shield]][issues-url])
-
-[//]: # ([![MIT License][license-shield]][license-url])
+[//]: # ([![PRs]&#40;https://img.shields.io/github/issues-pr/penjc/CityU.svg?style=for-the-badge&#41;]&#40;https://github.com/penjc/CityU/pulls&#41;)
 
 <!-- PROJECT LOGO -->
 <div align="center">
@@ -107,10 +113,10 @@
 
 ## 📜 许可证
 
-本项目的代码基于 [MIT License](https://opensource.org/licenses/MIT) 许可协议，内容部分遵循 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。详情请查看 [LICENSE](https://github.com/penjc/CityU/blob/main/LICENSE)。
+本项目的代码基于 [MIT License](https://opensource.org/licenses/MIT) 许可协议，内容部分遵循 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) 许可协议。
 
 - **MIT License**：适用于本项目的代码，允许您自由使用、修改和分发，只需保留原始版权声明。
-- **CC-BY-SA 4.0**：适用于本项目的所有正文内容，您可以自由复制、修改和分发这些内容，只要提供适当的署名（**CityU 手册**），引用内容和链接的知识产权归原出处作者，并且在衍生作品上使用相同的许可证。
+- **CC-BY-SA 4.0**：适用于本项目的所有正文内容，您可以自由复制、修改和分发这些内容，只要提供署名（**CityU 手册**），引用内容和链接的知识产权归原出处作者，并且在衍生作品上使用相同的许可证。
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
