@@ -1,20 +1,20 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
 
-![Stargazers](https://img.shields.io/github/stars/penjc/CityU.svg?style=for-the-badge)
-[![Issues][issues-shield]][issues-url]
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-![Size](https://img.shields.io/github/repo-size/penjc/CityU?style=for-the-badge)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://cityuhk.cn/)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://cityu.netlify.app/)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github)](https://penjc.github.io/CityU/)
-[![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white)](https://cityuhk.cn/blog)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@cityuhk.cn)
-
-[//]: # ([![Forks][forks-shield]][forks-url])
-
-[//]: # ([![PRs]&#40;https://img.shields.io/github/issues-pr/penjc/CityU.svg?style=for-the-badge&#41;]&#40;https://github.com/penjc/CityU/pulls&#41;)
+<p align="center">
+    <a href="https://github.com/penjc/CityU/"><img src="https://img.shields.io/github/stars/penjc/CityU.svg?style=for-the-badge" alt="Stargazers"></a>
+    <a href="https://github.com/penjc/CityU/issues"><img src="https://img.shields.io/github/issues/penjc/CityU.svg?style=for-the-badge" alt="Issues"></a>
+    <a href="https://github.com/penjc/CityU/graphs/contributors"><img src="https://img.shields.io/github/contributors/penjc/CityU.svg?style=for-the-badge" alt="Contributors"></a>
+    <a href='https://github.com/penjc/CityU/actions'><img src="https://img.shields.io/github/actions/workflow/status/penjc/CityU/deploy.yml?style=for-the-badge&branch=main" /></a>
+    <a href="https://github.com/penjc/CityU/blob/main/LICENSE"><img src="https://img.shields.io/github/license/penjc/CityU.svg?style=for-the-badge" alt="MIT License"></a>
+    <a href="https://github.com/penjc/CityU/blob/main/LICENCE-TEXT"><img src="https://img.shields.io/badge/License-CC_BY_4.0-lightblue.svg?style=for-the-badge&label=license" alt="CC BY-SA 4.0"></a>
+    <!--<a href="https://github.com/penjc/CityU"><img src="https://img.shields.io/github/repo-size/penjc/CityU?style=for-the-badge" alt="Size"></a>-->
+    <a href="https://cityuhk.cn/"><img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"></a>
+    <a href="https://penjc.github.io/CityU/"><img src="https://img.shields.io/badge/GitHub%20Pages-181717?style=for-the-badge&logo=github" alt="GitHub Pages"></a>
+    <a href="https://cityu.netlify.app/"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Netlify"></a>
+    <a href="https://cityuhk.cn/blog"><img src="https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=blogger&logoColor=white" alt="Blog"></a>
+    <a href="mailto:contact@cityuhk.cn"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+</p>
 
 <!-- PROJECT LOGO -->
 <div align="center">
@@ -40,12 +40,7 @@
 <details>
   <summary>📋 目录</summary>
   <ol>
-    <li>
-      <a href="#-关于本站">🧐 关于本站</a>
-      <ul>
-        <li><a href="#内容概览">内容概览</a></li>
-      </ul>
-    </li>
+    <li><a href="#-关于本站">🧐 关于本站</a></li>
     <li><a href="#-参与贡献">🤝 参与贡献</a></li>
     <li><a href="#-许可证">📜 许可证</a></li>
     <li><a href="#-联系我们">📬 联系我们</a></li>
@@ -58,20 +53,18 @@
 
 ## 🧐 关于本站
 
-[![CityU Screen Shot][product-screenshot]](https://cityuhk.cn/)
+[![CityU Screen Shot](./images/screenshot.png)](https://cityuhk.cn/)
 
 **CityU 手册** 是一个专为 `City University of Hong Kong` 学生打造的开源项目。
 
-### 内容概览
+**内容概览**
 - 🏫 **[初见城大](https://cityuhk.cn/docs/welcome/intro)**：城大`全面指南`，涵盖新生注册、校园设施和学生资源等关键信息，轻松融入城大生活。
 - 📘 **[课程指南](https://cityuhk.cn/docs/courses/intro)**：深入了解最新的 课程结构、学习内容和课程目标，掌握详细的考试信息和 `真实学生评价`。
 - 💼 **[职业启航](https://cityuhk.cn/docs/career/intro)**：提供丰富的 `职业资源`，帮助学生掌握行业机会、就业准备和 `同学分享`，助力顺利进入职场。
 - ❓ **[常见问题](https://cityuhk.cn/docs/faq/intro)**：一站式解答学生 `常见疑问`，提供详细解答和实用资源。
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
+<p align="right"><a href="#readme-top">回到顶部</a></p>
 
 ## 🤝 参与贡献
 
@@ -107,9 +100,7 @@
 
 </details>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
+<p align="right"><a href="#readme-top">回到顶部</a></p>
 
 ## 📜 许可证
 
@@ -118,9 +109,7 @@
 - **MIT License**：适用于本项目的代码，允许您自由使用、修改和分发，只需保留原始版权声明。
 - **CC-BY-SA 4.0**：适用于本项目的所有正文内容，您可以自由复制、修改和分发这些内容，只要提供署名（**CityU 手册**），引用内容和链接的知识产权归原出处作者，并且在衍生作品上使用相同的许可证。
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
+<p align="right"><a href="#readme-top">回到顶部</a></p>
 
 ## 📬 联系我们
 
@@ -130,9 +119,7 @@
 [![Email](https://img.shields.io/badge/Email-contact%40cityuhk.cn-orange?logo=gmail&style=flat-square)](mailto:contact@cityuhk.cn)
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
----
+<p align="right"><a href="#readme-top">回到顶部</a></p>
 
 ## 👨‍💻 贡献者
 
@@ -142,15 +129,4 @@
   <img src="https://contrib.rocks/image?repo=penjc/CityU" alt="贡献者列表" />
 </a>
 
-<!-- MARKDOWN LINKS -->
-[contributors-shield]: https://img.shields.io/github/contributors/penjc/CityU.svg?style=for-the-badge
-[contributors-url]: https://github.com/penjc/CityU/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/penjc/CityU.svg?style=for-the-badge
-[forks-url]: https://github.com/penjc/CityU/network/members
-[stars-shield]: https://img.shields.io/github/stars/penjc/CityU.svg?style=for-the-badge
-[stars-url]: https://github.com/penjc/CityU/stargazers
-[issues-shield]: https://img.shields.io/github/issues/penjc/CityU.svg?style=for-the-badge
-[issues-url]: https://github.com/penjc/CityU/issues
-[license-shield]: https://img.shields.io/github/license/penjc/CityU.svg?style=for-the-badge
-[license-url]: https://github.com/penjc/CityU/blob/main/LICENSE
-[product-screenshot]: ./images/screenshot.png
+<p align="right"><a href="#readme-top">回到顶部</a></p>
