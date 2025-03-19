@@ -43,7 +43,7 @@ function Changelog() {
     }, [page]);
 
     const handleScroll = () => {
-        if (window.innerHeight + window.scrollY >= document.body.offsetHeight && hasMore && !loading) {
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 100 && hasMore && !loading) {
             setPage((prevPage) => prevPage + 1);
         }
     };
@@ -59,7 +59,6 @@ function Changelog() {
         return <p className="loading-text">正在加载更新日志...</p>;
     }
 
-    // 分组提交记录按年份和月份
     const groupedCommits = commits.reduce((acc, commit) => {
         const date = new Date(commit.commit.author.date);
         const year = date.getFullYear();
@@ -73,14 +72,20 @@ function Changelog() {
         return acc;
     }, {});
 
+    const sortedKeys = Object.keys(groupedCommits).sort((a, b) => {
+        const [aYear, aMonth] = a.split(' 年 ');
+        const [bYear, bMonth] = b.split(' 年 ');
+        return new Date(`${bYear} ${bMonth} 01`) - new Date(`${aYear} ${aMonth} 01`);
+    });
+
     return (
         <div className="changelog-container">
             <h1 className="changelog-title">更新日志</h1>
-            {Object.entries(groupedCommits).map(([key, commits]) => (
+            {sortedKeys.map((key) => (
                 <div key={key} className="changelog-group">
                     <h2 className="changelog-group-title">{key}</h2>
                     <ul className="commit-list">
-                        {commits.map((commit, index) => (
+                        {groupedCommits[key].map((commit, index) => (
                             <li key={index} className="commit-item">
                                 <p>
                                     <a
