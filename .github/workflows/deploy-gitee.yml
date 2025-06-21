@@ -2,19 +2,19 @@ name: Deploy to Gitee
 
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: [ "Fetch News Daily" ]
-    types:
-      - completed
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - README.md
-      - CODE_OF_CONDUCT.md
-      - CONTRIBUTING.md
-      - LICENSE
-      - images/**
+#  workflow_run:
+#    workflows: [ "Fetch News Daily" ]
+#    types:
+#      - completed
+#  push:
+#    branches:
+#      - main
+#    paths-ignore:
+#      - README.md
+#      - CODE_OF_CONDUCT.md
+#      - CONTRIBUTING.md
+#      - LICENSE
+#      - images/**
 
 jobs:
   build-and-deploy:
