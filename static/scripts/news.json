@@ -1,5 +1,12 @@
 [
   {
+    "title": "香港城市大学通过举起旗帜仪式庆祝HKSAR 28周年",
+    "description": "香港城市大学于7月1日举行了旗杆举行仪式，以庆祝香港SAR成立28周年。",
+    "date": "2025-07-01",
+    "link": "https://www.cityu.edu.hk/media/news/2025/07/01/cityuhk-celebrates-hksar-28th-anniversary-flag-raising-ceremony",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250701_tbn_flagraising.jpg?itok=aLbVuUqX"
+  },
+  {
     "title": "香港城市大学学者在材料，能源和生物医学上领导未来； 四个创新的项目从Rash+计划获得资金",
     "description": "根据HKSAR政府的Raise+计划，有四个杰出的学者及其来自香港城市大学的研究团队获得了赠款。 这些项目涵盖了新材料，新能源，电气和电子工程以及健康与医学科学的开创性进步。",
     "date": "2025-06-25",
@@ -7,18 +14,18 @@
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250627-2_RAISe.jpg?itok=NrF3JPDQ"
   },
   {
-    "title": "非洲校友在香港城市大学重新建立联系并拥抱包容性精神",
-    "description": "香港城市大学致力于建立一个全球联系和包容性的校友网络。 5月16日，香港城市大学举办了首个非洲校友聚会，欢迎居住在香港的非洲校友回到校园举行温暖而衷心的聚会。",
-    "date": "2025-06-24",
-    "link": "https://www.cityu.edu.hk/media/news/2025/06/24/african-alumni-reconnect-cityuhk-and-embrace-inclusive-spirit",
-    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250623-1_visits.jpg?itok=ONtQouu6"
-  },
-  {
     "title": "希望2025年级的无限可能性和惊人的成就",
     "description": "6月10日至20日，在大学和学校的毕业典礼上开放了2025年级的新章节。 香港城市大学希望每个毕业生都具有知识和热情，拥抱创新并追求卓越。",
     "date": "2025-06-24",
     "link": "https://www.cityu.edu.hk/media/news/2025/06/24/wishing-class-2025-limitless-possibilities-and-amazing-achievements",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250624-th_commencement.jpg?itok=nb7aL33j"
+  },
+  {
+    "title": "非洲校友在香港城市大学重新建立联系并拥抱包容性精神",
+    "description": "香港城市大学致力于建立一个全球联系和包容性的校友网络。 5月16日，香港城市大学举办了首个非洲校友聚会，欢迎居住在香港的非洲校友回到校园举行温暖而衷心的聚会。",
+    "date": "2025-06-24",
+    "link": "https://www.cityu.edu.hk/media/news/2025/06/24/african-alumni-reconnect-cityuhk-and-embrace-inclusive-spirit",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250623-1_visits.jpg?itok=ONtQouu6"
   },
   {
     "title": "香港城市大学在大自然指数的“ 2025研究领导者：领先的机构”中排名第一的香港。 两个主题在全球前50名中排名，在香港排名第一",
@@ -33,12 +40,5 @@
     "date": "2025-06-20",
     "link": "https://www.cityu.edu.hk/media/news/2025/06/20/cityuhk-wins-two-prestigious-2025-govmedia-awards-excellence-digital-innovation",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250620-1_GovMedia_0.jpg?itok=sTme2fkE"
-  },
-  {
-    "title": "香港城市大学领导的会议将有见地的想法带入全球舞台，以推动整体可持续性",
-    "description": "CityUHK专家继续在2025年全球可持续发展大会的第3天分享他们对可持续发展项目的见解和经验，从世界各地收集环境专家，学者和机构代表来交换思想。",
-    "date": "2025-06-19",
-    "link": "https://www.cityu.edu.hk/media/news/2025/06/19/cityuhk-led-sessions-bring-insightful-ideas-global-stage-driving-holistic-sustainability",
-    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-06/250619-1_GSDC_D3.jpg?itok=NP7lHG1O"
   }
 ]
