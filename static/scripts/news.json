@@ -1,5 +1,12 @@
 [
   {
+    "title": "香港城市大学领导国际化，培养下一代",
+    "description": "弗雷迪·博伊（Freddy Boey）教授是香港城市大学的校长兼杰出教授，最近对RTHK进行了独家采访，他在其中分享了香港城市大学连续第二年成为世界上“世界上最国际大学”的实现的见解。",
+    "date": "2025-08-07",
+    "link": "https://www.cityu.edu.hk/media/news/2025/08/07/cityuhk-leads-internationalisation-nurturing-next-generation",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-08/250725-1_Pinterview.jpg?itok=be5ahRL-"
+  },
+  {
     "title": "剑桥学者与香港城市大学的教职员工和学生在杰出的客座教授演讲中互动",
     "description": "香港城市大学早些时候主持了杰出的客座教授。 纳米工程科学教授兼剑桥大学工程系教授Colm Durkan教授与CityUHK教职员工和学生分享了他的研究专业知识，进一步促进了学术交流。",
     "date": "2025-08-01",
@@ -14,13 +21,6 @@
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250710_honfellow.jpg?itok=DED6JRv2"
   },
   {
-    "title": "净净氢的净氢和储存净零世界",
-    "description": "绿色氢的生产和储存是通往零净经济的有希望的途径，但是根据Max Lu Gaoq教授在CityUHK的杰出演讲中，如果要在2050年满足净零目标，则需要商业上可行的材料来实现向具有成本效益的氢基础设施和交付的过渡。",
-    "date": "2025-07-28",
-    "link": "https://www.cityu.edu.hk/media/news/2025/07/28/green-hydrogen-production-and-storage-net-zero-world",
-    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250725-1_MaxLu.jpg?itok=xgq-QSla"
-  },
-  {
     "title": "香港城市大学兽医学生通过社区参与来促进动物福利",
     "description": "来自JCC的30名BVM学生参加了由HKPF组织的动物观察者计划。 香港商业广播电台对戈登·隆·卡海（Gordon Leung Ka-Hei）进行了特别采访，这是BVM二年级学生参加该计划的。",
     "date": "2025-07-28",
@@ -28,17 +28,17 @@
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250725-1_AWP.jpg?itok=cs-5-4Xq"
   },
   {
+    "title": "净净氢的净氢和储存净零世界",
+    "description": "绿色氢的生产和储存是通往零净经济的有希望的途径，但是根据Max Lu Gaoq教授在CityUHK的杰出演讲中，如果要在2050年满足净零目标，则需要商业上可行的材料来实现向具有成本效益的氢基础设施和交付的过渡。",
+    "date": "2025-07-28",
+    "link": "https://www.cityu.edu.hk/media/news/2025/07/28/green-hydrogen-production-and-storage-net-zero-world",
+    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250725-1_MaxLu.jpg?itok=xgq-QSla"
+  },
+  {
     "title": "香港城市大学的鲍德温陈在世界大学奥运会上以双奖牌的胜利胜利 - 香港在这些比赛中的第一个乒乓球金牌",
     "description": "鲍德温·陈·霍瓦（Baldwin Chan Ho-Wah）在德国2025年的FISU世界大学运动会上为香港赢得了男子双打乒乓球，这是中国香港的首个乒乓球金牌。 再加上他在混合双打比赛中获得的铜牌，这是鲍德温在这场比赛中的第二枚奖牌，展示了他的出色才能。",
     "date": "2025-07-24",
     "link": "https://www.cityu.edu.hk/media/news/2025/07/24/cityuhks-baldwin-chan-triumphs-double-medal-haul-world-university-games-hong-kongs-1st-ever-table-tennis-gold-these-games",
     "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250724-1_0.jpg?itok=gedjQ5rX"
-  },
-  {
-    "title": "香港城市大学和Shanghai Pudong手联手促进创新和技术与行业和商业的融合",
-    "description": "香港城市大学和上海的Pudong New District正在就研究和创新中的潜在战略合作进行探索性讨论。",
-    "date": "2025-07-23",
-    "link": "https://www.cityu.edu.hk/media/news/2025/07/23/cityuhk-and-shanghai-pudong-join-hands-promote-integration-innovation-and-technology-industry-and-commerce",
-    "image": "https://www.cityu.edu.hk/sites/g/files/asqsls3821/files/styles/crop_news_block_192_144/public/2025-07/250723-th_Shanghai.jpg?itok=_OW_SjlH"
   }
 ]
