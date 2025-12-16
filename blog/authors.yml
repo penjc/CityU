@@ -1,12 +1,12 @@
 penjc:
     name: Jiancheng PENG
     title: 站长
-    url: https://pengjiancheng.com/
+    url: https://www.penjc.cn/
     image_url: https://github.com/penjc.png
     page: true
     socials:
         github: penjc
-        homepage: https://pengjiancheng.com/
+#        homepage: https://www.penjc.cn/
 #        linkedin: penjc
 #        twitter: penjc
 #        instagram: penjc
