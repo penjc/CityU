@@ -1,5 +1,19 @@
 [
   {
+    "title": "城大般哥展覽館成立十周年 以「創新演煉」展覽呈現跨學科合作及藝術創新",
+    "description": "適逢今年為城大般哥展覽館成立十周年，特別呈獻全新展覽「創新演煉」，融合創新科技和藝術，呼應大學鼓勵跨學科協作的方針，連結城大多個學科的專家以及本地藝術家，以藝術形式呈現23組創科成果。",
+    "date": "2026-01-30",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/01/30/the-indra-and-banga-gallery-celebrates-10th-anniversary-with-prototyping-exhibition",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/01/30/20260130_banga_web_9.jpg?rev=9cd553ed544f4e6185f003999dead380&hash=F00B42ECC248B4D956846AAF520F95A5"
+  },
+  {
+    "title": "城大研發AI資產定價模型 提升投資組合管理決策效能",
+    "description": "城大商學院研究團隊研發一項數據驅動的機器學習模型，旨在提升金融資產定價的準確度與效率。這項名為「P-Trees」的模型透過簡化複雜的市場數據，協助投資者在更透明的基礎上，作出具數據支持的投資決策。",
+    "date": "2026-01-29",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/01/29/ai-model-for-smarter-portfolio-management",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/01/29/20260129_reserach-story_web_1.jpg?rev=0e8b8a178b1b4466b7a85765f3279af4&hash=15B7EDCAE187B91C5A45B78D48085EBD"
+  },
+  {
     "title": "城大舉辦學生嘉年華2026  多元文化表演展現校園活力",
     "description": "城大於1月23日在城大廣場及王氏國際廣場舉行「學生嘉年華2026」，為師生在緊湊的工作與學業中，提供放鬆與聯誼的機會。當晚活動內容豐富，涵蓋多元化的文藝表演、遊戲及美食攤位，充分展現城大充滿活力與多元的校園生活，並進一步加強城大社群的凝聚力。",
     "date": "2026-01-26",
@@ -26,19 +40,5 @@
     "date": "2026-01-19",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/01/19/quantum-mechanics-and-atonal-music",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/01/19/20260119_quantum_web_8.jpg?rev=1c23dfcb795a4151b431b41e55ab77f8&hash=CBE21413F2FE4AD04B7D54CD94FF798C"
-  },
-  {
-    "title": "城大約600人出戰渣馬2026　眾志成城展現堅毅精神",
-    "description": "城大約600人組成「城大馬拉松團隊」，於1月18日參與一年一度本地體壇盛事「渣打香港馬拉松2026」。",
-    "date": "2026-01-18",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/01/18/schkm-2026",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/01/18/20260118_schkm_web_4.jpg?rev=60b796dc436a4b998ee664919b3d0555&hash=76DB05C030C507419F15D084F3EB14BA"
-  },
-  {
-    "title": "城大「明日創新」隧道榮獲文化大獎　展現藝術與科技交織之美",
-    "description": "城大憑藉「明日創新」隧道的嶄新概念與實踐，榮獲「ArtCan藝術文化大獎」，印證城大團隊在香港藝術文化領域的超卓表現，彰顯城大致力在校園建設中融入豐富的創意文化，以激發跨學科的創新思維，促進大學與深水埗社區的緊密連結。",
-    "date": "2026-01-16",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/01/16/tunnel-of-future-innovations",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/01/16/20260116_artcan_web_5.jpg?rev=1feca2fe7a144e0dab2649c26ffca67d&hash=194534BC76541E3971CD12A1C6F45ADF"
   }
 ]
