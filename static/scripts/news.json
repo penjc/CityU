@@ -1,10 +1,24 @@
 [
   {
-    "title": "城大學者榮膺國際計算機學會會士",
-    "description": "城大計算機科學系講座教授賈小華教授榮獲「國際計算機學會」頒授會士榮銜，以表彰他在推動數據安全與分散式計算系統方面的卓越成就與貢獻。",
-    "date": "2026-02-27",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/27/cityuhk-scholar-named-prestigious-acm-fellow",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/25/20260225_acm-fellow_v1_story-kv_no-wording.jpg?rev=311991b9bd264fe7b2e3afb6cd6cda3b&hash=26943587B589636AC5FA9CACC026F76F"
+    "title": "留學香港・走向世界： 城大學子赴劍橋深造　再以知識回饋本地",
+    "description": "城大積極支持香港特別行政區政府推動「留學香港」品牌，吸引來自中國內地及世界各地的學生來港深造。來自中國內地的城大物理學系畢業生駱祉豪正是體現「留學香港」的成功例子。",
+    "date": "2026-03-04",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/03/04/study-in-hong-kong",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2025/11/04/251104_ranking.jpg?rev=612e2cefd51540819e8013321791f3d4&hash=E3FE8CF40D635B2B98D0CA70E14BF760"
+  },
+  {
+    "title": "城大推出全新乳酪雪糕　 以互動體驗連結大學社群",
+    "description": "城大今日正式推出全新乳製產品——乳酪雪糕，並舉辦以《城大．鄰里藝聚》為主題的互動體驗活動，向大學社群推廣新產品之餘，亦藉此展現大學的活力和創新氛圍。",
+    "date": "2026-03-03",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/03/03/yogurt-gelato",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/03/03/260303-3_gelato.jpg?rev=571db98f84fb4f1cb327c883ee7f1185&hash=D15152454C28C6E16F908DA29796DFCB"
+  },
+  {
+    "title": "城大研究團隊受海膽棘刺啟發  以3D打印仿製「機電感知」智能材料",
+    "description": "城大研究團隊首次揭示海膽棘刺內部天然形成的多孔陶瓷結構，具備意想不到的「機電感知」功能。研究發現當水滴或水流掠過棘刺表面，其梯度多孔結構能即時產生可量測的電壓訊號。",
+    "date": "2026-03-02",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/03/02/3d-printed-biomimetic-mechanoelectrical-smart-materials",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/03/02/20260226_01_web-story_1880x1408px.jpg?rev=c6dce21a86404cf6b661494e9910f7be&hash=30970750ED5257C05885FE14B5716B8C"
   },
   {
     "title": "城大響應「留學香港周」  開拓「留學香港」新機遇",
@@ -14,31 +28,17 @@
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/27/web-story_260227_02_1880x1408px.jpg?rev=dda19675abc542b1ab72e8124feb9071&hash=E2632A9CD793533A4EC7CFB9EE996FB4"
   },
   {
+    "title": "城大學者榮膺國際計算機學會會士",
+    "description": "城大計算機科學系講座教授賈小華教授榮獲「國際計算機學會」頒授會士榮銜，以表彰他在推動數據安全與分散式計算系統方面的卓越成就與貢獻。",
+    "date": "2026-02-27",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/27/cityuhk-scholar-named-prestigious-acm-fellow",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/25/20260227---acm-fellow.jpg?rev=07ad254898ba45699d43c93e363dc511&hash=4A2456449B35D27B581425DAD1F9F24F"
+  },
+  {
     "title": "城大與斯洛伐克頂尖學府簽署合作備忘錄　拓展「一帶一路」歐洲夥伴關係",
     "description": "城大與布拉提斯拉瓦斯洛伐克工業大學簽署合作備忘錄，建立學術與研究合作夥伴關係，進一步擴展城大在歐洲地區的學術合作網絡，同時標誌城大配合國家「一帶一路」倡議，進一步深化與沿線國家的高等教育協作。",
     "date": "2026-02-26",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/26/cityuhk-signs-mou-with-stu",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/26/mou_260226__01web-story_1880x1408px.jpg?rev=7352cb72c9614c3e92f2a4641c5a38eb&hash=76DA70635DD3A70C9C7E965415736A6F"
-  },
-  {
-    "title": "城大協辦亞太國際教育協會年會暨展覽  推廣「留學香港」品牌",
-    "description": "城大連續兩年（2024年及2025年）榮膺泰晤士高等教育「全球最國際化大學」，積極響應香港特別行政區政府推動「留學香港」品牌，致力將香港發展為國際專上教育樞紐。城大正與其他教資會資助大學共同協辦2026年亞太國際教育協會（APAIE）年會暨展覽，活動於2月23日至27日舉行。",
-    "date": "2026-02-24",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/24/cityuhk-co-hosts-apaie-2026-conference-and-exhibition-to-promote-the-study-in-hong-kong-brand",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/24/260224_02_web-story_1880x1408px.jpg?rev=aab8b1cfecaf42dda135ef8f72157abc&hash=DCDB0D975DEC3D4865BB9B531A6EA263"
-  },
-  {
-    "title": "城大推廣「留學香港」品牌  非本地生積極融入社區及回饋社會",
-    "description": "城大一直以多管齊下的方式，吸引非本地學生來港升學。早前城大的「學生學習體驗調查」結果顯示，在整體學習環境及環球學習體驗兩項目中均達到高滿意度，印證城大作為泰晤士高等教育「全球最國際化大學」（2024及2025年）的重要地位，彰顯城大在促進國際化方面成就卓越。",
-    "date": "2026-02-23",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/23/cityuhk-promotes-the-study-in-hong-kong-brand",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/23/20260223_web_2.jpeg?rev=aa7731b3a4e04a6dad9756941442be90&hash=EAFCE15F51DF52EC03467F7112413D0D"
-  },
-  {
-    "title": "城大與AECOM建立策略夥伴關係  攜手推動香港可持續發展與氣候韌性目標",
-    "description": "城大能源及環境學院與全球基礎設施領先企業AECOM簽署合作備忘錄，建立策略夥伴關係，致力結合頂尖學術研究與行業實戰經驗，加快推動香港可持續發展及氣候韌性方面的進程。",
-    "date": "2026-02-20",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/02/20/cityuhk-see-and-aecom-mou-signing",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/02/12/260212-5_aecom_mou.jpg?rev=4656c62d70584403be32f7783f54fd87&hash=9E728EA57C1F021482A40DEEB6EF95AD"
   }
 ]
