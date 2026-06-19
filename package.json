@@ -24,7 +24,7 @@
     "axios": "^1.8.4",
     "clsx": "^2.0.0",
     "google-translate-api-x": "^10.7.2",
-    "node-cron": "^3.0.3",
+    "node-cron": "^4.2.1",
     "prism-react-renderer": "^2.3.0",
     "puppeteer": "^24.6.1",
     "react": "^19.0.0",
