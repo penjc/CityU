@@ -1,10 +1,24 @@
 [
   {
+    "title": "城大與教育局合辦AI教育參訪活動  展示跨學科創新教學實踐",
+    "description": "城大未來學習研究院與教育局質素保證組早前合辦「人工智能賦能教育」參訪活動，邀請教育局代表、中小學校長及學校代表到訪城大，探索AI在教學與學習中的創新應用，共同推動教育創新。",
+    "date": "2026-07-07",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/07/cityuhk-and-education-bureau-co-organise-ai-education-visit",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/07/ifl-1.jpg?rev=9fcf9666c5224334be3df27737d2fe88&hash=EDE5BF25F4FBEB06B4EACE55DD38EA36"
+  },
+  {
+    "title": "城大學者首度成功回收自旋三重態激子發電  提升有機光伏電池效率至20.5%",
+    "description": "城大科研團隊最近成功突破存在逾十年的技術瓶頸，成功「轉廢為寶」，將三重態激子回收並轉化為可發電的有效載流子，使用新技術製備的有機光伏電池，效率可提升至20.5%。",
+    "date": "2026-07-06",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/06/cityuhk-researchers-achieve-first-ever-recycling-spin-triplet-excitons-for-power-generation",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/06/photovoltaics_photo_2.jpg?rev=ea5eafd226ea4c56b2c66f0f18f7bb98&hash=B48E5791ADC6F8B2971D15C8A7A5785B"
+  },
+  {
     "title": "城大太赫茲及毫米波全國重點實驗室與中國煤科攜手 深入地底600米考察 共拓6G智能礦山新應用",
     "description": "城大太赫茲及毫米波全國重點實驗室副主任黃衡教授率領團隊於6月24日至27日赴山西省晉城市澤州縣，圍繞「6G礦山通信實驗室建設項目」展開為期四日的實地考察與技術交流。",
     "date": "2026-07-02",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/02/skltmw-x-ccteg",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/02/20260630_photo_b_4.jpg?rev=05c840ae56f24b0aa261c75cbb6fabe7&hash=7B00BB02F34303C58B223E9E6B0C920B"
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/02/20260630_photo_b_4.jpg?rev=fba08b687fc84bf7bc23e6e7fc99236b&hash=2133126A57BD0A1EBDE6C34964F94999"
   },
   {
     "title": "城大與信和集團攜手推出「蠔創探索」計劃 以科研實踐與體驗式學習推動本港海洋生態修復",
@@ -26,19 +40,5 @@
     "date": "2026-06-29",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/06/29/cityuhk-scholar-awarded-aogs-axford-medal-in-a-first-for-hong-kong",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/06/29/aogs-medal.jpg?rev=1f3eaa4b8e234690b1a3532ade6a8cc2&hash=FF5BBA40A349062B2C90D30A49D18F8A"
-  },
-  {
-    "title": "城大與共享基金會締結合作關係　攜手推進全球「健康一體化」及人道主義救援",
-    "description": "城大賽馬會動物醫學及生命科學院於6月22日與共享基金會簽署合作備忘錄，正式建立戰略合作夥伴關係。雙方將攜手應對全球複雜的「健康一體化」（One Health）挑戰，並為城大學生開闢嶄新平台，遠赴「一帶一路」沿線國家親身參與前線人道主義救援。",
-    "date": "2026-06-26",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/06/26/cityuhk-and-gx-foundation-forge-partnership",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/06/26/260626_photo_s_2.jpg?rev=8c7d76d46cd740b4b7eb9824271239df&hash=3B6EE60C5D706C7A6F61B6E4DA35598A"
-  },
-  {
-    "title": "城大獲新加坡科技與管理學院捐贈　推動前沿科研發展及培育未來人才",
-    "description": "城大近日獲新加坡領先學術機構——新加坡科技與管理學院承諾捐贈合共港幣2,000萬元，以支持城大計算學院的學術教研與創科人才培育，攜手為區域科技發展注入新動能。",
-    "date": "2026-06-26",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/06/26/donation-from-gstm",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/06/24/pr_photo01_2.jpg?rev=8a3e672be514437ca7c66de6055faf34&hash=8F5B70C41965006CF8E24F25AD6C86B5"
   }
 ]
