@@ -1,5 +1,19 @@
 [
   {
+    "title": "城大般哥展覽館呈獻「游於藝乎」展覽  探索遊戲、藝術與科技的跨界對話",
+    "description": "城大般哥展覽館最新推出的「游於藝乎」展覽，帶領觀眾探索遊戲、藝術與科技之間的多重連結，發掘遊戲背後鮮少被討論的一面。",
+    "date": "2026-07-24",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/24/the-indra-and-harry-banga-gallery-presents-the-power-of-play",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/24/power_of_play-2.jpg?rev=f2cf918753f24d5bbe9ddb32f6baee62&hash=0E092309F107199EB722E9B0E03BFD61"
+  },
+  {
+    "title": "城大多位成員獲政府授勳嘉獎",
+    "description": "城大近20位成員在2026年獲香港特別行政區政府頒授勳銜及嘉獎，以表彰他們對香港的傑出貢獻，以及對公共和社會服務的熱誠投入。",
+    "date": "2026-07-23",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/23/honours-list-2026-salutes-cityuhk-community-members",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/23/honours-2026_v2.png?rev=e20ea7345612401fb5160447acd598d3&hash=68A11268D9E343BEAE78D9C63184C522"
+  },
+  {
     "title": "城大兩名學者獲研資局嘉許「研究學者」",
     "description": "城大兩位優秀學者獲研資局2026/27年「研究學者計劃」資助，以表彰他們的傑出研究成果。兩位獲「研究學者計劃」資助的城大學者為計算學院計算機科學系侯軍輝教授及計算學院數據科學系趙翔宇教授。",
     "date": "2026-07-22",
@@ -26,19 +40,5 @@
     "date": "2026-07-17",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/17/hk-tech-300-national-start-up-competition-expands-to-16-cities",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/17/hk-tech300-2.jpg?rev=9055429b1e3c49119b6c5ddb59980de9&hash=07F8B42E5CF2D16364A3BF7A1CAFED46"
-  },
-  {
-    "title": "城大 x 露西．卡文迪許學院：劍橋學子感受香港城市脈搏",
-    "description": "繼去年9月城大研究生透過「未來全球領袖計劃」遠赴英國交流後，今年7月中旬，十位來自露西．卡文迪許學院的碩士生回訪城大，展開為期8日的駐校交流。",
-    "date": "2026-07-16",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/16/cityuhk-x-cambridge-lcc",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/15/dsc07959.jpg?rev=8733afd7062b464ba32fcb7884d9344b&hash=08AFB14C25E99D0CAD37541FD0BB4920"
-  },
-  {
-    "title": "城大研究團隊透過壓電合成將振動轉化為清潔燃料及化學品",
-    "description": "城大能源及環境學院Sai Kishore Ravi教授帶領的研究團隊，成功展示了如何利用機械振動推動由水生產有用化學品的過程。",
-    "date": "2026-07-16",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/07/16/cityuhk-researchers-transform-vibrations-into-clean-fuels-and-chemicals-through-piezosynthesis",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/07/16/0l9a9161a.jpg?rev=f627c4c9018f45afbed0f58a084ba45e&hash=22075F076952FDB335F068B93329BAF0"
   }
 ]
