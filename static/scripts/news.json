@@ -1,5 +1,19 @@
 [
   {
+    "title": "城大將頒授榮譽院士銜予四位傑出人士",
+    "description": "城大將頒授榮譽院士銜予陳永明博士、蔣瑞福女士，MH、梁栢賢醫生，SBS，JP、謝立斌先生，以表彰他們對城大及社會的深遠貢獻。",
+    "date": "2026-08-25",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/08/25/cityuhk-announces-four-honorary-fellows",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/08/25/260824-hon-fellow_web.jpg?rev=cd5b01ddb70b438ca3665729213d11de&hash=9FF3859738E45857887DAD26E6B9AFAD"
+  },
+  {
+    "title": "城大研究團隊開發光學角點探測技術　為高效動作追蹤打開新路向",
+    "description": "城大研究團隊開發出新型光學角點檢測成像方法，該方法採用基於角向希爾伯特變換超構表面，並被設計為通用框架。此研究大力推進了高速、低功耗光學資訊處理領域的發展，並展現在動作追蹤方面的應用潛力。",
+    "date": "2026-08-24",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/08/24/optical-corner-detection-technology",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/08/24/prof-tsai_01-resized.jpg?rev=9d5afb113a6442f794dc22d05dc7c514&hash=0518649EB82FE041FAB7277CD49D635C"
+  },
+  {
     "title": "城大舉辦2026年國際應用數學會議 促進跨地域科學對話",
     "description": "城大作為應用及計算數學研究的領先學術中心，早前舉辦2026年國際應用數學會議。是次會議由劉璧如數學科學研究中心主辦，不僅頒發了William Benter應用數學獎，更鞏固了城大作為促進跨地域科學交流與創新的重要角色。",
     "date": "2026-08-21",
@@ -26,19 +40,5 @@
     "date": "2026-08-19",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/08/19/cityuhk-deepens-partnership-with-cambridge-through-senior-leadership-visit",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/08/19/lcc-1.jpg?rev=4ef4eecfcd0f425bb3fd4711dbcbc44e&hash=5C3F04F27E40C87581AFE326A5FD1C0E"
-  },
-  {
-    "title": "【城大科研築未來】頤年在家：未雨綢繆的社區醫療保健計劃",
-    "description": "「頤年在家」計劃由城大商學院決策分析及營運學系講座教授陳友華教授領導，旨在解決老年患者常面臨的就醫等待時間過長、醫療機構擁擠，以及經濟拮据等問題。計劃倡以預防為本、以家居為主、以社區為基礎的醫療保健模式。",
-    "date": "2026-08-18",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/08/18/homage-to-the-elderly",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/08/18/research_impact_series_d_kv.jpg?rev=609caacf4a5d4fb78645e3fb70dacf0e&hash=44DC16B223734D32577E3641C5FF0623"
-  },
-  {
-    "title": "城大深化與雙威大學合作 推動科研合作與國際教育發展",
-    "description": "城大校董會主席魏明德教授近日率領高層代表團訪問馬來西亞雙威大學，探討教育與科研領域的合作新機遇。",
-    "date": "2026-08-17",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/08/17/cityuhk-strengthens-ties-with-sunway-university-to-advance-research-and-global-education",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/08/17/sunway_01.jpg?rev=5039f1a9bbef479aae96ae2728914dcd&hash=F818A0ABA9C339D72B35E4274A6A811D"
   }
 ]
