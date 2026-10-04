@@ -351,7 +351,7 @@ const config = {
       algolia: isGitHub
           ? {
             appId: 'UPYPM5BQ76',
-            apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+            apiKey: process.env.ALGOLIA_API_KEY,
             indexName: 'penjcio',
             contextualSearch: false,
           }
@@ -363,7 +363,7 @@ const config = {
           // },
           : {
             appId: 'UPYPM5BQ76',
-                apiKey: '6cf5858fef7de9367d8ef73f722b371e',
+                apiKey: process.env.ALGOLIA_API_KEY,
                 indexName: 'penjcio',
                 contextualSearch: false,
                 replaceSearchResultPathname: {
