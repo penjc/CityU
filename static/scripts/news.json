@@ -1,5 +1,19 @@
 [
   {
+    "title": "城大首屆 10AFEST揭幕 探究亞洲藝術科技與文化創新",
+    "description": "由城大展覽館主辦的 10AFEST 2026 在10月8至10日舉行。為慶祝展覽館邁向十周年，論壇以「亞洲藝術科技與文化創新」為主軸，匯聚博物館及文化界領袖、藝術家、學者和創新者，從跨學科視野探討藝術科技如何介入亞洲文化的當下與未來。",
+    "date": "2026-10-21",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/10/22/cityuhk-inaugural-10afest",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/10/21/collage-1.jpg?rev=0899bb5b67c642bbbd9e2d46819b51f5&hash=9BA700ED99C65D2C31E41FD561814DD9"
+  },
+  {
+    "title": "城大研究團隊突破傳統物理限制  揭示無熵能量傳遞的量子路徑",
+    "description": "城大物理學系Oscar Dahlsten教授率領研究團隊，在試圖證明理論極限時意外找到量子解法，成功打破固有物理認知限制，研究出一種從波動能源擷取能量的新策略。該研究指出，量子理論中一種稱為「混合態非唯一分解」的獨特性質，可實現「確定性能量擷取」，使能量從能源傳輸至擷取器時，完全不會轉移相對應的熵。",
+    "date": "2026-10-20",
+    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/10/20/cityuhk-researchers-shatter-physical-limitations",
+    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/10/20/pr_photo01.jpg?rev=575c023f0c2f4845a538e33d124094a4&hash=E426E039DFCBEDD4A0D8BAE1FDFA6ED6"
+  },
+  {
     "title": "城大31位學者入選ScholarGPS「頂尖排名學者」終身成就名單 人數居全國院校之首",
     "description": "城大共有31位學者入選ScholarGPS最新公布的2026年「頂尖排名學者」終身成就名單，入選人數為香港院校之冠，並在全國所有院校及機構中排名第一。",
     "date": "2026-10-16",
@@ -26,19 +40,5 @@
     "date": "2026-10-14",
     "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/10/14/cityuhk-annual-report-garners-international-recognition",
     "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/10/14/ar_cover_resized.jpg?rev=724e342246d146c9802c907697bb777c&hash=B07DDB08E78EC6FE4726EC7E1E8DDC51"
-  },
-  {
-    "title": "城大研究揭組蛋白H2B突變調節染色質動態機制 有助研發乳癌新型標靶療法",
-    "description": "由城大生物醫學科學系陳居明教授引領的研究團隊發現，組蛋白H2B的錯義突變H2BE113K會增強乳癌細胞的集落形成能力，以及促進肺部轉移。研究揭示H2BE113K 在染色質調控、細胞功能調節，以及乳癌惡化皆具關鍵作用，以及有望助力研發乳癌新型標靶治療。",
-    "date": "2026-10-12",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/10/12/cityuhk-research-reveals-modulating-chromatin-dynamics-of-h2b-mutations",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/10/12/modulating-chromatin-dynamics-of-h2b-mutations_2.jpg?rev=c60beaaa202342a2bc565fb5eee02a2a&hash=225DBF7E1381E7C5D4B2CAB36C24CDE4"
-  },
-  {
-    "title": "城大263位學者入選全球首2%頂尖科學家",
-    "description": "城大在美國史丹福大學最新公布的「2026年全球首2%頂尖科學家」名單中，共有263名學者榮登「學術生涯引文影響力排行榜」，較去年多7名。",
-    "date": "2026-10-09",
-    "link": "https://www.cityu.edu.hk/zh-cn/media/news/2026/10/09/263-cityuhk-scholars-named-among-the-world-top-2-per-cent-scientist",
-    "image": "https://www.cityu.edu.hk/-/media/project/cityuhk/home-site/media/news/2026/10/09/_dsc0274-resize.jpg?rev=d9d5fc45ea094b259e1524d6b0f2d9f4&hash=715BAE91B870FC4662C34A0F5125B17D"
   }
 ]
